@@ -51,15 +51,17 @@ https://arxiv.org/pdf/2409.06857
 
 ## Contents
 - [Introduction](#introduction)
-  - [2 Collaboration](#2-collaboration)
-    - [2.1.2 Weak-to-Strong Paradigm](#212-weak-to-strong-paradigm)
-    - [2.1.3 Efficient Inference Model Ensembling](#213-efficient-inference-model-ensembling)
-    - [2.1.4 Evaluating LLMs Effectively](#214-evaluating-llms-effectively)
-    - [2.1.5 Domain Adaptation](#215-domain-adaptation)
-    - [2.1.6 Retrieval Augmented Generation](#216-retrieval-augmented-generation)
-    - [2.1.7 Prompt-based Learning](#217-prompt-based-learning)
-    - [2.1.8 Deficiency Repair](#218-deficiency-repair)
-  - [3 Competition](#3-competition)
+- [2 Collaboration](#2-collaboration)
+  - [2.1.1 Data Curation](#211-data-curation)
+  - [2.1.2 Weak-to-Strong Paradigm](#212-weak-to-strong-paradigm)
+  - [2.1.3 Efficient Inference Model Ensembling](#213-efficient-inference-model-ensembling)
+  - [2.1.4 Evaluating LLMs Effectively](#214-evaluating-llms-effectively)
+  - [2.1.5 Domain Adaptation](#215-domain-adaptation)
+  - [2.1.6 Retrieval Augmented Generation](#216-retrieval-augmented-generation)
+  - [2.1.7 Prompt-based Learning](#217-prompt-based-learning)
+  - [2.1.8 Deficiency Repair](#218-deficiency-repair)
+- [3 Competition](#3-competition)
+- [Conclusion](#conclusion)
 
 ## Introduction
 - Large Language Models (LLMs) have revolutionized NLP through pre-training and fine-tuning paradigms
@@ -77,8 +79,9 @@ https://arxiv.org/pdf/2409.06857
 - Collaboration: SMs can strike a balance between power and efficiency, enabling systems that are cost-effective and scalable
 - Competition: SMs have advantages like simplicity, lower cost, and greater interpretability; assessing trade-offs depends on task/application requirements
 
-### 2 Collaboration
-
+## 2 Collaboration
+**2.1 Small Models Enhance LLMs**
+### 2.1.1 Data Curation
 **SMs and LLMs Collaboration Framework:**
 - **Small Models (SMs) Enhance LLMs**:
   - Data Curation:
@@ -268,7 +271,7 @@ https://arxiv.org/pdf/2409.06857
   - Training Data Generation: Generating a dataset from scratch using LLMs, followed by training a small task-specific model
   - Data Augmentation: Modifying existing data points using LLMs to increase diversity and train smaller models
 
-### 3 Competition
+## 3 Competition
 
 **Preferability of Smaller Models: Competition vs. Collaboration**
 
@@ -299,7 +302,7 @@ https://arxiv.org/pdf/2409.06857
 - Industries favor small models due to human understanding requirements
   - Healthcare, finance, law examples
 
-**Conclusion:**
+## Conclusion
 - Collaboration between LLMs and SMs in balancing performance and efficiency
 - Competition under specific conditions (computation-constrained environments, task-specific applications, interpretability)
 - Careful evaluation of trade-offs essential when selecting models for tasks or applications.
