@@ -6,7 +6,7 @@ its just summaries...
 
 and here, you can have this timeline too:
 
-## Hisotry leading to SOTA LLM
+## History leading to SOTA LLM (future summaries)
 
 Timeline from 1990-2023 ...with key breakthroughs, papers, and popular applications
 
