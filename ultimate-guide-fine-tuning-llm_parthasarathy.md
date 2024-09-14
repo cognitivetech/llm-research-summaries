@@ -156,22 +156,15 @@ https://www.arxiv.org/abs/2408.13296
 - **Then fine-tuned on smaller task-specific dataset**
 - **"Pre-training and fine-tuning" paradigm exemplified by GPT-2 and BERT led to diverse and effective model architectures**
 
-**_Editor's Note_**\
-• 2018: ULMFiT (Universal Language Model Fine-tuning) [Text classification] \
-• 2018: ELMo (Embeddings from Language Models) [Named Entity Recognition] \
-• 2018: GPT (Generative Pre-trained Transformer) [Text generation] \
-• 2018: BERT (Bidirectional Encoder Representations from Transformers) [Question answering] \
-• 2019: GPT-2 [Text completion and generation] \
-• 2019: XLNet [Sentiment analysis] \
-• 2019: RoBERTa (Robustly Optimized BERT Approach) [Natural language inference] \
-• 2019: ALBERT (A Lite BERT) [Language understanding benchmarks] \
-• 2019: T5 (Text-to-Text Transfer Transformer) [Multi-task language understanding] \
-• 2020: ELECTRA [Token classification tasks] \
-• 2020: GPT-3 [Few-shot learning across various NLP tasks] \
-• 2021: CLIP (Contrastive Language-Image Pre-training) [Image-text matching] \
-• 2022: PaLM (Pathways Language Model) [Reasoning and problem-solving] \
-• 2022: DALL-E 2 [Text-to-image generation] \
-• 2022: ChatGPT [Conversational AI and task completion] \
+**_Editor's Note_**
+- 2017: [Attention is All You Need](https://arxiv.org/abs/1706.03762) [Language Translation]    
+- 2018: [ULMFiT](https://paperswithcode.com/method/ulmfit) (Universal Language Model Fine-tuning) [Text classification]    
+- 2018: [ELMo](https://paperswithcode.com/method/elmo) (Embeddings from Language Models) [Named Entity Recognition]    
+- 2018: [BERT](https://aclanthology.org/N19-1423.pdf) (Bidirectional Encoder Representations from Transformers) [Question answering]    
+- 2019: [GPT-2](https://openai.com/index/better-language-models/) [Text completion and generation] 
+- 2019: [XLNet](https://www.semanticscholar.org/paper/XLNet-Transfer-Learning-Model-for-Sentimental-Dhivyaa-Nithya/4b402bc52446f018f3fe7a859d0cd03027c91e5a) [Sentiment analysis]    
+- 2019: [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692) [Natural language inference]    
+- 2020: [ELECTRA](https://openreview.net/pdf?id=r1xMH1BtvB) [Token classification tasks]\
 **_//Editor's Note_**
 
 #### 1.3.4 Large Language Models (LLMs)
@@ -179,21 +172,15 @@ https://www.arxiv.org/abs/2408.13296
 - **Two-stage process**: initial pre-training followed by alignment with human values for improved understanding of commands and values
 - **Enabled LLMs to approximate human-level performance, making them valuable for research and practical implementations**
 
-**_Editor's Note_** Timeline:\
-• 2018: GPT [OpenAI, 117M] \
-• 2019: GPT-2 [OpenAI, 1.5B] \
-• 2019: Megatron-LM [NVIDIA, 8.3B] \
-• 2020: GPT-3 [OpenAI, 175B] \
-• 2020: GShard [Google, 600B] \
-• 2021: Switch Transformer [Google, 1.6T] \
-• 2021: Megatron-Turing NLG [Microsoft & NVIDIA, 530B] \
-• 2022: PaLM [Google, 540B] \
-• 2022: Chinchilla [DeepMind, 70B] \
-• 2022: BLOOM [BigScience, 176B] \
-• 2023: LLaMA [Meta AI, 65B] \
-• 2023: GPT-4 [OpenAI, undisclosed] \
-• 2023: PaLM 2 [Google, undisclosed] \
-**_//Editor's Note_**\
+**_Editor's Note_** Timeline:
+- 2020: [GPT-3](https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) [OpenAI, 175B] [Few-shot learning across various NLP tasks]    
+- 2020: [GShard](https://arxiv.org/abs/2006.16668) [Google, 600B] [Multilingual translation]    
+- 2021: [Switch Transformer](https://arxiv.org/abs/2101.03961) [Google, 1.6T] [Efficient language modeling]    
+- 2021: [Megatron-Turing NLG](https://arxiv.org/abs/2201.11990) [Microsoft & NVIDIA, 530B] [Natural language generation]    
+- 2022: [PaLM](https://research.google/blog/pathways-language-model-palm-scaling-to-540-billion-parameters-for-breakthrough-performance/) [Google, 540B] [Reasoning and problem-solving]    
+- 2022: [BLOOM](https://arxiv.org/abs/2211.05100) [BigScience, 176B] [Open-source multilingual language model]    
+- 2023: [GPT-4](https://arxiv.org/abs/2303.08774) [OpenAI, undisclosed] [Advanced language understanding and generation]\
+**_//Editor's Note_**
 
 ### 1.4 Overview of Current Leading LLMs
 - **Capable of performing tasks like translation, summarization, conversational interaction**
