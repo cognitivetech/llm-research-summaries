@@ -132,7 +132,7 @@ https://www.arxiv.org/abs/2408.13296
 - **Consisted of interconnected neurons organised into layers, resembling human brain structure**
 - **Input layer concatenated word vectors, hidden layer applied non-linear activation function, output layer predicted subsequent words using Softmax function**
 
-**_Editor's Note_**
+**_Editor's Note_**\
 • 2003: Neural probabilistic language model (Bengio et al.)\
 • 2008: Multitask learning for NLP tasks (Collobert & Weston)\
 • 2010: Deep Belief Networks for NLP (Hinton et al.)\
@@ -154,7 +154,7 @@ https://www.arxiv.org/abs/2408.13296
 - **Then fine-tuned on smaller task-specific dataset**
 - **"Pre-training and fine-tuning" paradigm exemplified by GPT-2 and BERT led to diverse and effective model architectures**
 
-**_Editor's Note_**
+**_Editor's Note_**\
 • 2018: ULMFiT (Universal Language Model Fine-tuning) by Howard & Ruder\
 • 2018: ELMo (Embeddings from Language Models) by Peters et al.\
 • 2018: GPT (Generative Pre-trained Transformer) by OpenAI\
