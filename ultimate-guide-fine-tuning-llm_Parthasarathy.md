@@ -126,17 +126,14 @@ https://www.arxiv.org/abs/2408.13296
 - **Calculated probability P(S) of sentence S as product of conditional probabilities (Equation 1.2)**
 - **Conditional probabilities estimated using Maximum Likelihood Estimation (MLE) (Equation 1.3)**
 
-**_Editor's Note_**: Timeline:\
-• 1990: Hidden Markov Models for speech recognition (Rabiner) [Voice Command Systems]\
-• 1992: Maximum Entropy Models (Berger et al.) [Text Classification]\
-• 1993: IBM Model 1 for statistical machine translation (Brown et al.) [Early Online Translation]\
-• 1995: N-gram language models for large vocabularies (Kneser & Ney) [Spell Checkers]\
-• 1990: Latent Semantic Analysis (LSA) for topic modeling (Deerwester et al.) [Search Engines]\
-• 2002: Latent Dirichlet Allocation (LDA) for topic modeling (Blei et al.) [Document Clustering]\
-• 1999: Modified Kneser-Ney smoothing (Chen & Goodman) [Improved Language Models]\
-• 2006: Hierarchical Pitman-Yor language model (Teh) [Text Generation]\
-• 2003: Factored language models (Bilmes & Kirchhoff) [Multilingual NLP]\
-• 2006: Bayesian nonparametric language models (Teh) [Adaptive Language Modeling]\
+**_Editor's Note_**: Timeline:
+- 1990: [Hidden Markov Models for speech recognition](http://luthuli.cs.uiuc.edu/~daf/courses/Signals%20AI/Papers/HMMs/0.pdf) (Rabiner) [Voice Command Systems]
+- 1993: [IBM Model 1 for statistical machine translation](https://aclanthology.org/J93-2003.pdf) (Brown et al.) [Early Online Translation]
+- 1995: [Improved backing-off for M-gram language modeling](https://ieeexplore.ieee.org/document/479394) (Kneser & Ney) [Spell Checkers]
+- 1996: [Maximum Entropy Models](https://aclanthology.org/J96-1002.pdf) (Berger et al.) [Text Classification
+- 1999: [An empirical study of smoothing techniques for language modeling](http://www2.denizyuret.com/ref/goodman/chen-goodman-99.pdf) (Chen & Goodman) [Improved Language Models]
+- 2002: [Latent Dirichlet Allocation (LDA)](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf) (Blei et al.) [Document Clustering]    
+- 2006: [Hierarchical Pitman-Yor language model](https://www.stats.ox.ac.uk/~teh/research/compling/acl2006.pdf) (Teh) [Text Generation]\
 **_//Editor's Note_**
 
 #### 1.3.2 Neural Language Models (NLMs)
@@ -145,15 +142,13 @@ https://www.arxiv.org/abs/2408.13296
 - **Consisted of interconnected neurons organised into layers, resembling human brain structure**
 - **Input layer concatenated word vectors, hidden layer applied non-linear activation function, output layer predicted subsequent words using Softmax function**
 
-**_Editor's Note_** Timeline:\
-• 2011: Deep Neural Networks gain traction [Computer Vision] \
-• 2012: AlexNet wins ImageNet competition [Image Recognition] \
-• 2013: Word2Vec introduces efficient word embeddings [Search Engines] \
-• 2013: Sequence-to-sequence models emerge [Machine Translation] \
-• 2014: Attention mechanism introduced [Neural Machine Translation] \
-• 2015: ResNet surpasses human-level performance on ImageNet [Image Classification] \
-• 2017: Transformer architecture introduced [Language Translation] \
-• 2018: BERT demonstrates power of bidirectional pre-training [Question Answering] \
+**_Editor's Note_** Timeline:
+- 2012: [AlexNet wins ImageNet competition](https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) [Image Recognition]
+- 2013: [Deep Learning using Linear Support Vector Machines](https://arxiv.org/pdf/1306.0239) (Tang) [Computer Vision]    
+- 2013: [Word2Vec introduces efficient word embeddings](https://arxiv.org/pdf/1301.3781) [Search Engines]
+- 2013: [Sequence-to-sequence models emerge](https://arxiv.org/abs/1409.3215) [Machine Translation]
+- 2014: [Attention mechanism introduced](https://arxiv.org/abs/1409.0473) [Neural Machine Translation]
+- 2015: [ResNet surpasses human-level performance on ImageNet](https://ieeexplore.ieee.org/document/7780459) [Image Classification]\
 **_//Editor's Note_**
 
 #### 1.3.3 Pre-trained Language Models (PLMs)
