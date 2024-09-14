@@ -126,27 +126,34 @@ https://www.arxiv.org/abs/2408.13296
 - **Calculated probability P(S) of sentence S as product of conditional probabilities (Equation 1.2)**
 - **Conditional probabilities estimated using Maximum Likelihood Estimation (MLE) (Equation 1.3)**
 
+**_Editor's Note_**: Timeline:\
+• 1990: Hidden Markov Models for speech recognition (Rabiner) [Voice Command Systems]\
+• 1992: Maximum Entropy Models (Berger et al.) [Text Classification]\
+• 1993: IBM Model 1 for statistical machine translation (Brown et al.) [Early Online Translation]\
+• 1995: N-gram language models for large vocabularies (Kneser & Ney) [Spell Checkers]\
+• 1990: Latent Semantic Analysis (LSA) for topic modeling (Deerwester et al.) [Search Engines]\
+• 2002: Latent Dirichlet Allocation (LDA) for topic modeling (Blei et al.) [Document Clustering]\
+• 1999: Modified Kneser-Ney smoothing (Chen & Goodman) [Improved Language Models]\
+• 2006: Hierarchical Pitman-Yor language model (Teh) [Text Generation]\
+• 2003: Factored language models (Bilmes & Kirchhoff) [Multilingual NLP]\
+• 2006: Bayesian nonparametric language models (Teh) [Adaptive Language Modeling]\
+**_//Editor's Note_**
+
 #### 1.3.2 Neural Language Models (NLMs)
 - **Leveraged neural networks to predict word sequences, overcoming SLM limitations**
 - **Word vectors represented words in vector space; tools like Word2Vec enabled understanding of semantic relationships**
 - **Consisted of interconnected neurons organised into layers, resembling human brain structure**
 - **Input layer concatenated word vectors, hidden layer applied non-linear activation function, output layer predicted subsequent words using Softmax function**
 
-**_Editor's Note_**\
-• 2003: Neural probabilistic language model (Bengio et al.)\
-• 2008: Multitask learning for NLP tasks (Collobert & Weston)\
-• 2010: Deep Belief Networks for NLP (Hinton et al.)\
-• 2013: Word2Vec (Mikolov et al.)\
-• 2013: Distributed Representations of Words and Phrases (Mikolov et al.)\
-• 2014: GloVe: Global Vectors for Word Representation (Pennington et al.)\
-• 2014: Sequence to Sequence Learning (Sutskever et al.)\
-• 2015: Attention mechanism in neural machine translation (Bahdanau et al.)\
-• 2015: Character-level Convolutional Networks for Text Classification (Zhang et al.)\
-• 2017: Attention Is All You Need - Transformer architecture (Vaswani et al.)\
-• 2018: ELMo: Deep contextualized word representations (Peters et al.)\
-• 2018: ULMFiT: Universal Language Model Fine-tuning (Howard & Ruder)\
-• 2018: GPT: Improving Language Understanding with Unsupervised Learning (Radford et al.)\
-• 2018: BERT: Pre-training of Deep Bidirectional Transformers (Devlin et al.)
+**_Editor's Note_** Timeline:\
+• 2011: Deep Neural Networks gain traction [Computer Vision] \
+• 2012: AlexNet wins ImageNet competition [Image Recognition] \
+• 2013: Word2Vec introduces efficient word embeddings [Search Engines] \
+• 2013: Sequence-to-sequence models emerge [Machine Translation] \
+• 2014: Attention mechanism introduced [Neural Machine Translation] \
+• 2015: ResNet surpasses human-level performance on ImageNet [Image Classification] \
+• 2017: Transformer architecture introduced [Language Translation] \
+• 2018: BERT demonstrates power of bidirectional pre-training [Question Answering] \
 **_//Editor's Note_**
 
 #### 1.3.3 Pre-trained Language Models (PLMs)
@@ -155,32 +162,43 @@ https://www.arxiv.org/abs/2408.13296
 - **"Pre-training and fine-tuning" paradigm exemplified by GPT-2 and BERT led to diverse and effective model architectures**
 
 **_Editor's Note_**\
-• 2018: ULMFiT (Universal Language Model Fine-tuning) by Howard & Ruder\
-• 2018: ELMo (Embeddings from Language Models) by Peters et al.\
-• 2018: GPT (Generative Pre-trained Transformer) by OpenAI\
-• 2018: BERT (Bidirectional Encoder Representations from Transformers) by Google\
-• 2019: GPT-2 by OpenAI\
-• 2019: XLNet by Google/CMU\
-• 2019: RoBERTa by Facebook AI\
-• 2019: ALBERT by Google Research\
-• 2019: T5 (Text-to-Text Transfer Transformer) by Google\
-• 2019: ELECTRA by Google Research\
-• 2020: BART by Facebook AI\
-• 2020: GPT-3 by OpenAI\
-• 2021: Switch Transformer by Google\
-• 2021: GShard by Google\
-• 2022: PaLM (Pathways Language Model) by Google\
-• 2022: ChatGPT by OpenAI\
-• 2023: GPT-4 by OpenAI\
-• 2023: LLaMA by Meta AI\
-• 2023: BLOOM by BigScience\
-• 2023: Claude by Anthropic
+• 2018: ULMFiT (Universal Language Model Fine-tuning) [Text classification] \
+• 2018: ELMo (Embeddings from Language Models) [Named Entity Recognition] \
+• 2018: GPT (Generative Pre-trained Transformer) [Text generation] \
+• 2018: BERT (Bidirectional Encoder Representations from Transformers) [Question answering] \
+• 2019: GPT-2 [Text completion and generation] \
+• 2019: XLNet [Sentiment analysis] \
+• 2019: RoBERTa (Robustly Optimized BERT Approach) [Natural language inference] \
+• 2019: ALBERT (A Lite BERT) [Language understanding benchmarks] \
+• 2019: T5 (Text-to-Text Transfer Transformer) [Multi-task language understanding] \
+• 2020: ELECTRA [Token classification tasks] \
+• 2020: GPT-3 [Few-shot learning across various NLP tasks] \
+• 2021: CLIP (Contrastive Language-Image Pre-training) [Image-text matching] \
+• 2022: PaLM (Pathways Language Model) [Reasoning and problem-solving] \
+• 2022: DALL-E 2 [Text-to-image generation] \
+• 2022: ChatGPT [Conversational AI and task completion] \
 **_//Editor's Note_**
 
 #### 1.3.4 Large Language Models (LLMs)
 - **Trained on massive text corpora with tens of billions of parameters**
 - **Two-stage process**: initial pre-training followed by alignment with human values for improved understanding of commands and values
 - **Enabled LLMs to approximate human-level performance, making them valuable for research and practical implementations**
+
+**_Editor's Note_** Timeline:\
+• 2018: GPT [OpenAI, 117M] \
+• 2019: GPT-2 [OpenAI, 1.5B] \
+• 2019: Megatron-LM [NVIDIA, 8.3B] \
+• 2020: GPT-3 [OpenAI, 175B] \
+• 2020: GShard [Google, 600B] \
+• 2021: Switch Transformer [Google, 1.6T] \
+• 2021: Megatron-Turing NLG [Microsoft & NVIDIA, 530B] \
+• 2022: PaLM [Google, 540B] \
+• 2022: Chinchilla [DeepMind, 70B] \
+• 2022: BLOOM [BigScience, 176B] \
+• 2023: LLaMA [Meta AI, 65B] \
+• 2023: GPT-4 [OpenAI, undisclosed] \
+• 2023: PaLM 2 [Google, undisclosed] \
+**_//Editor's Note_**\
 
 ### 1.4 Overview of Current Leading LLMs
 - **Capable of performing tasks like translation, summarization, conversational interaction**
