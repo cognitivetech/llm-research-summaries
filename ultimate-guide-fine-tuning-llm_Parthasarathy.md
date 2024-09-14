@@ -132,10 +132,50 @@ https://www.arxiv.org/abs/2408.13296
 - **Consisted of interconnected neurons organised into layers, resembling human brain structure**
 - **Input layer concatenated word vectors, hidden layer applied non-linear activation function, output layer predicted subsequent words using Softmax function**
 
+**_Editor's Note_**
+• 2003: Neural probabilistic language model (Bengio et al.)\
+• 2008: Multitask learning for NLP tasks (Collobert & Weston)\
+• 2010: Deep Belief Networks for NLP (Hinton et al.)\
+• 2013: Word2Vec (Mikolov et al.)\
+• 2013: Distributed Representations of Words and Phrases (Mikolov et al.)\
+• 2014: GloVe: Global Vectors for Word Representation (Pennington et al.)\
+• 2014: Sequence to Sequence Learning (Sutskever et al.)\
+• 2015: Attention mechanism in neural machine translation (Bahdanau et al.)\
+• 2015: Character-level Convolutional Networks for Text Classification (Zhang et al.)\
+• 2017: Attention Is All You Need - Transformer architecture (Vaswani et al.)\
+• 2018: ELMo: Deep contextualized word representations (Peters et al.)\
+• 2018: ULMFiT: Universal Language Model Fine-tuning (Howard & Ruder)\
+• 2018: GPT: Improving Language Understanding with Unsupervised Learning (Radford et al.)\
+• 2018: BERT: Pre-training of Deep Bidirectional Transformers (Devlin et al.)
+**_//Editor's Note_**
+
 #### 1.3.3 Pre-trained Language Models (PLMs)
 - **Initially trained on extensive volumes of unlabelled text to understand fundamental language structures**
 - **Then fine-tuned on smaller task-specific dataset**
 - **"Pre-training and fine-tuning" paradigm exemplified by GPT-2 and BERT led to diverse and effective model architectures**
+
+**_Editor's Note_**
+• 2018: ULMFiT (Universal Language Model Fine-tuning) by Howard & Ruder\
+• 2018: ELMo (Embeddings from Language Models) by Peters et al.\
+• 2018: GPT (Generative Pre-trained Transformer) by OpenAI\
+• 2018: BERT (Bidirectional Encoder Representations from Transformers) by Google\
+• 2019: GPT-2 by OpenAI\
+• 2019: XLNet by Google/CMU\
+• 2019: RoBERTa by Facebook AI\
+• 2019: ALBERT by Google Research\
+• 2019: T5 (Text-to-Text Transfer Transformer) by Google\
+• 2019: ELECTRA by Google Research\
+• 2020: BART by Facebook AI\
+• 2020: GPT-3 by OpenAI\
+• 2021: Switch Transformer by Google\
+• 2021: GShard by Google\
+• 2022: PaLM (Pathways Language Model) by Google\
+• 2022: ChatGPT by OpenAI\
+• 2023: GPT-4 by OpenAI\
+• 2023: LLaMA by Meta AI\
+• 2023: BLOOM by BigScience\
+• 2023: Claude by Anthropic
+**_//Editor's Note_**
 
 #### 1.3.4 Large Language Models (LLMs)
 - **Trained on massive text corpora with tens of billions of parameters**
