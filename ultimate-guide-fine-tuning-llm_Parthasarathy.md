@@ -115,7 +115,11 @@ https://www.arxiv.org/abs/2408.13296
 - **Significant milestones include development of BERT, GPT series, and recent innovations like GPT-4 and ChatGPT**
 
 ### 1.3 Evolution from Traditional NLP Models to State-of-the-Art LLMs
-- **Understanding LLMs involves tracing development**: Statistical Language Models (SLMs), Neural Language Models (NLMs), Pre-trained Language Models (PLMs), and Large Language Models (LLMs)
+- **Understanding LLMs involves tracing development**:
+  - Statistical Language Models (SLMs)
+  - Neural Language Models (NLMs)
+  - Pre-trained Language Models (PLMs)
+  - Large Language Models (LLMs)
 
 #### 1.3.1 Statistical Language Models (SLMs)
 - **Emerged in 1990s, analyzed natural language using probabilistic methods**
