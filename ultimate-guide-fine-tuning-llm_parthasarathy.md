@@ -220,11 +220,9 @@ https://www.arxiv.org/abs/2408.13296
 | Data Requirements | Extensive and diverse unlabelled text data      | Smaller, task-specific labelled data         |
 | Objective     | Build general linguistic knowledge                    | Specialise model for specific tasks          |
 | Process       | Data collection, training on large dataset            | Modify last layers for new task, train on new dataset |
-| Model Modifi- **| Entire model trained                                | Last layers adapted for new task             |**
-| cation        |                                                    |                                            |
+| Model Modification| Entire model trained                                | Last layers adapted for new task             |
 | Computational Cost | High (large dataset, complex model)           | Lower (smaller dataset, fine-tuning layers) |
-| Training Dura- **| Weeks to months                                     | Days to weeks                             |**
-| tion          |                                                    |                                            |
+| Training Duration | Weeks to months                                     | Days to weeks                             |
 | Purpose       | General language understanding                      | Task-specific performance improvement         |
 | Examples       | GPT, LLaMA 3                                        | Fine-tuning LLaMA 3 for summarisation      |
 
