@@ -227,13 +227,13 @@ https://www.arxiv.org/abs/2408.13296
 | Examples       | GPT, LLaMA 3                                        | Fine-tuning LLaMA 3 for summarisation      |
 
 ### 1.8 Importance of Fine-Tuning LLMs
-- **1.Transfer Learning**: Leverages pre-training knowledge to adapt it to specific tasks with reduced computation time and resources
-- **2.Reduced Data Requirements**: Fine-tuning requires less labelled data, focusing on tailoring pre-trained features to the target task
-- **3.Improved Generalisation**: Enhances model's ability to generalise to specific tasks or domains
-- **4.Efficient Model Deployment**: More efficient for real-world applications with reduced computational requirements
-- **5.Adaptability to Various Tasks**: Fine-tuned LLMs can perform well across various applications without task-specific architectures
-- **6.Domain-Specific Performance**: Adapts to the nuances and vocabulary of target domains
-- **7.Faster Convergence**: Achieves faster convergence by starting with weights that already capture general language features.
+1. **Transfer Learning**: Leverages pre-training knowledge to adapt it to specific tasks with reduced computation time and resources
+2. **Reduced Data Requirements**: Fine-tuning requires less labelled data, focusing on tailoring pre-trained features to the target task
+3. **Improved Generalisation**: Enhances model's ability to generalise to specific tasks or domains
+4. **Efficient Model Deployment**: More efficient for real-world applications with reduced computational requirements
+5. **Adaptability to Various Tasks**: Fine-tuned LLMs can perform well across various applications without task-specific architectures
+6. **Domain-Specific Performance**: Adapts to the nuances and vocabulary of target domains
+7. **Faster Convergence**: Achieves faster convergence by starting with weights that already capture general language features.
 
 ### 1.9 Retrieval Augmented Generation (RAG)
 
