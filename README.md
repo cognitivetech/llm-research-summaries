@@ -4,24 +4,21 @@
 
 its just summaries... 
 
-and here, you can have this timeline too:
-
 ## History leading to SOTA LLM (future summaries)
 
 Timeline from 1990-2023 ...with key breakthroughs, papers, and popular applications
 
-### Statistical Language Models (SLMs) Era: 1990-2010
+### Statistical Language Models (SLMs) Era: 1990-2010 (with Summaries)
 
 *SLMs analyzed natural language using probabilistic methods, calculating sentence probabilities as products of conditional probabilities.*
 
-- 1990: [Hidden Markov Models for speech recognition](http://luthuli.cs.uiuc.edu/~daf/courses/Signals%20AI/Papers/HMMs/0.pdf) (Rabiner) [Voice Command Systems]    
-- 1993: [IBM Model 1 for statistical machine translation](https://aclanthology.org/J93-2003.pdf) (Brown et al.) [Early Online Translation]    
-- 1995: [Improved backing-off for M-gram language modeling](https://ieeexplore.ieee.org/document/479394) (Kneser & Ney) [Spell Checkers]    
-- 1996: [Maximum Entropy Models](https://aclanthology.org/J96-1002.pdf) (Berger et al.) [Text Classification]    
-- 1999: [An empirical study of smoothing techniques for language modeling](http://www2.denizyuret.com/ref/goodman/chen-goodman-99.pdf) (Chen & Goodman) [Improved Language Models]    
-- 2002: [Latent Dirichlet Allocation (LDA)](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf) (Blei et al.) [Document Clustering]    
-- 2006: [Hierarchical Pitman-Yor language model](https://www.stats.ox.ac.uk/~teh/research/compling/acl2006.pdf) (Teh) [Text Generation]
-    
+- 1990: [Hidden Markov Models for speech recognition](history/SLM_Hidden-Markov-Models-for-Speech-Recognition.md) (Rabiner) [Voice Command Systems]    
+- 1993: [IBM Model 1 for statistical machine translation](history/SLM_Mathematics-of-Statistical-Machine-Translation.md) (Brown et al.) [Early Online Translation]    
+- 1995: [Improved backing-off for M-gram language modeling](history/SLM_IMPROVED-BACKING-OFF-FOR-M-GRAM-LANGUAGE-MODELING.md) (Kneser & Ney) [Spell Checkers]    
+- 1996: [Maximum Entropy Models](history/SLM_Maximum-Entropy-Approach-NLP.md) (Berger et al.) [Text Classification]    
+- 1999: [An empirical study of smoothing techniques for language modeling](history/SLM_empirical-study-of-smoothing-techniques-for-language-modeling.md) (Chen & Goodman) [Improved Language Models]    
+- 2002: [Latent Dirichlet Allocation (LDA)](history/SLM_Latent-Dirichlet-Allocation.md) (Blei et al.) [Document Clustering]    
+- 2006: [Hierarchical Pitman-Yor language model](history/SLM_A-Hierarchical-Bayesian-Language-Model-based-on-Pitman-Yor-Processes.md) (Teh) [Text Generation]
 
 ### Neural Language Models (NLMs) Era: 2011-2017
 
