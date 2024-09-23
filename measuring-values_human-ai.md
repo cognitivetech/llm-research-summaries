@@ -196,8 +196,6 @@ https://arxiv.org/abs/2409.12106
 - Evaluated construct validity by relating values from different value theories (Table 4)
 - Concluded that GPV showed superior construct validity over prior tools prone to response bias.
 
-### 5.2 Comparative Analysis of Value Representation
-
 **Comparative Analysis of Value Representation Utility Tools**
 
 **Accuracy of Measurement Tools (percentage)**
