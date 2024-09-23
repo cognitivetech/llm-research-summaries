@@ -4,6 +4,15 @@ by Haoran Ye, Yuhang Xie, Yuanyi Ren, Hanjun Fang, Xin Zhang, Guojie Song
 
 https://arxiv.org/abs/2409.12106
 
+## Contents
+- [Abstract](#abstract)
+- [1 Introduction](#1-introduction)
+- [2 Related Work](#2-related-work)
+- [3 Generative Psychometrics for Values](#3-generative-psychometrics-for-values)
+- [4 GPV for Humans](#4-gpv-for-humans)
+- [5 GPV for Large Language Models](#5-gpv-for-large-language-models)
+- [6 Conclusion](#6-conclusion)
+
 ## Abstract
 **Generative Psychometrics for Values (GPV)**
 - Human values and measurement: interdisciplinary inquiry since long time
