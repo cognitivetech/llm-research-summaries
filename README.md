@@ -6,20 +6,20 @@ Just keeping track of ideas that sound interesting to me, along with some resear
 ### Models Review
 - [What is the Role of Small Models in the LLM Era: A Survey](small-models_survey.md)
 
-#### Prompting
+### Prompting
 - [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](prompt-based-learning.md)
 - [The Prompt Report: A Systematic Survey of Prompting Techniques](prompt-techniques_survey.md)
 
-#### Training
+### Training
 - [Ultimate Guide to Fine-Tuning LLMs: From Basics to Breakthroughs (Summary)](ultimate-guide-fine-tuning-llm_parthasarathy.md)
 - [Finetuning LLMs for Comparative Assessment Tasks](Comparative-Assesment.md)
 
-#### Psychology
+### Psychology
 - [Autoformalization of Game Descriptions using Large Language Models](autoformalize-game-descriptions.md)
 - [Machine Mindset: An MBTI Exploration of Large Language Models](Machine-Mindset_MBTI.md)
 - [Measuring Human and AI Values based on Generative Psychometrics with Large Language Models](measuring-values_human-ai.md)
 
-#### Science
+### Science
 - [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](Language_Agents_Science.md)
 
 ### Document Processing
