@@ -23,7 +23,8 @@ Just keeping track of ideas that sound interesting to me, along with some resear
 
 ### Science
 - [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](Language_Agents_Science.md)
-
+- [Exploring the Use of ChatGPT for a Systematic Literature Review: a Design-Based Research](Exploring the Use of ChatGPT for a Systematic Literature Review.md)
+ 
 ### Document Processing
 - [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](detect-order-construct.md)
 - [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](Attention-Seeker_Unsupervised-Keyphrase-Extraction.md)
