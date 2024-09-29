@@ -4,6 +4,23 @@ by Erwin D. López Z., Cheng Tang, Atsushi Shimada
 
 https://arxiv.org/pdf/2409.10907
 
+## Contents
+- [Abstract](#abstract)
+- [1 Introduction](#1-introduction)
+- [2 Related work](#2-related-work)
+- [3 Methodology](#3-methodology)
+  - [3.1 Attention-Seeker](#31-attention-seeker)
+  - [3.2 Extraction of the Self-Attention Maps](#32-extraction-of-the-self-attention-maps)
+  - [3.3 Attention Scores Estimation: Short Documents](#33-attention-scores-estimation-short-documents)
+  - [3.4 Attention Scores Estimation: Long Documents](#34-attention-scores-estimation-long-documents)
+- [4 Experiments and Results](#4-experiments-and-results)
+  - [4.1 Datasets and Evaluation Metrics](#41-datasets-and-evaluation-metrics)
+  - [4.2 Baselines](#42-baselines)
+  - [4.3 Results](#43-results)
+- [5 Ablation](#5-ablation)
+- [6 Conclusion](#6-conclusion)
+- [7 Limitations](#7-limitations)
+
 ## Abstract
 
 **Proposed Method**:

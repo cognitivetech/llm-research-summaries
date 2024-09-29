@@ -3,6 +3,33 @@
 by Abdelrahman Hanafi, Mohammed Saad, Noureldin Zahran, Radwa J. Hanafy, and Mohammed E. Fouda
 https://arxiv.org/pdf/2409.15687
 
+## Contents
+- [Abstract](#abstract)
+- [1 Introduction](#1-introduction)
+  - [1.1 Evaluating LLMs on Mental Health Tasks](#11-evaluating-llms-on-mental-health-tasks)
+  - [1.2 Fine-tuning LLMs for mental health tasks](#12-fine-tuning-llms-for-mental-health-tasks)
+  - [1.3 LLMs for Data Augmentation and Chatbot Development](#13-llms-for-data-augmentation-and-chatbot-development)
+  - [1.4 Benchmarks for Evaluating LLMs in Psychiatry](#14-benchmarks-for-evaluating-llms-in-psychiatry)
+  - [1.5 Literature Reviews](#15-literature-reviews)
+  - [1.6 Research Gaps](#16-research-gaps)
+- [2 Methodology Implementation](#2-methodology-implementation)
+  - [2.1 Experimental Setup\*\*](#21-experimental-setup)
+  - [2.2 Datasets](#22-datasets)
+  - [2.3 Sampling](#23-sampling)
+  - [2.4 Models](#24-models)
+  - [2.5 Prompt Templates](#25-prompt-templates)
+  - [2.6 Evaluation Metrics](#26-evaluation-metrics)
+  - [2.7 Parsing Model Outputs](#27-parsing-model-outputs)
+  - [2.8 Additional Considerations](#28-additional-considerations)
+- [3 Results \& Discussion](#3-results--discussion)
+  - [3.2 Performance Variability Experiment](#32-performance-variability-experiment)
+  - [3.3 Binary Disorder Classification (Task 1)](#33-binary-disorder-classification-task-1)
+  - [3.4 Disorder Severity Evaluation (task 2)](#34-disorder-severity-evaluation-task-2)
+  - [3.5 Psychiatric Knowledge Assessment (task 3)](#35-psychiatric-knowledge-assessment-task-3)
+- [4 Additional Investigations](#4-additional-investigations)
+- [5 Challenges, Conclusions and Future Directions](#5-challenges-conclusions-and-future-directions)
+
+
 ## Abstract
 **Study Findings on Large Language Models (LLMs) in Mental Health Tasks**
 
