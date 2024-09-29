@@ -13,6 +13,7 @@ Just keeping track of ideas that sound interesting to me, along with some resear
 ### Training
 - [Ultimate Guide to Fine-Tuning LLMs: From Basics to Breakthroughs (Summary)](ultimate-guide-fine-tuning-llm_parthasarathy.md)
 - [Finetuning LLMs for Comparative Assessment Tasks](Comparative-Assesment.md)
+- [Propulsion: Steering LLM with Tiny Fine-Tuning](propultion-tiny-finetune.md)
 
 ### Psychology
 - [A COMPREHENSIVE EVALUATION OF LARGE LANGUAGE MODELS ON MENTAL ILLNESS](mental-health-llm-survey.md)
