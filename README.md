@@ -15,6 +15,7 @@ Just keeping track of ideas that sound interesting to me, along with some resear
 - [Finetuning LLMs for Comparative Assessment Tasks](Comparative-Assesment.md)
 
 ### Psychology
+- [A COMPREHENSIVE EVALUATION OF LARGE LANGUAGE MODELS ON MENTAL ILLNESS](mental-health-llm-survey.md)
 - [Autoformalization of Game Descriptions using Large Language Models](autoformalize-game-descriptions.md)
 - [Machine Mindset: An MBTI Exploration of Large Language Models](Machine-Mindset_MBTI.md)
 - [Measuring Human and AI Values based on Generative Psychometrics with Large Language Models](measuring-values_human-ai.md)
@@ -24,6 +25,7 @@ Just keeping track of ideas that sound interesting to me, along with some resear
 
 ### Document Processing
 - [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](detect-order-construct.md)
+- [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](Attention-Seeker_Unsupervised-Keyphrase-Extraction.md)
 
 ### Web Interaction
 - [WEBLINX: Real-World Website Navigation with Multi-Turn Dialogue](WEBLINX_Website-Navigation-Multi-Turn-Dialogue.md)
