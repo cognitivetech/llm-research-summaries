@@ -611,30 +611,37 @@ This table represents the data description for various datasets, showing the num
 
 ### L Variable Description: Sequence Classification
 
-**Model Variables and Descriptions**
+**Variables and Descriptions**
 
-**M(.)**: Pre-trained language model with frozen parameters
+**Pre-trained language model with frozen parameters (M(.))**:
+- Pre-trained language model
+- Parameters are frozen
 
-**Li(x)**: Output of the i-th layer given input **x**
-- **x**: Input representation
-- Sequence length of tokens **d**
-- Dimension of each token **V**
-  - Output of layer **Li**
+**N (Number of layers)**:
+- Number of layers in the model
 
-**Z**: Trainable Propulsion matrix **zi**
-- Element-wise transformation vector **vj**'
+**Li(x)**: Output of the **i-th layer** given input **x**
 
-**k**: Propagation degree for nonlinear transformation
+**x**: Input representation
+- Sequence length of tokens (**s**)
+- Dimension of each token (**d**)
 
-**V′**: New output after Propagation and Propagation **L**
+**V (Output of layer Li)**:
+- Output of layer **Li**
 
-**T**: Cross-entropy loss function
+**Z (Trainable Propulsion matrix zi)**:
+- Element-wise transformation vector
 
-**y**: Total number of data samples
+**Transformed output after Propulsion (Zi)**:
+- Multiplied with Propulsion matrix (**z**) to form new output
 
-**y**: Ground truth labels
+**Propagation degree for nonlinear transformation (k)**: Degree of nonlinear transformation applied during propagation
 
-**ˆy**: Predicted labels
+**V' (New output after Propagation and Propagation L)**: New output after propulsion and propagation layer **L**
 
-**Table 24: Variables and Descriptions**
+**Cross-entropy loss function (T)**:
+- Total number of data samples
+- Ground truth labels (**y**)
+- Predicted labels (**o**)
 
+**Table 24: Table of Variables and Descriptions**
