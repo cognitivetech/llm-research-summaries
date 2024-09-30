@@ -16,10 +16,13 @@ Just keeping track of ideas that sound interesting to me, along with some resear
 - [Propulsion: Steering LLM with Tiny Fine-Tuning](propultion-tiny-finetune.md)
 
 ### Psychology
-- [A COMPREHENSIVE EVALUATION OF LARGE LANGUAGE MODELS ON MENTAL ILLNESS](mental-health-llm-survey.md)
 - [Autoformalization of Game Descriptions using Large Language Models](autoformalize-game-descriptions.md)
 - [Machine Mindset: An MBTI Exploration of Large Language Models](Machine-Mindset_MBTI.md)
 - [Measuring Human and AI Values based on Generative Psychometrics with Large Language Models](measuring-values_human-ai.md)
+
+### Mental Health
+- [A COMPREHENSIVE EVALUATION OF LARGE LANGUAGE MODELS ON MENTAL ILLNESS](mental-health-llm-survey.md)
+- [Severity Prediction in Mental Health: LLM-based Creation, Analysis, Evaluation of a Novel Multilingual Dataset](Severity Prediction in Mental Health.md)
 
 ### Science
 - [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](Language_Agents_Science.md)
