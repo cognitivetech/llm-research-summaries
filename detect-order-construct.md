@@ -1,6 +1,27 @@
 # Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure
 
+by Jiawei Wang, Kai Hu, Zhuoyao Zhong, Lei Sun, Qiang Huo 
 https://arxiv.org/html/2401.11874v2
+
+## Contents
+- [Abstract](#abstract)
+- [1. Introduction](#1-introduction)
+- [2. Related Work](#2-related-work)
+  - [2.1. Page Object Detection](#21-page-object-detection)
+  - [2.2. Reading Order Prediction](#22-reading-order-prediction)
+  - [2.3. Hierarchical Document Structure Reconstruction](#23-hierarchical-document-structure-reconstruction)
+- [3.Problem](#3problem)
+- [4. Methodology](#4-methodology)
+  - [4.1. Overview](#41-overview)
+  - [4.2. Detect Module](#42-detect-module)
+  - [4.3. Order Module](#43-order-module)
+- [5. Experiments](#5-experiments)
+  - [5.1. Datasets and Evaluation Protocols](#51-datasets-and-evaluation-protocols)
+  - [5.2. Implementation Details](#52-implementation-details)
+  - [5.3. Comparisons with Prior Arts](#53-comparisons-with-prior-arts)
+  - [5.4. Ablation Studies](#54-ablation-studies)
+  - [5.5. Limitations of Our Approach](#55-limitations-of-our-approach)
+- [6. Conclusion and Future Work](#6-conclusion-and-future-work)
 
 ## Abstract
 **Document Structure Analysis: Hierarchical Document Structure (HDSA)**
@@ -39,8 +60,6 @@ https://arxiv.org/html/2401.11874v2
 - Notable improvements in performance and robustness
 - Primarily focus on specific sub-tasks: Page Object Detection, Reading Order Prediction, Table of Contents (TOC) Extraction
 - Gap in research community for a comprehensive end-to-end system or benchmark addressing all aspects of document structure analysis concurrently.
-
-### Recently, hierarchical document structure analysis has gained traction with representative explorations like DocParser and HRDoc. DocParser [5] is th
 
 **Hierarchical Document Structure Analysis**
 
@@ -256,7 +275,7 @@ https://arxiv.org/html/2401.11874v2
 **Multi-Modal Feature Enhancement Module:**
 1. **Transformer Encoder**: Model interactions between text-lines using self-attention mechanism; treat each text-line as a token and use its multi-modal representation Ut as input to the encoder (Eq. 5). Here, only a 1-layer Transformer encoder is used for saving computation.
 
-### 4.2.3. Intra-region Reading Order Relation Prediction Head
+#### 4.2.3. Intra-region Reading Order Relation Prediction Head
 
 **Intra-region Reading Order Relation Prediction Head**
 
@@ -298,7 +317,7 @@ https://arxiv.org/html/2401.11874v2
 7. **Final Representation:** Concatenate UOi and ROi to obtain ˆUOi (Eq. 14).
 8. **Multi-modal Feature Enhancement for Page Objects:** Transformer Encoder processes multi-modal representations ˆUOi as tokens, FO=TransformerEncoder( ˆUO) yields improved embeddings.
 
-### 4.3.3. Inter-region Reading Order Relation Prediction Head
+#### 4.3.3. Inter-region Reading Order Relation Prediction Head
 
 **Inter-region Reading Order Relation Prediction Head (Order Module)**
 * Similar structure to inter-region reading order task of Detect module

@@ -3,6 +3,15 @@
 by Jiaxi Cui, Liuzhenghao Lv, Jing Wen, Rongsheng Wang, Jing Tang, YongHong Tian, Li Yuan
 
 https://arxiv.org/pdf/2312.12999.pdf
+https://github.com/cognitivetech/Machine-Mindset_MBTI/
+
+## Contents
+- [Abstract](#abstract)
+- [1 Introduction](#1-introduction)
+- [2 Related Work](#2-related-work)
+- [3 Method](#3-method)
+- [4 Experiments and Results](#4-experiments-and-results)
+- [5 Conclusion](#5-conclusion)
 
 ## Abstract
 **Approach for Integrating Myers-Briggs Type Indicator (MBTI) Personality Traits into LLMs**:
@@ -121,7 +130,7 @@ https://arxiv.org/pdf/2312.12999.pdf
 - Investigates whether imbued personality traits influence LLMs' reasoning, understanding, and cognitive capabilities
 - Subjects models to various tasks and tests to elucidate interplay between personality and cognitive functions in LLMs.
 
-### 5 Conclusion
+## 5 Conclusion
 
 **Conclusion**
 * Explored intersection of LLMs and Myers-Briggs Type Indicator (MBTI)
