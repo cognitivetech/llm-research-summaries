@@ -5,6 +5,7 @@ Tracking ideas of interest, along with some background research to remember our 
 ## Practical
 ### Models Review
 - [What is the Role of Small Models in the LLM Era: A Survey](small-models_survey.md)
+- [Evaluation of OpenAI o1: Opportunities and Challenges of AGI](evaluation-o1-towards-agi-oportunities-challenges.md)
 
 ### Prompting
 - [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](prompt-based-learning.md)
@@ -31,7 +32,8 @@ Tracking ideas of interest, along with some background research to remember our 
 ### Science
 - [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](Language_Agents_Science.md)
 - [Exploring the Use of ChatGPT for a Systematic Literature Review: a Design-Based Research](Exploring-the-Use-of-ChatGPT-for-a-Systematic-Literature-Review.md)
- 
+- [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain.md)
+
 ### Document Processing
 - [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](detect-order-construct.md)
 - [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](Attention-Seeker_Unsupervised-Keyphrase-Extraction.md)
