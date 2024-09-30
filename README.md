@@ -1,6 +1,6 @@
 # LLM Research Summaries
 
-Just keeping track of ideas that sound interesting to me, along with some research so we can remember our context in history.
+Tracking ideas of interest, along with some background research to remember our context in AI history.
 
 ## Practical
 ### Models Review
@@ -14,11 +14,15 @@ Just keeping track of ideas that sound interesting to me, along with some resear
 - [Ultimate Guide to Fine-Tuning LLMs: From Basics to Breakthroughs (Summary)](ultimate-guide-fine-tuning-llm_parthasarathy.md)
 - [Finetuning LLMs for Comparative Assessment Tasks](Comparative-Assesment.md)
 - [Propulsion: Steering LLM with Tiny Fine-Tuning](propultion-tiny-finetune.md)
+- [Data-Prep-Kit: getting your data ready for LLM application development](data-prep-kit.md)
 
 ### Psychology
 - [Autoformalization of Game Descriptions using Large Language Models](autoformalize-game-descriptions.md)
-- [Machine Mindset: An MBTI Exploration of Large Language Models](Machine-Mindset_MBTI.md)
 - [Measuring Human and AI Values based on Generative Psychometrics with Large Language Models](measuring-values_human-ai.md)
+
+### Personality
+- [Machine Mindset: An MBTI Exploration of Large Language Models](Machine-Mindset_MBTI.md)
+- [Myers-Briggs Personality Type Prediction Based on Reddit Comments](Personality_Prediction_Based_on_Reddit_Comments.md)
 
 ### Mental Health
 - [A COMPREHENSIVE EVALUATION OF LARGE LANGUAGE MODELS ON MENTAL ILLNESS](mental-health-llm-survey.md)
