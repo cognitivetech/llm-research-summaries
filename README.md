@@ -22,11 +22,11 @@ Just keeping track of ideas that sound interesting to me, along with some resear
 
 ### Mental Health
 - [A COMPREHENSIVE EVALUATION OF LARGE LANGUAGE MODELS ON MENTAL ILLNESS](mental-health-llm-survey.md)
-- [Severity Prediction in Mental Health: LLM-based Creation, Analysis, Evaluation of a Novel Multilingual Dataset](Severity Prediction in Mental Health.md)
+- [Severity Prediction in Mental Health: LLM-based Creation, Analysis, Evaluation of a Novel Multilingual Dataset](Severity-Prediction-in-Mental-Health.md)
 
 ### Science
 - [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](Language_Agents_Science.md)
-- [Exploring the Use of ChatGPT for a Systematic Literature Review: a Design-Based Research](Exploring the Use of ChatGPT for a Systematic Literature Review.md)
+- [Exploring the Use of ChatGPT for a Systematic Literature Review: a Design-Based Research](Exploring-the-Use-of-ChatGPT-for-a-Systematic-Literature-Review.md)
  
 ### Document Processing
 - [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](detect-order-construct.md)
