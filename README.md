@@ -17,6 +17,17 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Propulsion: Steering LLM with Tiny Fine-Tuning](propultion-tiny-finetune.md)
 - [Data-Prep-Kit: getting your data ready for LLM application development](data-prep-kit.md)
 
+### Summary
+- [Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](summary-of-a-haystack.md)
+- [Model-based Preference Optimization in Abstractive Summarization without Human Feedback](Model-based-Preference-Optimization-in-Abstractive-Summarization-without-Human-Feedback.md)
+
+### Document Processing
+- [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](detect-order-construct.md)
+- [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](Attention-Seeker_Unsupervised-Keyphrase-Extraction.md)
+
+### Web Interaction
+- [WEBLINX: Real-World Website Navigation with Multi-Turn Dialogue](WEBLINX_Website-Navigation-Multi-Turn-Dialogue.md)
+
 ### Psychology
 - [Autoformalization of Game Descriptions using Large Language Models](autoformalize-game-descriptions.md)
 - [Measuring Human and AI Values based on Generative Psychometrics with Large Language Models](measuring-values_human-ai.md)
@@ -30,20 +41,12 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Severity Prediction in Mental Health: LLM-based Creation, Analysis, Evaluation of a Novel Multilingual Dataset](Severity-Prediction-in-Mental-Health.md)
 
 ### Science
-- [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](Language_Agents_Science.md)
 - [Exploring the Use of ChatGPT for a Systematic Literature Review: a Design-Based Research](Exploring-the-Use-of-ChatGPT-for-a-Systematic-Literature-Review.md)
 - [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain.md)
 
-### Document Processing
-- [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](detect-order-construct.md)
-- [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](Attention-Seeker_Unsupervised-Keyphrase-Extraction.md)
-
-### Summary
-- [Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](summary-of-a-haystack.md)
-- [Model-based Preference Optimization in Abstractive Summarization without Human Feedback](Model-based-Preference-Optimization-in-Abstractive-Summarization-without-Human-Feedback.md)
-
-### Web Interaction
-- [WEBLINX: Real-World Website Navigation with Multi-Turn Dialogue](WEBLINX_Website-Navigation-Multi-Turn-Dialogue.md)
+## Agents
+- [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](Language_Agents_Science.md)
+- [A Survey on Complex Tasks for Goal-Directed Interactive Agents](Survey-on-Complex-Tasks-for-Goal-Directed-Interactive-Agents.md)
 
 ### Multi-party 
 - [Do LLMs suffer from Multi-Party Hangover?](Do-LLMs-suffer-from-Multi-Party-Hangover.md)
