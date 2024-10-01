@@ -37,10 +37,16 @@ Tracking ideas of interest, along with some background research to remember our 
 ### Document Processing
 - [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](detect-order-construct.md)
 - [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](Attention-Seeker_Unsupervised-Keyphrase-Extraction.md)
+
+### Summary
 - [Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](summary-of-a-haystack.md)
+- [Model-based Preference Optimization in Abstractive Summarization without Human Feedback](Model-based-Preference-Optimization-in-Abstractive-Summarization-without-Human-Feedback.md)
 
 ### Web Interaction
 - [WEBLINX: Real-World Website Navigation with Multi-Turn Dialogue](WEBLINX_Website-Navigation-Multi-Turn-Dialogue.md)
+
+### Multi-party 
+- [Do LLMs suffer from Multi-Party Hangover?](Do-LLMs-suffer-from-Multi-Party-Hangover.md)
 
 ### Future Perspectives
 - [Leopold Aschenbrenner's Situational Awareness + The Decade Ahead (2024)](situational-awareness_leopold-aschenbrenner.md)
