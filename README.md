@@ -44,12 +44,18 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Exploring the Use of ChatGPT for a Systematic Literature Review: a Design-Based Research](Exploring-the-Use-of-ChatGPT-for-a-Systematic-Literature-Review.md)
 - [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain.md)
 
-## Agents
+### Agents
 - [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](Language_Agents_Science.md)
 - [A Survey on Complex Tasks for Goal-Directed Interactive Agents](Survey-on-Complex-Tasks-for-Goal-Directed-Interactive-Agents.md)
 
+### Tools
+- [LLM With Tools: A Survey](llm-with-tools.md)
+
 ### Multi-party 
 - [Do LLMs suffer from Multi-Party Hangover?](Do-LLMs-suffer-from-Multi-Party-Hangover.md)
+
+### LLM Psychology
+- [Evaluating Psychological Safety of Large Language Models](Evaluating-Psychological-Safety-of-Large-Language-Models.md)
 
 ### Future Perspectives
 - [Leopold Aschenbrenner's Situational Awareness + The Decade Ahead (2024)](situational-awareness_leopold-aschenbrenner.md)
