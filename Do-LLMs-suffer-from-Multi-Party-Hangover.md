@@ -4,6 +4,22 @@
 Nicolò Penzo, Maryam Sajedinia, Bruno Lepri, Sara Tonelli, Marco Guerini
 https://arxiv.org/pdf/2409.18602
 
+## Contents
+- [Abstract](#abstract)
+- [1 Introduction](#1-introduction)
+- [2 Related Work](#2-related-work)
+- [3 Tasks](#3-tasks)
+- [4 MPC Classification](#4-mpc-classification)
+- [5 Diagnostic](#5-diagnostic)
+- [6 Experiments](#6-experiments)
+- [7 Macro Results and Structural Evaluation](#7-macro-results-and-structural-evaluation)
+- [8 Discussion](#8-discussion)
+- [9 Conclusions](#9-conclusions)
+- [10 Limitations](#10-limitations)
+- [11 Ethics Statement](#11-ethics-statement)
+- [A Prompt schemes and combinations](#a-prompt-schemes-and-combinations)
+- [B Task details and formalization](#b-task-details-and-formalization)
+
 ## Abstract
 **Study on Multi-Party Conversations (MPC) Assessment**
 
