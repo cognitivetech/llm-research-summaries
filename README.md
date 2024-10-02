@@ -60,7 +60,7 @@ Tracking ideas of interest, along with some background research to remember our 
 
 ### Multi-party 
 - [Do LLMs suffer from Multi-Party Hangover?](Do-LLMs-suffer-from-Multi-Party-Hangover.md)
-- [TRAINING LANGUAGE MODELS TO WINDEBATES WITHSELF-PLAY IMPROVES JUDGE ACCURACY](TRAINING-LANGUAGE-MODELS-TO-WINDEBATES-WITHSELF-PLAY.md)
+- [TRAINING LANGUAGE MODELS TO WIN DEBATES WITH SELF-PLAY IMPROVES JUDGE ACCURACY](TRAINING-LANGUAGE-MODELS-TO-WINDEBATES-WITHSELF-PLAY.md)
 
 ### Future Perspectives
 - [Leopold Aschenbrenner's Situational Awareness + The Decade Ahead (2024)](situational-awareness_leopold-aschenbrenner.md)
