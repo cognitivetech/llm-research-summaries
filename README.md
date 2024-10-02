@@ -18,8 +18,11 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Data-Prep-Kit: getting your data ready for LLM application development](data-prep-kit.md)
 
 ### Summary
-- [Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](summary-of-a-haystack.md)
+- [Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](summary-of-a-haystack.md) [Long Context]
 - [Model-based Preference Optimization in Abstractive Summarization without Human Feedback](Model-based-Preference-Optimization-in-Abstractive-Summarization-without-Human-Feedback.md)
+- [Leveraging Long-Context Large Language Models for Multi-Document Understanding and Summarization in Enterprise Applications](Multi-Document-Understanding-and-Summarization-Enterprise-Applications.md)
+- [Towards Efficient Methods in Medical Question Answering using Knowledge Graph Embeddings](efficient-medical-qa.md) [Q/A]
+- [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain.md)
 
 ### Document Processing
 - [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](detect-order-construct.md)
@@ -29,20 +32,20 @@ Tracking ideas of interest, along with some background research to remember our 
 - [WEBLINX: Real-World Website Navigation with Multi-Turn Dialogue](WEBLINX_Website-Navigation-Multi-Turn-Dialogue.md)
 
 ### Psychology
-- [Autoformalization of Game Descriptions using Large Language Models](autoformalize-game-descriptions.md)
-- [Measuring Human and AI Values based on Generative Psychometrics with Large Language Models](measuring-values_human-ai.md)
+- [Autoformalization of Game Descriptions using Large Language Models](autoformalize-game-descriptions.md) [Game Theory]
+- [PropaInsight: Toward Deeper Understanding of Propaganda in Terms of Techniques, Appeals, and Intent](PropaInsight-Toward-Deeper-Understanding-of-Propaganda.md) [Social Psychology]
+- [Research on Predicting Public Opinion Event Heat Levels Based on Large Language Models](predict-public-opinion.md) [Social Science]
+- [Machine Mindset: An MBTI Exploration of Large Language Models](Machine-Mindset_MBTI.md) [MBTI]
+- [Myers-Briggs Personality Type Prediction Based on Reddit Comments](Personality_Prediction_Based_on_Reddit_Comments.md) [MBTI]
+- [Evaluating Psychological Safety of Large Language Models](Evaluating-Psychological-Safety-of-Large-Language-Models.md) [AI Psychology]
+- [Measuring Human and AI Values based on Generative Psychometrics with Large Language Models](measuring-values_human-ai.md) [AI Psychology]
+- [A COMPREHENSIVE EVALUATION OF LARGE LANGUAGE MODELS ON MENTAL ILLNESS](mental-health-llm-survey.md) [Mental Health]
+- [Severity Prediction in Mental Health: LLM-based Creation, Analysis, Evaluation of a Novel Multilingual Dataset](Severity-Prediction-in-Mental-Health.md) [Mental Health]
 
-### Personality
-- [Machine Mindset: An MBTI Exploration of Large Language Models](Machine-Mindset_MBTI.md)
-- [Myers-Briggs Personality Type Prediction Based on Reddit Comments](Personality_Prediction_Based_on_Reddit_Comments.md)
-
-### Mental Health
-- [A COMPREHENSIVE EVALUATION OF LARGE LANGUAGE MODELS ON MENTAL ILLNESS](mental-health-llm-survey.md)
-- [Severity Prediction in Mental Health: LLM-based Creation, Analysis, Evaluation of a Novel Multilingual Dataset](Severity-Prediction-in-Mental-Health.md)
-
-### Science
+### Education
+- [LLMs in Education: Novel Perspectives, Challenges, and Opportunities](LLMs-in-Education_Review.md)
 - [Exploring the Use of ChatGPT for a Systematic Literature Review: a Design-Based Research](Exploring-the-Use-of-ChatGPT-for-a-Systematic-Literature-Review.md)
-- [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain.md)
+- [The application of GPT-4 in grading design university students’ assignment and providing feedback: An exploratory study](ggrading-design-university-assignment_feedback.md)
 
 ### Agents
 - [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](Language_Agents_Science.md)
@@ -53,9 +56,6 @@ Tracking ideas of interest, along with some background research to remember our 
 
 ### Multi-party 
 - [Do LLMs suffer from Multi-Party Hangover?](Do-LLMs-suffer-from-Multi-Party-Hangover.md)
-
-### LLM Psychology
-- [Evaluating Psychological Safety of Large Language Models](Evaluating-Psychological-Safety-of-Large-Language-Models.md)
 
 ### Future Perspectives
 - [Leopold Aschenbrenner's Situational Awareness + The Decade Ahead (2024)](situational-awareness_leopold-aschenbrenner.md)
