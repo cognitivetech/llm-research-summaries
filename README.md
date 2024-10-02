@@ -28,6 +28,9 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](detect-order-construct.md)
 - [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](Attention-Seeker_Unsupervised-Keyphrase-Extraction.md)
 
+### Classification
+- [Unified Framework to Classify Business Activities into International Standard Industrial Classification through Large Language Models for Circular Economy](Classify-Business-Activities-into-International-Standard-Industrial-Classification-for-Circular-Economy.md)
+
 ### Web Interaction
 - [WEBLINX: Real-World Website Navigation with Multi-Turn Dialogue](WEBLINX_Website-Navigation-Multi-Turn-Dialogue.md)
 
