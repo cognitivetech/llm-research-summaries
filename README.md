@@ -41,6 +41,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Measuring Human and AI Values based on Generative Psychometrics with Large Language Models](measuring-values_human-ai.md) [AI Psychology]
 - [A COMPREHENSIVE EVALUATION OF LARGE LANGUAGE MODELS ON MENTAL ILLNESS](mental-health-llm-survey.md) [Mental Health]
 - [Severity Prediction in Mental Health: LLM-based Creation, Analysis, Evaluation of a Novel Multilingual Dataset](Severity-Prediction-in-Mental-Health.md) [Mental Health]
+- [Harnessing Large Language Models: Fine-tuned BERT for Detecting Charismatic Leadership Tactics in Natural Language](Fine-tuned-BERT-for-Detecting-Charismatic-Leadership.md)
 
 ### Education
 - [LLMs in Education: Novel Perspectives, Challenges, and Opportunities](LLMs-in-Education_Review.md)
@@ -56,6 +57,7 @@ Tracking ideas of interest, along with some background research to remember our 
 
 ### Multi-party 
 - [Do LLMs suffer from Multi-Party Hangover?](Do-LLMs-suffer-from-Multi-Party-Hangover.md)
+- [TRAINING LANGUAGE MODELS TO WINDEBATES WITHSELF-PLAY IMPROVES JUDGE ACCURACY](TRAINING-LANGUAGE-MODELS-TO-WINDEBATES-WITHSELF-PLAY.md)
 
 ### Future Perspectives
 - [Leopold Aschenbrenner's Situational Awareness + The Decade Ahead (2024)](situational-awareness_leopold-aschenbrenner.md)
