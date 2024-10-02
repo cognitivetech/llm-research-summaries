@@ -1,6 +1,6 @@
 # LLMs in Education: Novel Perspectives, Challenges, and Opportunities
 
-by Kaushal Kumar Maurya, Ekaterina Kochmar
+by Bashar Alhafni, Sowmya Vajjala, Stefano Banno, Kaushal Kumar Maurya, Ekaterina Kochmar
 https://arxiv.org/html/2409.11917v1
 
 ## Contents
