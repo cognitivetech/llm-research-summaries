@@ -2,10 +2,11 @@
 
 Tracking ideas of interest, along with some background research to remember our context in AI history.
 
-## Practical
+## General
 ### Models Review
 - [What is the Role of Small Models in the LLM Era: A Survey](small-models_survey.md)
 - [Evaluation of OpenAI o1: Opportunities and Challenges of AGI](evaluation-o1-towards-agi-oportunities-challenges.md)
+- [Surveying the MLLM Landscape: A Meta-Review of Current Surveys](MLLM-Landscape_Review-Current-Surveys.md)
 
 ### Prompting
 - [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](prompt-based-learning.md)
@@ -17,6 +18,10 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Propulsion: Steering LLM with Tiny Fine-Tuning](propultion-tiny-finetune.md)
 - [Data-Prep-Kit: getting your data ready for LLM application development](data-prep-kit.md)
 
+## Document Processing
+- [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](detect-order-construct.md)
+- [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](Attention-Seeker_Unsupervised-Keyphrase-Extraction.md)
+
 ### Summary
 - [Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](summary-of-a-haystack.md) [Long Context]
 - [Model-based Preference Optimization in Abstractive Summarization without Human Feedback](Model-based-Preference-Optimization-in-Abstractive-Summarization-without-Human-Feedback.md)
@@ -24,9 +29,6 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Towards Efficient Methods in Medical Question Answering using Knowledge Graph Embeddings](efficient-medical-qa.md) [Q/A]
 - [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain.md)
 
-### Document Processing
-- [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](detect-order-construct.md)
-- [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](Attention-Seeker_Unsupervised-Keyphrase-Extraction.md)
 
 ### Classification
 - [Unified Framework to Classify Business Activities into International Standard Industrial Classification through Large Language Models for Circular Economy](Classify-Business-Activities-into-International-Standard-Industrial-Classification-for-Circular-Economy.md)
