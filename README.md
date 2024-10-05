@@ -16,7 +16,11 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Ultimate Guide to Fine-Tuning LLMs: From Basics to Breakthroughs (Summary)](ultimate-guide-fine-tuning-llm_parthasarathy.md)
 - [Finetuning LLMs for Comparative Assessment Tasks](Comparative-Assesment.md)
 - [Propulsion: Steering LLM with Tiny Fine-Tuning](propultion-tiny-finetune.md)
+
+### Data Science
 - [Data-Prep-Kit: getting your data ready for LLM application development](data-prep-kit.md)
+- [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](Spider2-V_Automating-Data-Science-and-Engineering-Workflows.md)
+- [Unified Framework to Classify Business Activities into International Standard Industrial Classification through Large Language Models for Circular Economy](Classify-Business-Activities-into-International-Standard-Industrial-Classification-for-Circular-Economy.md)
 
 ## Document Processing
 - [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](detect-order-construct.md)
@@ -29,12 +33,11 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Towards Efficient Methods in Medical Question Answering using Knowledge Graph Embeddings](efficient-medical-qa.md) [Q/A]
 - [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain.md)
 
-
-### Classification
-- [Unified Framework to Classify Business Activities into International Standard Industrial Classification through Large Language Models for Circular Economy](Classify-Business-Activities-into-International-Standard-Industrial-Classification-for-Circular-Economy.md)
-
-### Web Interaction
+### Code and Tools
+- [LLM With Tools: A Survey](llm-with-tools.md)
+- [From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging](Closing-the-Last-Mile-of-Code-Generation-with-Hierarchical-Debugging.md)
 - [WEBLINX: Real-World Website Navigation with Multi-Turn Dialogue](WEBLINX_Website-Navigation-Multi-Turn-Dialogue.md)
+- [ComfyGen: Prompt-Adaptive Workflows for Text-to-Image Generation](ComfyGen-Prompt-Adaptive-Workflows-Text-to-Image.md)
 
 ### Psychology
 - [Autoformalization of Game Descriptions using Large Language Models](autoformalize-game-descriptions.md) [Game Theory]
@@ -56,9 +59,6 @@ Tracking ideas of interest, along with some background research to remember our 
 ### Agents
 - [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](Language_Agents_Science.md)
 - [A Survey on Complex Tasks for Goal-Directed Interactive Agents](Survey-on-Complex-Tasks-for-Goal-Directed-Interactive-Agents.md)
-
-### Tools
-- [LLM With Tools: A Survey](llm-with-tools.md)
 
 ### Multi-party 
 - [Do LLMs suffer from Multi-Party Hangover?](Do-LLMs-suffer-from-Multi-Party-Hangover.md)
