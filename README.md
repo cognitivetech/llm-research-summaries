@@ -17,25 +17,25 @@ Tracking ideas of interest, along with some background research to remember our 
 
 ## Summaries
 ### Models Review
-- [What is the Role of Small Models in the LLM Era: A Survey](models-review/small-models_survey.md)
-- [Evaluation of OpenAI o1: Opportunities and Challenges of AGI](models-review/evaluation-o1-towards-agi-oportunities-challenges.md)
-- [Surveying the MLLM Landscape: A Meta-Review of Current Surveys](models-review/MLLM-Landscape_Review-Current-Surveys.md)
+- [What is the Role of Small Models in the LLM Era: A Survey](models-review/small-models_survey.md) [small-llm]
+- [Evaluation of OpenAI o1: Opportunities and Challenges of AGI](models-review/evaluation-o1-towards-agi-oportunities-challenges.md) [o1_use-case-eval]
+- [Surveying the MLLM Landscape: A Meta-Review of Current Surveys](models-review/MLLM-Landscape_Review-Current-Surveys.md) [MLLM-Survey]
 
 ### Prompting
-- [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](prompting/prompt-based-learning.md)
-- [The Prompt Report: A Systematic Survey of Prompting Techniques](prompting/prompt-techniques_survey.md)
-- [ComfyGen: Prompt-Adaptive Workflows for Text-to-Image Generation](prompting/ComfyGen-Prompt-Adaptive-Workflows-Text-to-Image.md)
+- [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](prompting/prompt-based-learning.md) [Prompt-Methods]
+- [The Prompt Report: A Systematic Survey of Prompting Techniques](prompting/prompt-techniques_survey.md) [Prompt-Methods][Survey]
+- [ComfyGen: Prompt-Adaptive Workflows for Text-to-Image Generation](prompting/ComfyGen-Prompt-Adaptive-Workflows-Text-to-Image.md) [ImageGen]
 
 ### Training
-- [Ultimate Guide to Fine-Tuning LLMs: From Basics to Breakthroughs (Summary)](training/ultimate-guide-fine-tuning-llm_parthasarathy.md)
-- [Finetuning LLMs for Comparative Assessment Tasks](training/Comparative-Assesment.md)
-- [Propulsion: Steering LLM with Tiny Fine-Tuning](training/propultion-tiny-finetune.md)
+- [Ultimate Guide to Fine-Tuning LLMs: From Basics to Breakthroughs](training/ultimate-guide-fine-tuning-llm_parthasarathy.md) [Fine-Tune]
+- [Finetuning LLMs for Comparative Assessment Tasks](training/Comparative-Assesment.md) [Fine-Tune][Assessment]
+- [Propulsion: Steering LLM with Tiny Fine-Tuning](training/propultion-tiny-finetune.md) [Fine-Tune][Tiny]
 
 ### Data Science
-- [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](data-science/Spider2-V_Automating-Data-Science-and-Engineering-Workflows.md)
-- [Unified Framework to Classify Business Activities into International Standard Industrial Classification through Large Language Models for Circular Economy](data-science/Classify-Business-Activities-into-International-Standard-Industrial-Classification-for-Circular-Economy.md)
-- [Data-Prep-Kit: getting your data ready for LLM application development](data-science/data-prep-kit.md) [Application]
-- [Data Analysis in the Era of Generative AI](data-science/Data-Analysis-in-the-Era-of-Generative-AI.md)
+- [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](data-science/Spider2-V_Automating-Data-Science-and-Engineering-Workflows.md) [Data-Engineering]
+- [Unified Framework to Classify Business Activities into International Standard Industrial Classification through Large Language Models for Circular Economy](data-science/Classify-Business-Activities-into-International-Standard-Industrial-Classification-for-Circular-Economy.md) [Classification]
+- [Data-Prep-Kit: getting your data ready for LLM application development](data-science/data-prep-kit.md) [Application] 
+- [Data Analysis in the Era of Generative AI](data-science/Data-Analysis-in-the-Era-of-Generative-AI.md) [Data-Analysis]
 
 ### Code and Tools
 - [LLM With Tools: A Survey](code-tools/llm-with-tools.md) [Tools]
@@ -81,10 +81,10 @@ Tracking ideas of interest, along with some background research to remember our 
 
 ### Historical
 #### Statistical Language Models (SLMs) Era: 1990-2010
-- 1990: [Hidden Markov Models for speech recognition](history/SLM_Hidden-Markov-Models-for-Speech-Recognition.md) (Rabiner) [Voice Command Systems]    
-- 1993: [IBM Model 1 for statistical machine translation](history/SLM_Mathematics-of-Statistical-Machine-Translation.md) (Brown et al.) [Early Online Translation]    
-- 1995: [Improved backing-off for M-gram language modeling](history/SLM_IMPROVED-BACKING-OFF-FOR-M-GRAM-LANGUAGE-MODELING.md) (Kneser & Ney) [Spell Checkers]    
-- 1996: [Maximum Entropy Models](history/SLM_Maximum-Entropy-Approach-NLP.md) (Berger et al.) [Text Classification]    
-- 1999: [An empirical study of smoothing techniques for language modeling](history/SLM_empirical-study-of-smoothing-techniques-for-language-modeling.md) (Chen & Goodman) [Improved Language Models]    
-- 2002: [Latent Dirichlet Allocation (LDA)](history/SLM_Latent-Dirichlet-Allocation.md) (Blei et al.) [Document Clustering]    
-- 2006: [Hierarchical Pitman-Yor language model](history/SLM_A-Hierarchical-Bayesian-Language-Model-based-on-Pitman-Yor-Processes.md) (Teh) [Text Generation]
+- 1990: [Hidden Markov Models for speech recognition](history/SLM_Hidden-Markov-Models-for-Speech-Recognition.md) (Rabiner) [Voice-Command-Systems]    
+- 1993: [IBM Model 1 for statistical machine translation](history/SLM_Mathematics-of-Statistical-Machine-Translation.md) (Brown et al.) [Early-Online-Translation]
+- 1995: [Improved backing-off for M-gram language modeling](history/SLM_IMPROVED-BACKING-OFF-FOR-M-GRAM-LANGUAGE-MODELING.md) (Kneser & Ney) [Spell-Checkers]    
+- 1996: [Maximum Entropy Models](history/SLM_Maximum-Entropy-Approach-NLP.md) (Berger et al.) [Text-Classification]    
+- 1999: [An empirical study of smoothing techniques for language modeling](history/SLM_empirical-study-of-smoothing-techniques-for-language-modeling.md) (Chen & Goodman) [Improved-Language-Models]    
+- 2002: [Latent Dirichlet Allocation (LDA)](history/SLM_Latent-Dirichlet-Allocation.md) (Blei et al.) [Document-Clustering]    
+- 2006: [Hierarchical Pitman-Yor language model](history/SLM_A-Hierarchical-Bayesian-Language-Model-based-on-Pitman-Yor-Processes.md) (Teh) [Text-Generation]
