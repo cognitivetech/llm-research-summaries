@@ -29,8 +29,9 @@ Tracking ideas of interest, along with some background research to remember our 
 
 ### Training
 - [Ultimate Guide to Fine-Tuning LLMs: From Basics to Breakthroughs](training/ultimate-guide-fine-tuning-llm_parthasarathy.md) [Fine-Tune]
-- [Finetuning LLMs for Comparative Assessment Tasks](training/Comparative-Assesment.md) [Fine-Tune][Assessment]
-- [Propulsion: Steering LLM with Tiny Fine-Tuning](training/propultion-tiny-finetune.md) [Fine-Tune][Tiny]
+- [Finetuning LLMs for Comparative Assessment Tasks](training/Comparative-Assesment.md) [Fine-Tune] [Assessment]
+- [Propulsion: Steering LLM with Tiny Fine-Tuning](training/propultion-tiny-finetune.md) [Fine-Tune] [Tiny]
+- [InfiniPot: Efficiently Handling Long Input Contexts in Large Language Models (LLMs) on Memory-Constrained Devices](training/InfiniPot-Efficiently-Handling-Long-Input-Contexts_LLM_Memory-Constrained-Devices.md) [Long-Context] [Low-Memory]
 
 ### Data Science
 - [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](data-science/Spider2-V_Automating-Data-Science-and-Engineering-Workflows.md) [Data-Engineering]
