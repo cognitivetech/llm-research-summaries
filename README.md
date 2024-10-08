@@ -25,6 +25,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](prompting/prompt-based-learning.md) [Prompt-Methods]
 - [The Prompt Report: A Systematic Survey of Prompting Techniques](prompting/prompt-techniques_survey.md) [Prompt-Methods][Survey]
 - [ComfyGen: Prompt-Adaptive Workflows for Text-to-Image Generation](prompting/ComfyGen-Prompt-Adaptive-Workflows-Text-to-Image.md) [ImageGen]
+- [Thinking Before Speaking: A Role-playing Model with Mindset](prompting/Thinking-Before-Speaking-A-Role-playing-Model-with-Mindset.md) [Roleplay]
 
 ### Training
 - [Ultimate Guide to Fine-Tuning LLMs: From Basics to Breakthroughs](training/ultimate-guide-fine-tuning-llm_parthasarathy.md) [Fine-Tune]
