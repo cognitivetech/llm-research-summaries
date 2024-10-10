@@ -47,8 +47,9 @@ Tracking ideas of interest, along with some background research to remember our 
 - [A Survey on Complex Tasks for Goal-Directed Interactive Agents](Survey-on-Complex-Tasks-for-Goal-Directed-Interactive-Agents.md) [Agents]
 - [Do LLMs suffer from Multi-Party Hangover?](Do-LLMs-suffer-from-Multi-Party-Hangover.md) [Multiparty] 
 - [TRAINING LANGUAGE MODELS TO WIN DEBATES WITH SELF-PLAY IMPROVES JUDGE ACCURACY](TRAINING-LANGUAGE-MODELS-TO-WINDEBATES-WITHSELF-PLAY.md) [Self-Play]
+- [Do great minds think alike? Investigating Human-AI Complementarity in Question Answering with caimira](interactive-agents/Investigating-Human-AI-Complementarity-in-Question-Answering-with-caimira.md) [Review-vs-Human]
 
-### Word Processing
+### Document Processing
 - [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](document-processing/detect-order-construct.md) [Ingestion]
 - [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](document-processing/Attention-Seeker_Unsupervised-Keyphrase-Extraction.md) [Keywords]
 - [Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](document-processing/summary-of-a-haystack.md) [Long Context]
@@ -58,6 +59,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](document-processing/Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain.md) [Medical Summary]
 - [Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits](document-processing/Mitigating-Idiosyncrasies_Improving-Human-AI-Alignment-in-Writing-through-Edits.md) [Editing]
 - [WEBLINX: Real-World Website Navigation with Multi-Turn Dialogue](document-processing/WEBLINX_Website-Navigation-Multi-Turn-Dialogue.md) [Web-Naviation]
+- [ActiveRAG: Revealing the Treasures of Knowledge via Active Learning](document-processing/ActiveRAG-Revealing-the-Treasures-of-Knowledge-via-Active-Learning.md)
 
 ### Education
 - [LLMs in Education: Novel Perspectives, Challenges, and Opportunities](education/LLMs-in-Education_Review.md) [Review][Learning]
