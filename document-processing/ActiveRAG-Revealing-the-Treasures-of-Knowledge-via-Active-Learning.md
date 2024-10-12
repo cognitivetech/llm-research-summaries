@@ -20,9 +20,6 @@ https://arxiv.org/html/2402.13547v1
   - [5.5 Case Studies](#55-case-studies)
 - [6 Conclusion](#6-conclusion)
 - [A.1 License](#a1-license)
-    - [Restoring Social Engagement through Cranial Nerve Techniques](#restoring-social-engagement-through-cranial-nerve-techniques)
-    - [Finding Marie-Hélène Aubert's Birthplace: A Case Study in ActiveRAG](#finding-marie-hélène-auberts-birthplace-a-case-study-in-activerag)
-    - [ActiveRAG: Finding "The Woods" Producer Using Cognitive Nexus](#activerag-finding-the-woods-producer-using-cognitive-nexus)
 - [A.2 Prompts Used in ActiveRAG](#a2-prompts-used-in-activerag)
 - [A.3 Prompts Used in Baseline Models](#a3-prompts-used-in-baseline-models)
 - [A.4 Additional Case Studies](#a4-additional-case-studies)
@@ -30,60 +27,64 @@ https://arxiv.org/html/2402.13547v1
 ## Abstract
 
 **Retrieval Augmented Generation (RAG)**
-- Introduces a new paradigm for Large Language Models (LLMs)
-- Aids in resolution of knowledge-intensive tasks
+- New paradigm for Large Language Models (LLMs) aiding in resolution of knowledge-intensive tasks
 
-**Current RAG models**:
+**Current RAG models:**
 - Position LLMs as passive knowledge receptors
-- Restricts their capacity for learning and comprehending external knowledge
+- Restricts capacity for learning and comprehending external knowledge
 
-**ActiveRAG**:
+**ActiveRAG:**
 - Innovative RAG framework
-- Shifts from passive knowledge acquisition to active learning mechanism
-- Uses **Knowledge Construction mechanism**:
-  - Develops a deeper understanding of external knowledge
+- Shifts from **passive knowledge acquisition** to **active learning mechanism**
+
+**Active Learning Mechanism in ActiveRAG:**
+- Utilizes **Knowledge Construction mechanism**
+  - Develops deeper understanding of external knowledge
   - Associates it with previously acquired or memorized knowledge
-- Utilizes **Cognitive Nexus mechanism**:
+
+- Designs **Cognitive Nexus mechanism**
   - Incorporates outcomes from both chains of thought and knowledge construction
   - Calibrates the intrinsic cognition of LLMs
 
-**Experimental results**:
+**Experimental Results:**
 - ActiveRAG surpasses previous RAG models
-- Achieves a 5% improvement on question-answering datasets
+- Achieves a **5% improvement on question-answering datasets**
 
-**Availability**:
-- All data and codes available at [https://github.com/OpenMatch/ActiveRAG](https://github.com/OpenMatch/ActiveRAG)
+**Availability:**
+- All data and codes available at [https://github.com/OpenMatch/ActiveRAG]()
 
 ## 1 Introduction
 
-**Constructivism and Retrieval-Augmented Generation (RAG) Models:**
+**Constructivism in Language Models**
 
-**Background:**
+**Learners' Knowledge Acquisition**:
 - Learners construct new understandings and knowledge through experience and social discourse
-- Large Language Models (LLMs) have strong emergent abilities but suffer from hallucination problem and outdated parametric memories
 
-**Retrieval-Augmented Generation (RAG) Models:**
-- Retrieve knowledge from external corpus, build brute-force RAG architecture by feeding passages to LLMs
-- Effectiveness influenced by noise from retrieved knowledge
-- Recent research focuses on mitigating noise through self-reflection and self-refining: filter out irrelevant passages or conduct summarized noting to extract key point knowledge
+**Large Language Models (LLMs)**:
+- LLMs, e.g., GPT-4 OpenAI and LLaMA, have shown strong emergent abilities and convincing performance in NLP tasks
+- However, they suffer from the **hallucination problem**, **outdated parametric memories**, and **unreliable outputs**
 
-**Limitations of Passive Learning:**
-- Violates Constructivism, a philosophy theory of education that emphasizes active learning
-- Neglects the nature of active learning, which builds associations between external knowledge and prior learned knowledge
+**Retrieval-Augmented Generation (RAG) Models**:
+- RAG models retrieve knowledge from external corpus and build a brute-force RAG architecture by directly feeding passages to LLMs
+- However, the effectiveness of retrieval-augmented models is highly influenced by the noise from retrieved knowledge
 
-**ActiveRAG:**
-- Leverages active learning to augment knowledge comprehension by bridging the gap between prior knowledge and retrieved information
-- Enhances active learning capability of LLMs without further fine-tuning
-- Three-step pipeline: Retrieval, Knowledge Construction, Cognition Nexus
+**ActiveRAG**:
+- ActiveRAG focuses on mitigating the effect of noise from retrieved passages by self-reflection and self-refining
+- It filters out irrelevant passages or conducts summarized noting to extract key point knowledge, which is effective in assisting LLMs to generate more accurate answers
 
-**ActiveRAG vs Vanilla/Chain-of-Note RAG Models:**
-- Inaccurate answers produced by vanilla and Chain-of-Note models due to limitations of passive knowledge acquisition
-- ActiveRAG leverages active learning to enable LLMs to produce accurate answers.
+**Limitations of Passive Knowledge Acquisition**:
+- Vanilla RAG and Chain-of-Note models yield inaccurate answers, highlighting the limitations of passive knowledge acquisition
+- Vanilla RAG is misled by certain ambiguous entities; Chain-of-Note employs shallow relevance modeling
 
-**Experiments:**
-- Evaluation results demonstrate over a 5% improvement compared to baseline models across various question answering datasets
-- Robustness maintained across different datasets and varying numbers of retrieved passages
-- Knowledge construction outcomes can be generalized to different LLM architectures, aiding them in leveraging external knowledge.
+**ActiveRAG**:
+- ActiveRAG leverages active learning to augment knowledge comprehension by bridging the gap between prior knowledge and retrieved information
+- It enhances the active learning capability of LLMs without requiring further fine-tuning
+- ActiveRAG uses a three-step pipeline: Retrieval, Knowledge Construction, and Cognition Nexus stages
+
+**Experiments and Results**:
+- Evaluation results demonstrate the effectiveness of ActiveRAG across various question answering datasets, yielding over 5% improvement compared to baseline models
+- ActiveRAG exhibits robustness and maintains stable performance across different datasets and varying numbers of retrieved passages
+- Knowledge construction outcomes can be generalized to different LLM architectures, aiding them in leveraging external knowledge and achieving improvements exceeding 20%
 
 ## 2 Related Work
 
@@ -91,411 +92,469 @@ https://arxiv.org/html/2402.13547v1
 
 **Background:**
 - RAG models aim to retrieve external knowledge and enhance language models
-- Effective in various NLP tasks: question answering, dialog understanding, code generation, etc.
+- Strong effectiveness in various NLP tasks: question answering, dialog understanding, code generation, etc.
+- Utilize dense retrievers as knowledge-seeking modules, prompting language models to generate results based on retrieved knowledge
 
-**Components:**
-- Dense retrievers as knowledge-seeking modules
-- Language models generate results based on retrieved knowledge
-
-**Early RAG Models:**
-- Optimize models to leverage external knowledge
-- Develop architecture of generator to use external knowledge fully
-- Train more accurate retriever using generation model feedback
+**Earlier RAG Models:**
+- Optimize models to leverage external knowledge and serve knowledge-intensive tasks
+- Develop architecture of generator to fully use external knowledge
+- Train more accurate retriever using feedback from generation models
 - Jointly train retriever and generator
 
-**Advancements with Large Language Models (LLMs):**
-- Leverage external knowledge to reduce generation perplexity in NLP tasks
-- Alleviate hallucination problem of LLMs by updating outdated or long-tail knowledge
+**RAG in Large Language Models (LLMs):**
+- Leverage external knowledge to reduce perplexity in general NLP tasks
+- Alleviate hallucination problem by updating outdated or long-tail knowledge
 
 **Challenges:**
-- Noise from retrieved contexts can affect effectiveness of RAG models
+- Noise from retrieved contexts challenges effectiveness of RAG models
 
 **Approaches to Mitigate Noise:**
-- Eliminate irrelevant contexts: natural language inference models, summarization model, conditional cross-mutual information
+- Eliminate irrelevant contexts: use natural language inference, summarization models, conditional cross-mutual information
 - Self-RAG: LLMs filter out irrelevant passages via self-reflection
-
-**Recent Work:**
-- Adaptively retrieve passages or build noting mechanism to summarize key point knowledge from retrieved passages.
+- Adaptively retrieve passages or build noting mechanism to summarize key point knowledge from retrieved passages
 
 **Constructivism Theory:**
-- Associates external knowledge with prior knowledge, which is often overlooked by LLMs.
+- Associates external knowledge with prior knowledge
+- RAG models continue to passively acquire additional knowledge, often overlooking the importance of this connection.
 
 ## 3 Methodology
 
-**Introduction to ActiveRAG Method**
+Introduction to ActiveRAG method:
+- This section presents our ActiveRAG method (Sec. [3.2](https://arxiv.org/html/2402.13547v1#S3.SS2 "3.2 ActiveRAG"))
+- Guides LLMs to actively learn knowledge from retrieved passages (Sec. [3.2](https://arxiv.org/html/2402.13547v1#S3.SS2 "3.2 ActiveRAG"))
+- Based on Retrieval-Augmented Generation (RAG) models (Sec. [3.1](https://arxiv.org/html/2402.13547v1#S3.SS1 "3.1 Preliminary of RAG Models"))
 
-We introduce our ActiveRAG method, which prompts Language Models (LLMs) to actively read, understand, and use external knowledge for generation. The process begins by introducing Retrieval-Augmented Generation (RAG) models [3.1](https://arxiv.org/html/2402.13547v1#S3.SS1). Subsequently, we describe our ActiveRAG method that encourages LLMs to learn actively from retrieved passages [3.2](https://arxiv.org/html/2402.13547v1#S3.SS2).
+(Note: ActiveRAG stands for Revealing the Treasures of Knowledge via Active Learning)
 
 ### 3.1 Preliminary of Retrieval-Augmented Generation (RAG) Models
 
 **Retrieval-Augmented Generation (RAG)**
 
 **Existing RAG Models**:
-- Guu et al. ([2020](https://arxiv.org/html/2402.13547v1#bib.bib8)) and Izacard et al. ([2023](https://arxiv.org/html/2402.13547v1#bib.bib13}) utilize retrieval models to search passages **D={d1,…,dn}** and enhance the generation ability of language models by grounding these retrieved passages.
+- Utilize retrieval models to search passages `D={d1,…,dn}`
+- Enhance the generation ability of language models by grounding these retrieved passages
 
 **Vanilla RAG**:
-- Earlier RAG models usually employ the **retrieval-generation architecture**, which directly feeds the retrieval passages **D={d1,…,dn}** to language models to generate the answers for the given query **q**.
-- These retrieved passages contain noise, and the **brute-force RAG approach** tends to constrain the benefits of RAG modeling.
-- It has sparked discussions on augmenting LLMs using the retrieval results or model-generated outputs.
+- Employs the **retrieval-generation architecture**
+- Directly feeds the retrieved passages `D` to language models to generate answers for query `q`
+- Retrieved passages contain noise, and this **brute-force approach** tends to constrain the benefits of RAG modeling
 
 **RAG with Self-Refining**:
-- Recent work employs the **retrieval-refining-generation architecture** to empower the capability of RAG using LLMs.
-- **Self-RAG** and **Chain-of-Note** are two representative methods:
-  - **Self-RAG**: Focuses on finetuning LLMs to adaptively retrieve passages on-demand and controlling the information flows from retrievers to generators.
-  - **Chain-of-Note**: Designs the instructions to self-refine the retrieved passages and forms the query-focused summarization, which can be applied to black-box LLMs like GPT-3.5.
-- However, they neglect the nature of active learning, where the learner actively constructs their understanding and knowledge by integrating new information with prior knowledge.
+- Avoids the effect of the noise from retrieved passages
+- Employs the **retrieval-refining-generation architecture** to empower the capability of RAG using LLMs
+
+**Self-RAG and Chain-of-Note**:
+- **Self-RAG**: Summarizes knowledge from retrieved passages, focusing on finetuning LLMs to adaptively retrieve and control information flows
+- **Chain-of-Note**: Designs instructions to self-refine the retrieved passages and forms query-focused summarization, applicable to black-box LLMs like GPT-3.5
+- Neglect the nature of active learning, where the learner actively constructs their understanding and knowledge by integrating new information with prior knowledge
 
 ### 3.2 ActiveRAG: RAG with Active Knowledge Learning
 
-**ActiveRAG: Revealing the Treasures of Knowledge via Active Learning**
+**ActiveRAG Architecture for Active Learning**
 
-**Architecture**:
-- ActiveRAG builds on constructivism learning theory to teach LLMs to actively acquire knowledge
-- Three-step pipeline: retrieval, **knowledge construction**, and cognitive nexus
+**Background:**
+- Inspired by constructivist learning theory: Steffe & Gale (1995)
+- LLMs actively acquire knowledge through ActiveRAG pipeline
 
-**Knowledge Construction**:
-- Regards LLM as a cognitive structure for receiving, understanding, and transforming external knowledge from passages
-- Constructs four distinct agents for knowledge acquisition:
-  - Anchoring
-  - Logical reasoning
-  - Cognition
-  - Association
-- Details described in Sec. 3.3 of the paper
+**Components:**
+1. Retrieval
+2. Knowledge Construction
+3. Cognitive Nexus
 
-**Cognitive Nexus**:
-- Employs the cognitive nexus mechanism to assist LLMs in utilizing external knowledge for augmentation
-- Facilitates the fusion of constructed knowledge understanding with intrinsic cognitive processes of LLMs
-- Prompts LLMs to generate an initial chain-of-thought, then integrates outcomes of knowledge construction into the chain-of-thought
-- Emphasizes incorporating knowledge construction into self-aware cognitive reasoning
+**Knowledge Construction:**
+- Four agents for knowledge acquisition: anchoring, logical reasoning, cognition, association
+- Human learning behavior mimicking
+- Detailed descriptions in Sec. 3.3
+
+**Cognitive Nexus:**
+- Facilitates fusion of constructed knowledge understanding with intrinsic cognitive processes of LLMs
+- Employed to assist LLMs in utilizing external knowledge for augmentation
+- Fusion occurs during the generation of a chain-of-thought
+- Encourages reflection and rectification of potential factual errors
+- Differs from RAG models: emphasis on incorporating knowledge construction into cognitive reasoning.
 
 ### 3.3 Knowledge Construction from Different Learning Views
 
 **Constructivism Learning Theory**
 - **Active process**: learning involves construction of internal mental representations
-- Encompasses both structural knowledge and extensive non-structural experiential backgrounds (Piaget [1970])
+- **Structural knowledge** and experiential backgrounds encompassed
+- **Four agents to acquire knowledge:** Semantic Association, Epistemic Anchoring, Logical Reasoning, Cognitive Alignment
 
-**Prompting LLMs for Active Learning:**
-- **Semantic Association**: integrates familiar information, consolidates foundational and advanced pieces
-  - Expands model's cognitive boundaries
-  - Deepens understanding of query and knowledge
-- **Epistemic Anchoring**: represents previously unknown knowledge
-  - Establishes foundational understanding
-  - Incorporates new concepts relevant to the question
-- **Logical Reasoning**: draws logical conclusions, refines problem-solving capabilities (constructivism learning theory)
-- **Cognitive Alignment**: adjusts existing mental structures to incorporate new knowledge
-  - Prevents factual errors
-  - Mitigates hallucination of LLMs
+**Semantic Association (Associate)**
+- Encourages integration of familiar information
+- Consolidation of foundational and advanced pieces of knowledge
+- Expands cognitive boundaries for a comprehensive understanding
 
-**Data Statistics:**
-- Table 1: Data Statistics
-  - Each dataset consists of randomly sampled 500 questions from the raw dataset
-- PopQA, TriviaQA, NQ, WebQ datasets used for analysis.
+**Epistemic Anchoring (Anchoring)**
+- Represents previously unknown knowledge
+- Establishes foundational understanding
+- Incorporates new concepts relevant to the question
+
+**Logical Reasoning (Logician)**
+- Draws logical conclusions from structured information
+- Refines problem-solving capabilities
+- Constructivism learning theory: not merely about absorbing information but active construction of knowledge through reasoning
+
+**Cognitive Alignment (Cognition)**
+- Deals with knowledge that contradicts pre-existing understanding
+- Prevents factual errors and mitigates hallucination of Language Models (LLMs)
+
+**Data Statistics**
+- Each dataset consists of 500 questions randomly sampled from the raw dataset
+- Percentage of queries used: PopQA (3.5%), TriviaQA (5.7%), NQ (5.7%), WebQ (24.6%)
 
 ## 4 Experimental Methodology
 
-**ActiveRAG: Revealing the Treasures of Knowledge via Active Learning**
-
-**Datasets**:
-- Natural Questions (NQ) Kwiatkowski et al. ([2019](https://arxiv.org/html/2402.13547v1#bib.bib19))
-- PopQA Mallen et al. ([2023](https://arxiv.org/html/2402.13547v1#bib.bib23))
-- TriviaQA Joshi et al. ([2017](https://arxiv.org/html/2402.13547v1#bib.bib16))
-- WebQ Berant et al. ([2013](https://arxiv.org/html/2402.13547v1#bib.bib4))
-- 500 questions randomly sampled from each QA dataset used for evaluation
+**Dataset**:
+- Four datasets used for open domain question answering: Natural Questions (NQ), PopQA, TriviaQA, and WebQ
+- Subset of 500 questions randomly sampled from each dataset due to inference cost
 
 **Evaluation Metrics**:
-- Accuracy (Acc) to evaluate model performance in open domain QA
-- String matching between golden answer and model prediction for calculating accuracy
+- Accuracy (Acc) used to evaluate model performance
+- Lowercase conversion and string matching between model prediction and golden answer
 
 **Baselines**:
-- Prompt learning: vanilla answer generation, Chain-of-Thought, Guideline models
-- RAG modeling: vanilla RAG, Chain-of-Note, Self-Rerank, Self-Refine models
+- Prompt learning: Vanilla answer generation, Chain-of-Thought (CoT), Guideline
+- RAG modeling: Vanilla RAG, Chain-of-Note, Self-Rerank, Self-Refine
 
 **Implementation Details**:
-- Access GPT models via OpenAI API for inference
-- Use T5-ANCE to retrieve top-k relevant documents from KILT-Wikipedia for each question
-- Set temperature at 0.2 during generation and employ gpt-3.5-turbo-1106 as the foundation model
+- Access GPT models via OpenAI API using gpt-3.5-turbo-1106 as foundation model and temperature 0.2 during generation
+- Use T5-ANCE for retrieving top-k relevant documents from KILT-Wikipedia using OpenMatch toolkit
 
 ## 5 Evaluation Result
 
 **Overall Performance of ActiveRAG**
-- Analysis of ActiveRAG performance
-- Characteristics of knowledge construction mechanisms examined
-- Evaluation of generalization capability of knowledge construction outcomes
-- Presentation of case studies
+- Presented in this section
+
+**Analyses of Knowledge Construction Mechanisms**
+- Exploration of characteristics within various mechanisms
+
+**Generalization Capability of Knowledge Construction Outcomes**
+- Investigation into the generalizability of outcomes
+
+**Case Studies**
+- Demonstration through specific examples
 
 ### 5.1 Overall Performance
 
-**ActiveRAG Performance on Open-Domain QA Datasets**
-* Comparison of ActiveRAG with various baseline models: LLMs w/o RAG, vanilla RAG model, self-refined RAG models, and ChatGPT-3.5 model (Table [2](https://arxiv.org/html/2402.13547v1#S4.T2 "Table 2"))
-* Baseline models' performance:
-  * Vanilla RAG model shows distinct improvements on some datasets compared to ChatGPT-3.5 but not all (Yu et al., [2022](https://arxiv.org/html/2402.13547v1#bib.bib45))
-  * Refinement of passages for LLMs leads to decreased performance in both TrivialQA and WebQ datasets (ChatGPT-3.5)
-* ActiveRAG outperforms all baseline models with over 5% improvements, particularly on the WebQ dataset
-* Significant improvements of ActiveRAG over ChatGPT-3.5 across all datasets, indicating its capacity to guide LLMs in uncovering valuable knowledge through active learning.
-* Experiments conducted using 5 and 10 top-ranked passages:
-  * All baseline RAG models exhibit consistent improvements when provided with more retrieved passages for generation
-  * ActiveRAG shows nearly identical performance regardless of the number of provided passages, indicating that information extracted from top 5 passages is sufficient to prompt LLMs to generate correct answers.
-* ActiveRAG effective in uncovering necessary knowledge from retrieved passages with help of knowledge construction.
+**Performance Comparison: ActiveRAG vs Baseline Models**
+- **ActiveRAG**: shows significant improvements over all baseline models on different open-domain QA datasets (Table [2](https://arxiv.org/html/2402.13547v1#S4.T2))
+- **Vanilla RAG model**: exhibits distinct performance compared to ChatGPT-3.5 on WebQ dataset, nearly equivalent on TrivialQA and NQ datasets (Yu et al., [2022](https://arxiv.org/html/2402.13547v1#bib.bib45))
+- **ChatGPT-3.5 model**: decrease in performance on WebQ dataset, nearly equivalent on TrivialQA and NQ datasets (Yu et al., [2022](https://arxiv.org/html/2402.13547v1#bib.bib45))
+- **Self-refined RAG models**: performance improvements when provided with more retrieved passages for generation (baseline RAG models consistently exhibit improvements)
+- **ActiveRAG**: nearly identical performance when provided with top 5 or top 10 passages, indicating the effectiveness of knowledge construction in uncovering necessary knowledge from retrieved passages.
 
 ### 5.2 Ablation Study
 
-**Experimental Methodology**
-* Ablation studies conducted to demonstrate effectiveness of cognitive nexus method
-* Different knowledge construction methods integrated with chain-of-thought: CoT w. Passage, CoT w. Note, ActiveRAG
-* Baseline models: raw retrieved passages (CoT w. Passage), refined passages as notes (CoT w. Note)
-* Oracle reranking to show upper bound performance of knowledge construction methods
+**Experimental Methodology: ActiveRAG**
 
-**Results:**
-* CoT w. Passage improves vanilla RAG model performance, establishing cognitive nexus between external knowledge and intrinsic cognition of LLMs
-* Significantly enhances quality of generated outputs for LLM employing CoT method
-* Mitigates hallucination problem in LLMs by utilizing a cognitive nexus to refine raw chain-of-thought with external knowledge
-* ActiveRAG outperforms other methods across all datasets, highlighting efficacy of knowledge construction approaches
-* Associate knowledge construction method demonstrates necessity for leveraging external knowledge to deepen understanding of LLMs.
+**Ablation Studies**:
+- Demonstrate effectiveness of cognitive nexus method through different knowledge construction methods integrated with chain-of-thought (CoT)
 
-**Oracle Reranking:**
-* Potential effectiveness of integrating different knowledge construction methods indicated by evaluation results
-* Leveraging diverse methods aids LLMs in answering various kinds of questions.
+**Baseline Models**:
+- CoT with Passage: process retrieved passages
+- CoT with Note: refine passages as notes
+- ActiveRAG: knowledge construction approaches
 
-**Figure 3:**
-* Text Similarity between Associate and Other Knowledge Construction Methods
-* BLEU-2 score used for evaluation in experiments.
+**Oracle Reranking**:
+- Illustrates potential effectiveness of integrating different knowledge construction methods
+
+**Results**:
+- CoT with Passage improves performance of vanilla RAG model, establishing cognitive nexus between external knowledge and intrinsic cognition of LLMs
+- CoT with Passage significantly improves quality of generated outputs for CoT-employed LLM
+- Mitigates hallucination problem in LLMs by using a cognitive nexus to refine raw chain-of-thought with external knowledge
+
+**Comparative Analysis**:
+- ActiveRAG outperforms various knowledge representation methods, highlighting efficacy of knowledge construction methods
+- Associate method outperforms others, demonstrating necessity of leveraging external knowledge for deepening LLM understanding
+
+**Figure 3: Text Similarity between Associate and Other Knowledge Construction Methods**:
+- Employs BLEU-2 score for evaluation
 
 ### 5.3 Characteristics of Different Knowledge Construction Mechanisms
 
-**Evaluation of Associate-based Knowledge Construction Method**
+**Associate-based Knowledge Construction Method Characteristics**
+* Conduct experiments to demonstrate Associate method's capabilities (Figure 3)
+* Diverges from chain-of-note approach in knowledge construction, showing less similarity
+* Yields results akin to Anchoring, extracting knowledge from retrieved passages
+* Counterfactual cognition leads to disparate outcomes compared to Cognition
+* LLMs can construct knowledge and understanding from various perspectives
 
-**Observations**:
-- The Associate method exhibits less similarity to chain-of-note approach, indicating a divergence from simple summarization
-- The Associate method yields results more akin to Anchoring, suggesting both mechanisms primarily extract knowledge from retrieved passages
-- The results of the Associate method diverge more significantly from those of Cognition, indicating counterfactual cognition leading to disparate outcomes
-- LLMs have the capability to construct knowledge and understanding from diverse perspectives
+**Evaluation Results**
+| Method        | NQ | TriviaQA | PopQA  | WebQ   |
+|---------------|-----|----------|---------|--------|
+| LLaMA2-7B     |    |          |         |        |
+| Vanilla RAG   | 26.4| 41.8      | 30.8    | 24.8   |
+| Chain-of-Note | 22.0| 45.2      | 38.1    | 21.0   |
+| CoT          | 32.2| 66.0      | 25.2    | 41.8   |
+| LLM w/o RAG  | 26.8| 53.2      | 21.6    | 40.2   |
+| w. Associate  | 50.6| 87.4      | 55.8    | 49.6   |
+| w. Anchoring  | 52.4| 88.6      | 51.6    | 54.0   |
+| w. Logician  | 51.2| 87.6      | 58.4    | 50.6   |
+| w. Cognition | 54.4| 87.2      | 58.4    | 50.6   |
+| PPL-Rerank   | 53.4| 87.6      | 56.2    | 50.8   |
+| LLaMA2-13B   |    |          |         |        |
+| Vanilla RAG   | 29.0| 39.0      | 22.8    | 25.2   |
+| Chain-of-Note | 22.0| 46.0      | 30.6    | 22.8   |
+| CoT          | 34.0| 73.2      | 31.6    | 48.8   |
+| LLM w/o RAG  | 30.6| 57.2      | 32.2    | 44.6   |
+| w. Associate  | 53.2| 89.6      | 57.4    | 52.6   |
+| w. Anchoring  | 51.6| 88.2      | 50.6    | 53.8   |
+| w. Logician  | 57.8| 90.3      | 65.4    | 53.0   |
+| w. Cognition | 51.2| 88.6      | 52.4    | 50.6   |
 
-**Evaluation Results**:
+**Table 4: Generalization Effectiveness of Outcomes from Chain-of-Note and ActiveRAG**
+* First Ryder Cup held at Worcester, Massachusetts in 1927 (Answer)
+* Passage retrieval for augmentation
 
-| Method     | NQ  | TriviaQA | PopQA   | WebQ    |
-| -----------|------|----------|---------|---------|
-| LLaMA2-7B |       |         |         |         |
-| Vanilla RAG | 26.4 | 41.8    | 30.8    | 24.8    |
-| Chain-of-Note | 22.0 | 45.2    | 38.1    | 21.0    |
-| CoT        | 32.2 | 66.0    | 25.2    | 41.8    |
-| LLM w/o RAG | 26.8 | 53.2    | 21.6    | 40.2    |
-| Associate   | 50.6 | 87.4    | 55.8    | 49.6    |
-| Anchoring   | 52.4 | 88.6    | 51.6    | 54.0    |
-| Logician   | 51.2 | 87.6    | 59.6    | 50.2    |
-| Cognition  | 54.4 | 87.2    | 58.4    | 50.6    |
-| PPL-Rerank | 53.4 | 87.6    | 56.2    | 50.8    |
+**Step 1: Passage Retrieval**
+1. Think about sports events that could have been held in Worcester, Massachusetts in 1927.
+2. Consider the popularity of different sports at that time.
+3. Recall any historical events or records related to sports in Worcester in 1927.
 
-**Generalization Effectiveness of Outcomes**:
-- The table shows the generalization effectiveness of outcomes from chain-of-note and ActiveRAG, using the top-ranked passages for augmentation
+**Passages:**
+- Worcester now hosts the Massachusetts Pirates (Indoor football team) and previously was home to New England Surge (Defunct Continental Indoor Football League).
+- Worcester Country Club is a private country club that hosted the first Ryder Cup in 1927. It has also hosted the men's and women's U.S. Open, as well as the first official U.S. Open qualifying round in 1924.
+- Worcester, Massachusetts is home to minor league sports teams and professional franchises. Many historic and local sporting events have occurred in Worcester, including the first official Ryder Cup golf tournament at Worcester Country Club in 1927.
 
-**Case Study**:
-- Detailed analysis of a case where the Associate method was used to answer a question about the first sports event held in Worcester, Massachusetts in 1927
-- The case includes passage retrieval, knowledge construction using Associate Agent, and cognitive nexus steps.
+**Step 2: Knowledge Construction using Associate Agent**
+* Foundational Knowledge: Worcester, Massachusetts has a history of hosting various sports events, including golf tournaments and minor league teams. The Worcester Country Club hosted the first Ryder Cup in 1927, making it a significant location for the event.
+* Advanced Information: Details about specific sports events and teams that have been hosted or based in Worcester, such as the Worcester Busters, Worcester Boosters, and Worcester Panthers baseball teams.
+* Analyzing the Role of Information: Worcester, Massachusetts has a rich sports history and has been a significant location for various sports events and teams. The hosting of the first Ryder Cup in 1927 at the Worcester Country Club highlights the city's importance in the world of golf. Additionally, the presence of minor league sports teams and professional franchises demonstrates the city's active participation in a wide range of sports. This information deepens the model's understanding of the question by providing context about the sports culture in Worcester and expanding its knowledge boundaries about the specific events and teams associated with the city.
+
+**Step 3: Cognitive Nexus**
+1. Identify popular sports events in 1927, considering Worcester, Massachusetts as the location.
+2. Worcester, Massachusetts has a rich history in sports, particularly in baseball and golf. The Worcester Country Club hosted significant events such as the first Ryder Cup in 1927, the 1925 U.S. Open, the 1960 U.S. Women's Open, and the first-ever U.S. Open qualifying round in 1924.
+3. The Worcester Country Club is an elite group of three golf courses in the United States to host the men's and women's U.S. Open and the Ryder Cup. This further solidifies its importance in the sports world.
+4. Considering the historical significance of the Worcester Country Club in hosting major golf events, it is likely that the sports event first held at Worcester, Massachusetts in 1927 was the first Ryder Cup.
 
 ### 5.4 Generalization Ability of Knowledge Construction Outcomes
 
-**Experiment Findings on Knowledge Construction Outcomes**
-- **ActiveRAG**: Revealing the Treasures of Knowledge via Active Learning
-- Table [4](https://arxiv.org/html/2402.13547v1#S5.T4 "Table 4 ‣ 5.3 Characteristics of Different Knowledge Construction Mechanisms ‣ 5 Evaluation Result ‣ ActiveRAG: Revealing the Treasures of Knowledge via Active Learning") shows results using different LLMs:
-    - **Prompting weaker LLMs (LLaMA2-7B/13B) with outcomes of ActiveRAG**:
-        - Decreased performance for vanilla RAG and Chain-of-Note compared to LLM without RAG
-            * Retrieved passages become noise, adversely impacting model performance
-            * Limited capacity of LLaMA2-7B/13B to analyze and locate knowledge causes misleading
-        - Significant improvements over 20% for LLaMA2-7B/13B across all QA datasets
-    - Knowledge construction method:
-        - Diverges from Chain-of-Note approach
-        - Establishes knowledge understanding by connecting retrieved passages with previously acquired knowledge
-        - Embodies teacher's thinking process, serving as cognitive roadmap for student
-    - Enhancing outcomes of various knowledge construction mechanisms:
-        - Quality assessed through calculation of query-conditioned perplexity (PPL)
-        - LLM capable of selecting suitable method for obtaining precise answers.
+**Study Findings on Knowledge Construction Outcomes using Different LLMs:**
+* **ActiveRAG**: reveals quality of knowledge construction outcomes for various LLMs (Table [4](https://arxiv.org/html/2402.13547v1#S5.T4 "Table 4"))
+* **Prompting weaker models** with ActiveRAG: LLaMA2-7B/13B
+* Results:
+	+ Decreased performance for vanilla RAG and Chain-of-Note compared to LLM without RAG (LLaMA2-7B/13B misled by retrieved passages due to limited capacity)
+	+ Significant improvements over 20% across all QA datasets for LLaMA2-7B/13B, demonstrating effectiveness
+* Differences from Chain-of-Note: knowledge construction method connects retrieved passages with previously acquired knowledge, establishing cognitive roadmap
+* Enhancing outcomes of various knowledge construction mechanisms through query-conditioned perplexity (PPL) assessment.
 
 ### 5.5 Case Studies
 
-**ActiveRAG's Effectiveness**:
-- Shown through analysis of one case from Table [5](https://arxiv.org/html/2402.13547v1#S5.T5 "Table 5 ‣ 5.3 Characteristics of Different Knowledge Construction Mechanisms ‣ 5 Evaluation Result ‣ ActiveRAG: Revealing the Treasures of Knowledge via Active Learning")
-- Case demonstrates **knowledge understanding results** formed with learned knowledge, such as foundational and advanced information
-- Extracted information provides **essential clues for answering questions**
-- Analysis of knowledge construction offers **brief summaries** and illustrates the application of external knowledge
-- Related knowledge from passages (e.g., "sports events in 1927", "golf", "1925 U.S. Open") makes thoughts more **knowledgeable and detailed**
-- Effectiveness of ActiveRAG in supporting Language Models (LLMs) to combine external knowledge and intrinsic cognition for **answer generation**
+**ActiveRAG Effectiveness:**
+- Shown through analysis of Table [5](https://arxiv.org/html/2402.13547v1#S5.T5 "Table 5 ‣ 5.3 Characteristics of Different Knowledge Construction Mechanisms ‣ 5 Evaluation Result ‣ ActiveRAG: Revealing the Treasures of Knowledge via Active Learning") case study
+- Forms knowledge understanding results using learned information (foundational, advanced)
+- Essential clues for answering questions provided
+- Brief summaries and application of external knowledge illustrated
+- Incorporates knowledge construction outcomes into cognitive nexus module
+- Calibrates raw chain-of-thought results to generate correct answers
+- Effectiveness demonstrated through use of related knowledge from passages (e.g., "sports events in 1927", "golf", "1925 U.S. Open") for more detailed and knowledgeable thoughts.
 
 ## 6 Conclusion
 
-**ActiveRAG Paper Proposal**:
-- Introduces an architecture combining retrieval and augmentation (ActiveRAG)
-- Incorporates active learning for knowledge construction
-- Inspired by Constructivism theory
-- Builds mechanisms for knowledge construction and cognitive nexus to integrate retrieved knowledge with LLMs' intrinsic cognition.
+**ActiveRAG Paper**:
+- Introduces an active retrieval-augmentation architecture for learning
+- Based on Constructivism theory, integrates knowledge construction and cognitive nexus mechanisms in LLMs to combine external knowledge with intrinsic cognition.
+
+### Limitation
+
+ActiveRAG effectively leverages external knowledge for LLM generation tasks without finetuning, requiring calls to the ChatGPT API three times: once for initial chain-of-thought construction, again for processing knowledge construction results, and lastly for generating the final answer. However, this process may increase response time latency and API calling costs due to the lengthy inputs caused by including extensive retrieved passages and knowledge construction results.
 
 ## A.1 License
 
-**Role: Associate**
-- **Fact-checking**: process of confirming accuracy of statements or claims through reliable sources
-- **Model illusion**: overconfidence response of AI due to inadequate training data
-- Extract foundational knowledge and advanced information from passages for deepening model's understanding
-- Encourage thorough comprehension of questions and expanding knowledge boundaries
+**Fact-Checking and Addressing Model Illusions in AI**
 
-**Role: Anchoring**
-- Provide relevant background and unknown knowledge to help the model better understand a question
-- Retrieve unfamiliar knowledge from authoritative sources
+**Prompt Templates for Knowledge Construction**:
+- **Associate**: Extract foundational knowledge or advanced information to deepen the model's understanding of the question
+  - Retrieve passages from reliable sources
+  - Verify for errors
+  - Enhance reasoning process using retrieved knowledge
+  - Generate answer based on enhanced reasoning process
 
-**Role: Logician**
-- Enhance causal reasoning and logical inference abilities of the model by extracting relevant information
-- Use retrieved knowledge to improve reasoning process
+**Anchoring**: Provide relevant background and unknown knowledge to help the model better understand the question
+- Retrieve passages from reliable sources
+- Identify information that can update the model's knowledge
+- Verify for errors
+- Enhance reasoning process using retrieved knowledge
+- Generate answer based on enhanced reasoning process
 
-**Role: Cognition**
-- Update language model's knowledge and prevent factual errors through fact-checking
-- Retrieve knowledge from most authoritative sources to ensure accuracy.
+**Logician**: Extract content to enhance causal reasoning and logical inference abilities
+- Retrieve passages from reliable sources
+- Identify information that can improve causal reasoning and logical inference
+- Verify for errors
+- Enhance reasoning process using retrieved knowledge
+- Generate answer based on enhanced reasoning process
 
-**Prompt Templates**:
-- Associate: Enhance reasoning process using retrieved knowledge for deepening understanding
-- Anchoring: Help the model better understand a question by providing relevant, unfamiliar knowledge
-- Logician: Improve causal reasoning and logical inference abilities using retrieved knowledge
-- Cognition: Update language model's knowledge to prevent factual errors and alleviate illusions.
+**Cognition**: Update the model's knowledge to prevent factual errors and alleviate model illusions
+- Retrieve passages from most authoritative knowledge repositories
+- Identify information that can update the model's knowledge
+- Verify for errors
+- Enhance reasoning process using retrieved knowledge
+- Generate answer based on enhanced reasoning process
 
-**Method: Vanilla ChatGPT-3.5+**
-* Provide concise answers to questions
+#### "Cognitive Nexus Approach for Question Answering"
+
+**Method: Vanilla ChatGPT-3.5**
+* Concise answers to questions
 * Avoid unnecessary details
+* Please provide detailed analysis step by step
 
-**Question:** Who was the first British golfer to win the US Masters?
-
-**Reasoning Process:**
-1. The US Masters is a prestigious golf tournament held in the United States.
-2. The first British golfer to win the US Masters would have had to have won it before any other British golfer.
-3. Sandy Lyle was the first British golfer to win the US Masters, with victories in 1986 and 1988.
-
-**Answer:** Sandy Lyle was the first British golfer to win the US Masters.
-
----
+**Question:** {question}
 
 **Method: Chain of Thought**
-* Think and reason step by step to answer questions
-* Consider relevance of given information
+* Think and reason step by step
+* Analyze problem thoroughly
+* Provide reasoning process
+* Label passages as useful or useless, relevant or irrelevant
 
-**Question:** Who was the first British golfer to win the US Masters?
+**Step 1: Passage Retrieval**
+- Relevant passages related to the question
+- Gather information from passages
 
-**Reasoning Process:**
-1. The US Masters is a prestigious golf tournament held in the United States.
-2. Sandy Lyle became the first British player to win the U.S. Masters, marking a significant milestone for British golfers in the history of the tournament.
-3. Other notable achievements in golf history include Gary Player being the first foreigner to win the American Masters Tournament and Ben Hogan being the only golfer to win the Masters, U.S. Open, and British Open in the same calendar year.
+**Step 2: Knowledge Construction using Associate Agent**
+- Consolidate gathered information
+- Deepen understanding of the question
+- Expand knowledge boundaries in relevant field
 
-**Answer:** Sandy Lyle was the first British golfer to win the US Masters. This achievement marked a significant milestone for British golfers in the history of the tournament.
+**Foundational Knowledge:**
+- Sandy Lyle was the first British golfer to win the US Masters
+- Significant achievement for British golfers in tournament history
 
----
+**Advanced Information:**
+- Gary Player: first foreigner to win American Masters Tournament
+- Ben Hogan: only golfer to win Masters, U.S. Open, and British Open in same calendar year
 
-**Method: Guideline**
-* Follow a step-by-step process to guide students in solving problems
-* Consider relevance and usefulness of given information
+**Step 3: Cognitive Nexus**
+- Enhance reasoning process using retrieved knowledge
+- Deepen understanding of question through familiarity with basic and advanced information.
 
-**Prompt:** You are a knowledgeable and patient professor whose role is to guide students in solving problems correctly. The following question requires detailed analysis: Who was the first British golfer to win the US Masters?
+**Answer:** Sandy Lyle was the first British golfer to win the US Masters, marking a significant milestone for British golfers in tournament history.
 
-**Reasoning Process:**
-1. Sandy Lyle became the first British player to win the U.S. Masters, marking a significant milestone for British golfers in the history of the tournament.
-2. This achievement is mentioned in two out of five provided passages (Passage 1 and Passage 2). These passages are relevant and useful in answering the question.
-3. Other notable achievements in golf history include Gary Player being the first foreigner to win the American Masters Tournament and Ben Hogan being the only golfer to win the Masters, U.S. Open, and British Open in the same calendar year.
+**Method: Self-Refine**
+* Analyze reasoning process and refine as needed
+* Provide detailed analysis based on passages
 
-**Answer:** Sandy Lyle was the first British golfer to win the US Masters. This achievement marked a significant milestone for British golfers in the history of the tournament.
+**Step 1: Passage Retrieval**
+- Relevant passages related to the question
+- Gather information from passages
 
----
+**Step 2: Knowledge Construction using Associate Agent**
+- Consolidate gathered information
+- Deepen understanding of the question
+- Expand knowledge boundaries in relevant field
 
-**Method: RAG (Relate, Analyze, Guarantee)**
-* Follow a step-by-step process to answer questions using provided passages
-* Consider relevance and usefulness of given information
+**Foundational Knowledge:**
+- Sandy Lyle was the first British golfer to win the US Masters
+- Significant achievement for British golfers in tournament history
 
-**Passages:**
-1. Sandy Lyle becomes the first British player to win the U.S. Masters. Lyle sweeps his approach shot to the last green out of a fairway bunker to within, and sinks the resulting birdie putt for a one-shot victory over Mark Calcavecchia.
-2. 10 April 2013 Golfer Sandy Lyle becomes the first British winner of the US Masters.
-3. In 2007, Virginia Tech golfer Drew Weaver became the first American to win the British Amateur golf tournament since 1979. Weaver edged out 2006 Australian Amateur champion Tim Stewart and earned an invitation to the 2007 Open Championship.
-4. Gary Player of South Africa became the first foreigner to win the American Masters Tournament, taking the event by one stroke. On the very last hole, the leader, Arnold Palmer had to take six strokes.
+**Advanced Information:**
+- Gary Player: first foreigner to win American Masters Tournament
+- Ben Hogan: only golfer to win Masters, U.S. Open, and British Open in same calendar year
 
-**Reasoning Process:**
-1. Sandy Lyle is mentioned as the first British player to win the U.S. Masters in Passages 1 and 2. These passages are relevant and useful for answering the question.
-2. Other notable achievements in golf history include Gary Player being the first foreigner to win the American Masters Tournament and Ben Hogan being the only golfer to win the Masters, U.S. Open, and British Open in the same calendar year. These achievements are not directly related to answering the original question but provide additional context for understanding golf history.
-3. Passages 3 and 4 do not contain any information about the first British golfer to win the US Masters. They focus on different aspects of golf history, so they are irrelevant to answering the original question.
+**Step 3: Cognitive Nexus**
+- Enhance reasoning process using retrieved knowledge
+- Deepen understanding of question through familiarity with basic and advanced information.
 
-**Answer:** Sandy Lyle was the first British golfer to win the US Masters. This achievement marked a significant milestone for British golfers in the history of the tournament.
+**Answer:** Sandy Lyle was the first British golfer to win the US Masters, marking a significant milestone for British golfers in tournament history.
 
-#### Finding Marie-Hélène Aubert's Birthplace: A Case Study in ActiveRAG
+#### Marie-Hélène Aubert's Birthplace: Nantes
 
-**Marie-Hélène Aubert's Birthplace**
-- Marie-Francine Hébert, a Canadian author from Quebec, is an unfamiliar name that does not provide information about Marie-Hélène Aubert's birthplace.
-- Marie Marguerite Françoise Hébert was a figure in the French Revolution and was born in Paris, but she is also not Marie-Hélène Aubert.
-- Michel Pierre Alexis Hébert was born in Granville, Manche, which is also not where Marie-Hélène Aubert was born.
+**Role:** Anchoring
+
+**Question:** Where was Marie-Hélène Aubert born?
+
+**Answer:** Nantes, France
+
+**Reasoning process:**
+1. Marie-Hélène Aubert is a French politician and writer.
+
+#### Coretta Scott King's Cause of Death: Respiratory Failure due to Ovarian Cancer
 
 **Coretta Scott King's Death**
-- Coretta Scott King died on January 30, 2006, at the rehabilitation center in Rosarito Beach, Mexico.
-- The main cause of her death is believed to be respiratory failure due to complications from ovarian cancer.
-- King's decline in health began after suffering a stroke in August 2005 and being diagnosed with ovarian cancer.
-- The clinic where she died, Hospital Santa Monica (licensed as Clinica Santo Tomas), was shut down due to operating without proper licensing and controversial medical practices.
 
-**The Woods Television Series**
-- The Woods is a television series produced by Matthew Lessner.
+**Background:**
+- Coretta Scott King: civil rights leader, wife of Martin Luther King Jr., passed away on January 30, 2006
+- Cause of death believed to be respiratory failure due to complications from ovarian cancer
+- Decline in health began after suffering a stroke and diagnosis of ovarian cancer in August 2005
 
-#### ActiveRAG: Finding "The Woods" Producer Using Cognitive Nexus
+**Passage Retrieval:**
+- Passage 1: Coretta Scott King hospitalized with stroke, diagnosed with ovarian cancer (Passage 1)
+- Passage 2: Coretta Scott King died from respiratory failure due to complications from ovarian cancer at a rehabilitation center in Mexico (Passage 2)
+- Passage 3: Coretta Scott King's mother died on her son's birthday (Passage 3)
+- Passage 4: Coretta Scott King, civil rights leader and widow of Martin Luther King Jr., died from ovarian cancer at the age of 78 (Passage 4)
 
-**Producer of "The Woods" Film**
+**Knowledge Construction:**
+- Coretta Scott King's health declined after a stroke and diagnosis of ovarian cancer in August 2005
+- The main cause of her death was respiratory failure due to complications from advanced-stage ovarian cancer
+- She was hospitalized and undergoing holistic therapy for her stroke and ovarian cancer at the time of her death
+- The clinic where she died, Hospital Santa Monica (licensed as Clinica Santo Tomas), was shut down due to operating without proper licensing and controversial medical practices
 
-**Passage Retrieval**:
-- Walter Wood (producer) - not relevant to the film "The Woods"
-- "The Woods is a 2011 film written and directed by Matthew Lessner and starring Toby David and Justin Phillips."
-- "Robert Woods is a classical music producer. Woods is a founder and former president of the independent record label Telarc International Corporation."
-- "The Wood is a 1999 American coming of age film directed by Rick Famuyiwa and starring Omar Epps, Richard T. Jones and Taye Diggs."
+**Cognitive Nexus:**
+- Coretta Scott King passed away on January 30, 2006, at the rehabilitation center in Rosarito Beach, Mexico
+- Her declining health began after suffering a stroke in August 2005 and being diagnosed with ovarian cancer
+- The main cause of her death was respiratory failure due to complications from advanced-stage ovarian cancer
+- Additional impact from the blood clot lodged in her brain contributed to her ongoing medical issues.
 
-**Knowledge Construction using Cognition Agent**:
-- Contradictory information: 
-    - Mention of "Robert Woods" as a classical music producer, which does not align with the question about the producer of the film "The Woods"
-- Analyzing the role of information:
-    - This information could update the model's knowledge and prevent factual errors by adding the correct producer of "The Woods" film, which is Matthew Lessner
+#### Understanding Who Produced "The Woods" through Cognitive Analysis
 
-**Cognitive Nexus**:
-- Contradictory information:
-    - "Robert Woods" mentioned as a classical music producer (not relevant to "The Woods" film)
-- Correct information:
-    - "The Woods is a 2011 film written and directed by Matthew Lessner."
-- Knowledge enhancement:
-    - Add the correct producer of "The Woods" film, which is Matthew Lessner
+**Producer of "The Woods"**
 
-**Answer**: The producer of "The Woods" is **Matthew Lessner**.
+**Question:** Who was the producer of The Woods?
+
+**Answer:** Matthew Lessner
+
+**Steps:**
+1. **Passage Retrieval**:
+   - Passage 1: Walter Wood (producer)
+   - Passage 2: The Woods is a 2011 film written and directed by Matthew Lessner...
+   - Passage 3: Robert Woods is a classical music producer...
+   - Passage 4: The Wood is a 1999 American coming of age film produced by Rick Famuyiwa and Todd Boyd...
+2. **Knowledge Construction using Cognition Agent**:
+   - Contradictory Knowledge:
+      * Mention of "Robert Woods" as a classical music producer does not align with the question about the producer of "The Woods" film
+   - Analyzing the Role of Information:
+      * This information could update the model's knowledge and prevent factual errors by adding the correct producer of "The Woods" film, which is Matthew Lessner.
+3. **Cognitive Nexus**:
+   - Contradictory Information: The mention of "Robert Woods" as a classical music producer does not align with the question about the producer of "The Woods" film
+   - Correct Producer: Matthew Lessner (mentioned in Passage 2)
+   - Updating Model's Knowledge: Adding the correct producer, Matthew Lessner, to prevent factual errors.
 
 ## A.2 Prompts Used in ActiveRAG
 
-ActiveRAG prompts for building the model:
-- Knowledge construction (Table 6): {question}, {passages} \n
-- Cognitive nexus (Table 7): {question}, {passages} \n
-- Response from chain-of-thought model: {chain_of_thought_reply}\n
-- Results of knowledge construction models: Associate, Anchoring, Logician, and Cognition (respectively)
+**ActiveRAG Prompt Templates for Model Building:**
+
+Table 6 and Table 7 in Appendix A display the templates used for our ActiveRAG model. The prompts are:
+- {question} (given question)
+- {passages} (retrieved passages)
+- {chain\_of\_thought\_reply} (output of chain-of-thought model)
+- {Associate\_knowledge\_constrcution\_reply}, {Anchoring\_knowledge\_constrcution\_reply}, {Logician\_knowledge\_constrcution\_reply}, and {Cognition\_knowledge\_constrcution\_reply} (outcomes of the respective knowledge construction models)
+
+In simpler terms, the templates include a question, passages retrieved for context, an answer from the chain-of-thought model, and replies generated by four knowledge construction models: Associate, Anchoring, Logician, and Cognition.
 
 ## A.3 Prompts Used in Baseline Models
 
-**Table 8**: Shows prompts used in our baseline models: ChatGPT-3.5, Guideline, Vanilla RAG, Chain-of-Note, Self-Rerank, and Self-Refine. The template for Chain-of-Note follows Yu et al.'s (2023b) description, while the prompt for Vanilla RAG is based on Ram et al. (2023b).
+**Table 8**: Shows the prompts used by our baseline models, including vanilla ChatGPT-3.5, Guideline, Vanilla RAG, Chain-of-Note, Self-Rerank, and Self-Refine. The Chain-of-Note prompt template follows Yu et al.'s (2023b) description, while the Vanilla RAG prompt template is derived from Ram et al. (2023b).
+
+**Note**: This passage has been made more concise by reducing redundant phrases and simplifying the language.
 
 ## A.4 Additional Case Studies
 
-**ActiveRAG Results: Case Studies**
-
-**ActiveRAG with Associate Model**:
-- Illustrated in Table [9](https://arxiv.org/html/2402.13547v1#A1.T9 "Table 9 ‣ A.1 License ‣ Appendix A Appendix ‣ ActiveRAG: Revealing the Treasures of Knowledge via Active Learning")
-- Initial chain-of-thought leads to erroneous inference
-- Associate-based knowledge construction method extracts related knowledge
-- LLMs identify incorrect reasoning process and augment it
-- Yield accurate answers
-
-**ActiveRAG with Anchoring Model**:
-- Illustrated in Table [10](https://arxiv.org/html/2402.13547v1#A1.T10 "Table 10 ‣ A.1 License ‣ Appendix A Appendix ‣ ActiveRAG: Revealing the Treasures of Knowledge via Active Learning")
-- Anchoring model identifies unfamiliar information as "Marie-Francine Hébert"
-- Accurately extracts related information from passages
-- Produces accurate response: "Nantes, France"
-
-**ActiveRAG with Logician Model**:
-- Illustrated in Table [11](https://arxiv.org/html/2402.13547v1#A1.T11 "Table 11 ‣ A.1 License ‣ Appendix A Appendix ‣ ActiveRAG: Revealing the Treasures of Knowledge via Active Learning")
-- Logician-based knowledge construction generates rational knowledge from retrieved passages
-- Recognizes that "The primary cause of Coretta Scott King’s death is attributed to respiratory failure resulting from complications related to ovarian cancer"
-- Provides accurate evidence directly
-
-**ActiveRAG with Cognition Model**:
-- Illustrated in Table [12](https://arxiv.org/html/2402.13547v1#A1.T12 "Table 12 ‣ A.1 License ‣ Appendix A Appendix ‣ ActiveRAG: Revealing the Treasures of Knowledge via Active Learning")
-- Cognition-based knowledge construction results illustrate that knowledge about " Robert Woods" does not align with query needs
-- Significance of knowledge construction in discerning distinctions, like "Woods" film vs. producer "Walter Wood"
-- Facilitates LLMs in generating precise responses.
+**ActiveRAG Cases and Results:**
+* **Table [9](https://arxiv.org/html/2402.13547v1#A1.T9 "Table 9 ‣ A.1 License ‣ Appendix A Appendix ‣ ActiveRAG: Revealing the Treasures of Knowledge via Active Learning")**:
+  + Generated by Associate model
+  + Initial chain-of-thought leads to erroneous inference
+  + LLMs identify raw chain-of-thought as incorrect reasoning process
+  + Augmenting reasoning process yields accurate answers
+* **Table [10](https://arxiv.org/html/2402.13547v1#A1.T10 "Table 10 ‣ A.1 License ‣ Appendix A Appendix ‣ ActiveRAG: Revealing the Treasures of Knowledge via Active Learning")**:
+  + Generated by Anchoring model
+  + Identifies unfamiliar knowledge as "Marie-Francine Hébert"
+  + Extracts related information to produce accurate response ("Nantes, France")
+* **Table [11](https://arxiv.org/html/2402.13547v1#A1.T11 "Table 11 ‣ A.1 License ‣ Appendix A Appendix ‣ ActiveRAG: Revealing the Treasures of Knowledge via Active Learning")**:
+  + Generated by Logician model
+  + Recognizes accurate knowledge about Coretta Scott King's cause of death
+  + Provides rational knowledge from retrieved passages
+* **Table [12](https://arxiv.org/html/2402.13547v1#A1.T12 "Table 12 ‣ A.1 License ‣ Appendix A Appendix ‣ ActiveRAG: Revealing the Treasures of Knowledge via Active Learning")**:
+  + Generated by Cognition model
+  + Knowledge about Robert Woods does not align with question needs
+  + Significance of knowledge construction in discerning distinctions for LLMs.
 
