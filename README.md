@@ -78,6 +78,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [A COMPREHENSIVE EVALUATION OF LARGE LANGUAGE MODELS ON MENTAL ILLNESS](psychology/mental-health-llm-survey.md) [Mental-Health]
 - [Severity Prediction in Mental Health: LLM-based Creation, Analysis, Evaluation of a Novel Multilingual Dataset](psychology/Severity-Prediction-in-Mental-Health.md) [Mental-Health]
 - [Harnessing Large Language Models: Fine-tuned BERT for Detecting Charismatic Leadership Tactics in Natural Language](psychology/Fine-tuned-BERT-for-Detecting-Charismatic-Leadership.md) [Personality-Detect]
+- [Words that Represent Peace](psychology/Words-that-Represent-Peace.md)
 
 ### Future Perspectives
 - [Leopold Aschenbrenner's Situational Awareness + The Decade Ahead (2024)](future-perspectives/situational-awareness_leopold-aschenbrenner.md) [aschenbrenner]
