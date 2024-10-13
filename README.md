@@ -5,17 +5,18 @@ Tracking ideas of interest, along with some background research to remember our 
 ## Contents
 - [Models Review](#models-review)
 - [Prompting](#prompting)
+- [Document Processing](#document-processing)
 - [Training](#training)
 - [Data Science](#data-science)
 - [Code and Tools](#code-and-tools)
 - [Interactive Agents](#interactive-agents)
-- [Word Processing](#word-processing)
+- [Human-like Computer Use](#human-like-computer-use)
 - [Education](#education)
 - [Psychology](#psychology)
 - [Future Perspectives](#future-perspectives)
 - [Historical](#historical)
 
-## Summaries
+## AI Research 
 ### Models Review
 - [What is the Role of Small Models in the LLM Era: A Survey](models-review/small-models_survey.md) [small-llm]
 - [Evaluation of OpenAI o1: Opportunities and Challenges of AGI](models-review/evaluation-o1-towards-agi-oportunities-challenges.md) [o1_use-case-eval]
@@ -26,6 +27,17 @@ Tracking ideas of interest, along with some background research to remember our 
 - [The Prompt Report: A Systematic Survey of Prompting Techniques](prompting/prompt-techniques_survey.md) [Prompt-Methods][Survey]
 - [ComfyGen: Prompt-Adaptive Workflows for Text-to-Image Generation](prompting/ComfyGen-Prompt-Adaptive-Workflows-Text-to-Image.md) [ImageGen]
 - [Thinking Before Speaking: A Role-playing Model with Mindset](prompting/Thinking-Before-Speaking-A-Role-playing-Model-with-Mindset.md) [Roleplay]
+
+### Document Processing
+- [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](document-processing/detect-order-construct.md) [Ingestion]
+- [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](document-processing/Attention-Seeker_Unsupervised-Keyphrase-Extraction.md) [Keywords]
+- [Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](document-processing/summary-of-a-haystack.md) [Long Context]
+- [Model-based Preference Optimization in Abstractive Summarization without Human Feedback](document-processing/Model-based-Preference-Optimization-in-Abstractive-Summarization-without-Human-Feedback.md) [Preference Optimization]
+- [Leveraging Long-Context Large Language Models for Multi-Document Understanding and Summarization in Enterprise Applications](document-processing/Multi-Document-Understanding-and-Summarization-Enterprise-Applications.md) [Multi-Document]
+- [Towards Efficient Methods in Medical Question Answering using Knowledge Graph Embeddings](document-processing/efficient-medical-qa.md) [Q/A]
+- [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](document-processing/Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain.md) [Medical Summary]
+- [Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits](document-processing/Mitigating-Idiosyncrasies_Improving-Human-AI-Alignment-in-Writing-through-Edits.md) [Editing]
+- [ActiveRAG: Revealing the Treasures of Knowledge via Active Learning](document-processing/ActiveRAG-Revealing-the-Treasures-of-Knowledge-via-Active-Learning.md)
 
 ### Training
 - [Ultimate Guide to Fine-Tuning LLMs: From Basics to Breakthroughs](training/ultimate-guide-fine-tuning-llm_parthasarathy.md) [Fine-Tune]
@@ -42,27 +54,21 @@ Tracking ideas of interest, along with some background research to remember our 
 ### Code and Tools
 - [LLM With Tools: A Survey](code-tools/llm-with-tools.md) [Tools]
 - [From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging](code-tools/Closing-the-Last-Mile-of-Code-Generation-with-Hierarchical-Debugging.md) [Code]
+- [ToolGen: Unified Tool Retrieval and Calling via Generation](code-tools/ToolGen-Unified-Tool-Retrieval-and-Calling-via-Generation.md) [Tools]
 
 ### Interactive Agents
 - [A Survey on Complex Tasks for Goal-Directed Interactive Agents](Survey-on-Complex-Tasks-for-Goal-Directed-Interactive-Agents.md) [Agents]
 - [Do LLMs suffer from Multi-Party Hangover?](Do-LLMs-suffer-from-Multi-Party-Hangover.md) [Multiparty] 
 - [TRAINING LANGUAGE MODELS TO WIN DEBATES WITH SELF-PLAY IMPROVES JUDGE ACCURACY](TRAINING-LANGUAGE-MODELS-TO-WINDEBATES-WITHSELF-PLAY.md) [Self-Play]
 - [Do great minds think alike? Investigating Human-AI Complementarity in Question Answering with caimira](interactive-agents/Investigating-Human-AI-Complementarity-in-Question-Answering-with-caimira.md) [Review-vs-Human]
+- [Conversational Swarms Of Humans And Ai Agents Enable Hybrid Collaborative Decision-Making](interactive-agents/Conversational-Swarms-Of-Humans-And-Ai-Agents-Enable-Hybrid-Collaborative-Decision-Making.md)
 
-### Document Processing
-- [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](document-processing/detect-order-construct.md) [Ingestion]
-- [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](document-processing/Attention-Seeker_Unsupervised-Keyphrase-Extraction.md) [Keywords]
-- [Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](document-processing/summary-of-a-haystack.md) [Long Context]
-- [Model-based Preference Optimization in Abstractive Summarization without Human Feedback](document-processing/Model-based-Preference-Optimization-in-Abstractive-Summarization-without-Human-Feedback.md) [Preference Optimization]
-- [Leveraging Long-Context Large Language Models for Multi-Document Understanding and Summarization in Enterprise Applications](document-processing/Multi-Document-Understanding-and-Summarization-Enterprise-Applications.md) [Multi-Document]
-- [Towards Efficient Methods in Medical Question Answering using Knowledge Graph Embeddings](document-processing/efficient-medical-qa.md) [Q/A]
-- [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](document-processing/Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain.md) [Medical Summary]
-- [Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits](document-processing/Mitigating-Idiosyncrasies_Improving-Human-AI-Alignment-in-Writing-through-Edits.md) [Editing]
+### Human-like Computer Use
 - [WEBLINX: Real-World Website Navigation with Multi-Turn Dialogue](document-processing/WEBLINX_Website-Navigation-Multi-Turn-Dialogue.md) [Web-Naviation]
-- [ActiveRAG: Revealing the Treasures of Knowledge via Active Learning](document-processing/ActiveRAG-Revealing-the-Treasures-of-Knowledge-via-Active-Learning.md)
+- [Agent S: An Open Agentic Framework that Uses Computers Like a Human](interactive-agents/Agent-S_Uses-Computers-Like-a-Human.md)
 
 ### Education
-- [LLMs in Education: Novel Perspectives, Challenges, and Opportunities](education/LLMs-in-Education_Review.md) [Review][Learning]
+- [LLMs in Education: Novel Perspectives, Challenges, and Opportunities](education/LLMs-in-Education_Review.md) [Review] [Learning]
 - [Exploring the Use of ChatGPT for a Systematic Literature Review: a Design-Based Research](education/Exploring-the-Use-of-ChatGPT-for-a-Systematic-Literature-Review.md) [Review][Science]
 - [The application of GPT-4 in grading design university students’ assignment and providing feedback: An exploratory study](education/grading-design-university-assignment_feedback.md) [Grading]
 - [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](education/Language_Agents_Science.md) [Science]
@@ -79,6 +85,9 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Severity Prediction in Mental Health: LLM-based Creation, Analysis, Evaluation of a Novel Multilingual Dataset](psychology/Severity-Prediction-in-Mental-Health.md) [Mental-Health]
 - [Harnessing Large Language Models: Fine-tuned BERT for Detecting Charismatic Leadership Tactics in Natural Language](psychology/Fine-tuned-BERT-for-Detecting-Charismatic-Leadership.md) [Personality-Detect]
 - [Words that Represent Peace](psychology/Words-that-Represent-Peace.md)
+- [MentalArena: Self-play Training of Language Models for Diagnosis and Treatment of Mental Health Disorders](psychology/MentalArena-Self-play-Training-Language-Models-Diagnosis-Treatment-Mental-Health-Disorders.md) [Diagnosis-Treatment]
+- [Large Language Models based on historical text could offer informative tools for behavioral science](psychology/LLM-of-historical-text-for-behavioral-science.md) [History] [Behavioral-Science]
+- [DISCO: A Hierarchical Disentangled Cognitive Diagnosis Framework for Interpretable Job Recommendation](psychology/DISCO-Cognitive-Diagnosis-Framework-for-Interpretable-Job-Recommendation.md)
 
 ### Future Perspectives
 - [Leopold Aschenbrenner's Situational Awareness + The Decade Ahead (2024)](future-perspectives/situational-awareness_leopold-aschenbrenner.md) [aschenbrenner]
