@@ -44,6 +44,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Finetuning LLMs for Comparative Assessment Tasks](training/Comparative-Assesment.md) [Fine-Tune] [Assessment]
 - [Propulsion: Steering LLM with Tiny Fine-Tuning](training/propultion-tiny-finetune.md) [Fine-Tune] [Tiny]
 - [InfiniPot: Efficiently Handling Long Input Contexts in Large Language Models (LLMs) on Memory-Constrained Devices](training/InfiniPot-Efficiently-Handling-Long-Input-Contexts_LLM_Memory-Constrained-Devices.md) [Long-Context] [Low-Memory]
+- [Inheritune: Training Smaller Yet More Attentive Language Models](training/inheritune-Smaller-Yet-More-Attentive-Language-Models.md)
 
 ### Data Science
 - [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](data-science/Spider2-V_Automating-Data-Science-and-Engineering-Workflows.md) [Data-Engineering]
@@ -88,6 +89,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [MentalArena: Self-play Training of Language Models for Diagnosis and Treatment of Mental Health Disorders](psychology/MentalArena-Self-play-Training-Language-Models-Diagnosis-Treatment-Mental-Health-Disorders.md) [Diagnosis-Treatment]
 - [Large Language Models based on historical text could offer informative tools for behavioral science](psychology/LLM-of-historical-text-for-behavioral-science.md) [History] [Behavioral-Science]
 - [DISCO: A Hierarchical Disentangled Cognitive Diagnosis Framework for Interpretable Job Recommendation](psychology/DISCO-Cognitive-Diagnosis-Framework-for-Interpretable-Job-Recommendation.md)
+- [Mapping neurotransmitter systems to the structural and functional organization of the human neocortex](psychology/Mapping-neurotransmitter-systems-to-the-structural-and-functional-organization-of-the-human-neocortex.md) [Neural-Correlates]
 
 ### Future Perspectives
 - [Leopold Aschenbrenner's Situational Awareness + The Decade Ahead (2024)](future-perspectives/situational-awareness_leopold-aschenbrenner.md) [aschenbrenner]
