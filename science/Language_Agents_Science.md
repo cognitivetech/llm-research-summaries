@@ -1,8 +1,8 @@
 # LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE
 
 by Michael D. Skarlinski, Sam Cox, Jon M. Laurent, James D. Braza, Michaela Hinks, Michael J. Hammerling, Manvitha Ponnapati, Samuel G. Rodriques, Andrew D. White
-https://storage.googleapis.com/fh-public/paperqa/Language_Agents_Science.pdf
 
+https://storage.googleapis.com/fh-public/paperqa/Language_Agents_Science.pdf
 
 ## Contents
 - [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](#language-agents-achieve-superhuman-synthesis-of-scientific-knowledge)

@@ -72,7 +72,10 @@ Tracking ideas of interest, along with some background research to remember our 
 - [LLMs in Education: Novel Perspectives, Challenges, and Opportunities](education/LLMs-in-Education_Review.md) [Review] [Learning]
 - [Exploring the Use of ChatGPT for a Systematic Literature Review: a Design-Based Research](education/Exploring-the-Use-of-ChatGPT-for-a-Systematic-Literature-Review.md) [Review][Science]
 - [The application of GPT-4 in grading design university students’ assignment and providing feedback: An exploratory study](education/grading-design-university-assignment_feedback.md) [Grading]
+
+### Science
 - [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](education/Language_Agents_Science.md) [Science]
+- [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](science/ScienceAgentBench_Language-Agents-for-Data-Driven-Scientific-Discovery.md)
 
 ### Psychology
 - [Autoformalization of Game Descriptions using Large Language Models](psychology/autoformalize-game-descriptions.md) [Game-Theory]
