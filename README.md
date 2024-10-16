@@ -44,6 +44,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](document-processing/Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain.md) [Medical Summary]
 - [Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits](document-processing/Mitigating-Idiosyncrasies_Improving-Human-AI-Alignment-in-Writing-through-Edits.md) [Editing]
 - [ActiveRAG: Revealing the Treasures of Knowledge via Active Learning](document-processing/ActiveRAG-Revealing-the-Treasures-of-Knowledge-via-Active-Learning.md)
+- [VERITAS-NLI: Validation and Extraction of Reliable Information Through Automated Scraping and Natural Language Inference](document-processing/VERITAS-NLI-Reliable-Information-Through-Automated-Scraping-and-Natural-Language-Inference.md)
 
 ## Training
 - [Ultimate Guide to Fine-Tuning LLMs: From Basics to Breakthroughs](training/ultimate-guide-fine-tuning-llm_parthasarathy.md) [Fine-Tune]
@@ -62,6 +63,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [LLM With Tools: A Survey](code-tools/llm-with-tools.md) [Tools]
 - [From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging](code-tools/Closing-the-Last-Mile-of-Code-Generation-with-Hierarchical-Debugging.md) [Code]
 - [ToolGen: Unified Tool Retrieval and Calling via Generation](code-tools/ToolGen-Unified-Tool-Retrieval-and-Calling-via-Generation.md) [Tools]
+- [STEPTOOL: A STEP-GRAINED REINFORCEMENT LEARNING FRAMEWORK FOR TOOL LEARNING IN LLMS](code-tools/STEPTOOL-A-STEP-GRAINED-REINFORCEMENT-LEARNING-FRAMEWORK-FOR-TOOL-LEARNING-IN-LLMS.md)
 
 ## Interactive Agents
 - [A Survey on Complex Tasks for Goal-Directed Interactive Agents](Survey-on-Complex-Tasks-for-Goal-Directed-Interactive-Agents.md) [Agents]
@@ -94,6 +96,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Measuring Human and AI Values based on Generative Psychometrics with Large Language Models](psychology/measuring-values_human-ai.md)
 - [Evaluating Psychological Safety of Large Language Models](psychology/Evaluating-Psychological-Safety-of-Large-Language-Models.md)
 - [When AIs Play God(se): The Emergent Heresies of LLMtheism](psychology/When-AIs-Play-God_Emergent-Heresies-LLMtheism.md)
+- [Can a Large Language Model be a Gaslighter?](psychology/Can-a-Large-Language-Model-be-a-Gaslighter.md)
 
 ### Mental Health
 - [DISCO: A Hierarchical Disentangled Cognitive Diagnosis Framework for Interpretable Job Recommendation](psychology/DISCO-Cognitive-Diagnosis-Framework-for-Interpretable-Job-Recommendation.md)
@@ -113,6 +116,7 @@ Tracking ideas of interest, along with some background research to remember our 
 ## Future Perspectives
 - [Leopold Aschenbrenner's Situational Awareness + The Decade Ahead (2024)](future-perspectives/situational-awareness_leopold-aschenbrenner.md) [aschenbrenner]
 - [The Future of Agents: AI is about to completely change how you use computers](future-perspectives/future-agents-gates.md) [Gates]
+- [Dystopian Dreams, Utopian Nightmares: AI and the Permanence of Racism](future-perspectives/Dystopian-Dreams-Utopian-Nightmares_AI-and-the-Permanence-of-Racism.md)
 
 ## Historical
 ### Statistical Language Models (SLMs) Era: 1990-2010
