@@ -84,6 +84,8 @@ Tracking ideas of interest, along with some background research to remember our 
 ## Science
 - [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](education/Language_Agents_Science.md) [Science]
 - [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](science/ScienceAgentBench_Language-Agents-for-Data-Driven-Scientific-Discovery.md)
+- [Two Heads Are Better Than One: A Multi-Agent System Has the Potential to Improve Scientific Idea Generation](science/Multi-Agent-System-to-Improve-Scientific-Idea-Generation.md)
+- [Society of Medical Simplifiers](science/Society-Medical-Simplifiers.md)
 
 ## Psychology
 - [Autoformalization of Game Descriptions using Large Language Models](psychology/autoformalize-game-descriptions.md) [Game-Theory]
