@@ -71,6 +71,8 @@ Tracking ideas of interest, along with some background research to remember our 
 - [TRAINING LANGUAGE MODELS TO WIN DEBATES WITH SELF-PLAY IMPROVES JUDGE ACCURACY](TRAINING-LANGUAGE-MODELS-TO-WINDEBATES-WITHSELF-PLAY.md) [Self-Play]
 - [Do great minds think alike? Investigating Human-AI Complementarity in Question Answering with caimira](interactive-agents/Investigating-Human-AI-Complementarity-in-Question-Answering-with-caimira.md) [Review-vs-Human]
 - [Conversational Swarms Of Humans And Ai Agents Enable Hybrid Collaborative Decision-Making](interactive-agents/Conversational-Swarms-Of-Humans-And-Ai-Agents-Enable-Hybrid-Collaborative-Decision-Making.md)
+- [Agentic Information Retrieval](interactive-agents/Agentic-Information-Retrieval.md)
+- [AFLOW : AUTOMATING AGENTIC WORKFLOW GENERATION](interactive-agents/AUTOMATING-AGENTIC-WORKFLOW-GENERATION.md)
 
 ## Human-like Computer Use
 - [WEBLINX: Real-World Website Navigation with Multi-Turn Dialogue](document-processing/WEBLINX_Website-Navigation-Multi-Turn-Dialogue.md) [Web-Naviation]
@@ -80,12 +82,16 @@ Tracking ideas of interest, along with some background research to remember our 
 - [LLMs in Education: Novel Perspectives, Challenges, and Opportunities](education/LLMs-in-Education_Review.md) [Review] [Learning]
 - [Exploring the Use of ChatGPT for a Systematic Literature Review: a Design-Based Research](education/Exploring-the-Use-of-ChatGPT-for-a-Systematic-Literature-Review.md) [Review][Science]
 - [The application of GPT-4 in grading design university students’ assignment and providing feedback: An exploratory study](education/grading-design-university-assignment_feedback.md) [Grading]
+- [Hey AI Can You Grade My Essay?: Automatic Essay Grading](education/Automatic-Essay-Grading.md) [Grading]
+- [The Future of Learning in the Age of Generative AI: Automated Question Generation and Assessment](education/Automated-Question-Generation-and-Assessment.md)
 
 ## Science
 - [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](education/Language_Agents_Science.md) [Science]
 - [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](science/ScienceAgentBench_Language-Agents-for-Data-Driven-Scientific-Discovery.md)
 - [Two Heads Are Better Than One: A Multi-Agent System Has the Potential to Improve Scientific Idea Generation](science/Multi-Agent-System-to-Improve-Scientific-Idea-Generation.md)
 - [Society of Medical Simplifiers](science/Society-Medical-Simplifiers.md)
+- [HLM-Cite: Hybrid Language Model Workflow for Text-based Scientific Citation](science/HLM-Cite_Hybrid-Language-Model-Workflow-for-Text-based-Scientific-Citation.md)
+- [Retrieval-based Parameter Ensemble for Zero-shot Learning](science/Retrieval-based-Parameter-Ensemble-for-Zero-shot-Learning.md) [medical]
 
 ## Psychology
 - [Autoformalization of Game Descriptions using Large Language Models](psychology/autoformalize-game-descriptions.md) [Game-Theory]
@@ -114,6 +120,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Harnessing Large Language Models: Fine-tuned BERT for Detecting Charismatic Leadership Tactics in Natural Language](psychology/Fine-tuned-BERT-for-Detecting-Charismatic-Leadership.md) [Personality-Detect]
 - [Words that Represent Peace](psychology/Words-that-Represent-Peace.md)
 - [Research on Predicting Public Opinion Event Heat Levels Based on Large Language Models](psychology/predict-public-opinion.md) [Social-Science]
+- [Traversing Emotional Landscapes and Linguistic Patterns in Bernard-Marie](psychology/Traversing-Emotional-Landscapes-and-Linguistic-Patterns.md)
 
 ## Future Perspectives
 - [Leopold Aschenbrenner's Situational Awareness + The Decade Ahead (2024)](future-perspectives/situational-awareness_leopold-aschenbrenner.md) [aschenbrenner]
