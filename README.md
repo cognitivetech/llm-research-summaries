@@ -84,6 +84,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [The application of GPT-4 in grading design university students’ assignment and providing feedback: An exploratory study](education/grading-design-university-assignment_feedback.md) [Grading]
 - [Hey AI Can You Grade My Essay?: Automatic Essay Grading](education/Automatic-Essay-Grading.md) [Grading]
 - [The Future of Learning in the Age of Generative AI: Automated Question Generation and Assessment](education/Automated-Question-Generation-and-Assessment.md)
+- [STUDENTS RATHER THAN EXPERTS: A NEW AI FOR EDUCATION PIPELINE TO MODEL MORE HUMAN-LIKE AND PERSONALISED EARLY ADOLESCENCES](education/AI-FOR-EDUCATION-PIPELINE-TO-MODEL-MORE-HUMAN-LIKE-AND-PERSONALISED-EARLY-ADOLESCENCES.md)
 
 ## Science
 - [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](education/Language_Agents_Science.md) [Science]
