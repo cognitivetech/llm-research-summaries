@@ -3,6 +3,19 @@
 by Xingxuan Li, Yutong Li, Lin Qiu, Shafiq Joty, Lidong Bing
 https://arxiv.org/abs/2212.10529
 
+## Contents
+- [Abstract](#abstract)
+- [1 Introduction](#1-introduction)
+- [2 Related Work](#2-related-work)
+- [3 Experiment Setup](#3-experiment-setup)
+- [4 Results and Analysis](#4-results-and-analysis)
+  - [4.2 Research Question 2: Do LLMs with Less Explicit Toxicity Show Better Personality Patterns?](#42-research-question-2-do-llms-with-less-explicit-toxicity-show-better-personality-patterns)
+  - [4.3 Research Question 3: Do LLMs Show Satisfaction in Well-being Tests?](#43-research-question-3-do-llms-show-satisfaction-in-well-being-tests)
+  - [4.4 Personality Profile of the LLMs and Cross-Test Analysis](#44-personality-profile-of-the-llms-and-cross-test-analysis)
+  - [4.5 Alleviating Dark Personality Patterns of Llama-2-chat](#45-alleviating-dark-personality-patterns-of-llama-2-chat)
+- [Appendix A](#appendix-a)
+
+
 ## Abstract
 - Designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs)
 - Tested five different LLMs using:
