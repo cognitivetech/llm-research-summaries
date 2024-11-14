@@ -98,6 +98,8 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Society of Medical Simplifiers](science/Society-Medical-Simplifiers.md)
 - [HLM-Cite: Hybrid Language Model Workflow for Text-based Scientific Citation](science/HLM-Cite_Hybrid-Language-Model-Workflow-for-Text-based-Scientific-Citation.md)
 - [Retrieval-based Parameter Ensemble for Zero-shot Learning](science/Retrieval-based-Parameter-Ensemble-for-Zero-shot-Learning.md) [medical]
+- [Artificial Intelligence Applications for Social Science Research](science/AI-Tools-for-Social-Scientists.md) [Research Tools]
+
 
 ## Psychology
 - [Autoformalization of Game Descriptions using Large Language Models](psychology/autoformalize-game-descriptions.md) [Game-Theory]
