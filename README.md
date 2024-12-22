@@ -45,6 +45,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits](document-processing/Mitigating-Idiosyncrasies_Improving-Human-AI-Alignment-in-Writing-through-Edits.md) [Editing]
 - [ActiveRAG: Revealing the Treasures of Knowledge via Active Learning](document-processing/ActiveRAG-Revealing-the-Treasures-of-Knowledge-via-Active-Learning.md)
 - [VERITAS-NLI: Validation and Extraction of Reliable Information Through Automated Scraping and Natural Language Inference](document-processing/VERITAS-NLI-Reliable-Information-Through-Automated-Scraping-and-Natural-Language-Inference.md)
+- [DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception](document-processing/DocLayout-YOLO-Enhancing-Document-Layout-Analysis-through-Diverse-Synthetic-Data-and-Global-to-Local-Adaptive-Perception.md)
 
 ## Training
 
@@ -57,6 +58,10 @@ Tracking ideas of interest, along with some background research to remember our 
 - [BitDelta: Your Fine-Tune May Only Be Worth One Bit](training/BitDelta_Your-Fine-Tune-May-Only-Be-Worth-One-Bit.md) 
 - [Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning](training/Chain-of-Lora_Residual-Learning.md) 
 - [Retrieval Instead of Fine-tuning: A Retrieval-based Parameter Ensemble for Zero-shot Learning](training/Retrieval-Instead_Fine-tuning.md) 
+- [LoRA Done RITE: Robust Invariant Transformation Equilibration for LoRA Optimization](training/LoRA-Done-RITE_Robust-Invariant-Transformation-Equilibration.md)
+- [LoRA Learns Less and Forgets Less](training/LoRA_Learns-Less-Forgets-Less.md)
+- [LoRA vs Full Fine-tuning: An Illusion of Equivalence](training/LoRA-vs-Full-Fine-tuning-Illusion-Equivalence.md)
+- [SLIM: Let LLM Learn More and Forget Less with Soft LoRA and Identity Mixture](training/SLIM-Let-LLM-Learn-More-and-Forget-Less-with-Soft-LoRA-and-Identity-Mixture.md)
 
 ## Data Science
 - [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](data-science/Spider2-V_Automating-Data-Science-and-Engineering-Workflows.md) [Data-Engineering]
@@ -107,6 +112,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Large Language Models based on historical text could offer informative tools for behavioral science](psychology/LLM-of-historical-text-for-behavioral-science.md) [History] [Behavioral-Science]
 - [Mapping neurotransmitter systems to the structural and functional organization of the human neocortex](psychology/Mapping-neurotransmitter-systems-to-the-structural-and-functional-organization-of-the-human-neocortex.md) [Neural-Correlates]
 - [Automated Social Science: Language Models as Scientist and Subjects](science/Social-Science_Scientist-Subjects.md)
+- [Evaluating LLMs Capabilities Towards Understanding Social Dynamics](psychology/Evaluating-LLMs-Capabilities-Towards-Understanding-Social-Dynamics.md) 
 
 ### AI Psychology
 - [Large Language Models and Cognitive Science: A Comprehensive Review of Similarities, Differences, and Challenges](psychology/LLM-and-Cognitive-Science_Comprehensive-Review.md)
