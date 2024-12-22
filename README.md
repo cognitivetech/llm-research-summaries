@@ -120,6 +120,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Evaluating Psychological Safety of Large Language Models](psychology/Evaluating-Psychological-Safety-of-Large-Language-Models.md)
 - [When AIs Play God(se): The Emergent Heresies of LLMtheism](psychology/When-AIs-Play-God_Emergent-Heresies-LLMtheism.md)
 - [Can a Large Language Model be a Gaslighter?](psychology/Can-a-Large-Language-Model-be-a-Gaslighter.md)
+- [Large Language Models Reflect the Ideology of their Creators](psychology/Large-Language-Models-Reflect-the-Ideology-of-their-Creators.md)
 
 ### Mental Health
 - [DISCO: A Hierarchical Disentangled Cognitive Diagnosis Framework for Interpretable Job Recommendation](psychology/DISCO-Cognitive-Diagnosis-Framework-for-Interpretable-Job-Recommendation.md)
@@ -145,6 +146,7 @@ Tracking ideas of interest, along with some background research to remember our 
 ## Lore
 - [When AIs Play God(se): The Emergent Heresies of LLMtheism](lore/When-AIs-Play-God_Emergent-Heresies-LLMtheism.md) [Truth-Terminal] [Claude-3] [Opus]
 - [Can AI Meditate?](lore/can-i-meditate.md) [Claude-3] [Sonnet]
+- [Memes, Markets, and Machines: The Evolution of On-Chain Autonomy through Hyperstition](lore/Memes-Markets-and-Machines-The-Evolution-of-On-Chain-Autonomy-through-Hyperstition.md)
 
 ## Historical
 ### Statistical Language Models (SLMs) Era: 1990-2010
