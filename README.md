@@ -3,6 +3,7 @@
 Tracking ideas of interest, along with some background research to remember our context in AI history.
 
 ## Contents
+- [Contents](#contents)
 - [Models Review](#models-review)
 - [Prompting](#prompting)
 - [Document Processing](#document-processing)
@@ -14,8 +15,8 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Interactive Agents](#interactive-agents)
 - [Computer Use](#computer-use)
 - [Education](#education)
-- [Science](#science)
-- [Psychology](#psychology)
+- [Scientific Research](#scientific-research)
+- [Social Science](#social-science)
   - [AI Psychology](#ai-psychology)
   - [Mental Health](#mental-health)
   - [Types Predict](#types-predict)
