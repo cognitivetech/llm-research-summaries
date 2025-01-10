@@ -169,3 +169,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - 1999: [An empirical study of smoothing techniques for language modeling](history/SLM_empirical-study-of-smoothing-techniques-for-language-modeling.md) (Chen & Goodman) [Improved-Language-Models]    
 - 2002: [Latent Dirichlet Allocation (LDA)](history/SLM_Latent-Dirichlet-Allocation.md) (Blei et al.) [Document-Clustering]    
 - 2006: [Hierarchical Pitman-Yor language model](history/SLM_A-Hierarchical-Bayesian-Language-Model-based-on-Pitman-Yor-Processes.md) (Teh) [Text-Generation]
+
+## Resources
+
+- [Agents for Computer Use](https://github.com/francedot/acu):  A curated list of resources about AI agents for Computer Use, including research papers, projects, frameworks, and tools. 
