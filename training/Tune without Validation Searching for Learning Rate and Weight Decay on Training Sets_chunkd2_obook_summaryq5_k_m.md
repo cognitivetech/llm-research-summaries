@@ -1,10 +1,22 @@
-# Tune without Validation Searching for Learning Rate and Weight Decay on Training Sets_chunkd2
+# Tune without Validation Searching for Learning Rate and Weight Decay on Training Sets 
+source https://arxiv.org/html/2403.05532v1
+by Lorenzo Brigato, Stavroula Mougiakakou 
 
-## cognitivetech/obook_summary:q5_k_m
-
-## Tune without Validation: Searching for Learning Rate and Weight Decay on Training Sets
-
-"Reference: arXiv.org article (Link: [2403.05532v1](https://arxiv.org/html/2403.05532v1))"
+## Contents
+- [Abstract](#abstract)
+- [1 Introduction](#1-introduction)
+- [2 Related Work](#2-related-work)
+- [3 Tune without Validation](#3-tune-without-validation)
+  - [3.1 Preliminaries](#31-preliminaries)
+  - [3.2 Working Principle](#32-working-principle)
+  - [3.3 Pipeline](#33-pipeline)
+- [4 Experiments](#4-experiments)
+  - [4.1 Overview](#41-overview)
+  - [4.2 Small Datasets](#42-small-datasets)
+  - [4.3 Medical Images](#43-medical-images)
+  - [4.4 Natural Images](#44-natural-images)
+  - [4.5 Ablations](#45-ablations)
+- [5 Conclusions](#5-conclusions)
 
 ## Abstract
 
