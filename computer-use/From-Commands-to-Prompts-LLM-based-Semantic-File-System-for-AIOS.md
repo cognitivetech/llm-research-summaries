@@ -31,7 +31,6 @@ Co-authors Zeru Shi and Kai Mei share equal contributions in this research artic
   - [D.3 The code can generate shareable link](#d3-the-code-can-generate-shareable-link)
 - [Appendix E Further Discussions](#appendix-e-further-discussions)
 
-
 ## From Commands to Prompts:
 
 **LLM-based Semantic File System for AIOS**

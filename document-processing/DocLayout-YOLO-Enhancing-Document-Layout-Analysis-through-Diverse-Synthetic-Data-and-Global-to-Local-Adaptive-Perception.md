@@ -22,7 +22,6 @@ Zhiyuan Zhao, Hengrui Kang\* and Bin Wang, Conghui He (Shanghai Artificial Intel
   - [5.3 Implementation Details](#53-implementation-details)
   - [5.4 Main Results](#54-main-results)
 
-
 ## Abstract
 
 **Document Understanding Systems: Document Layout Analysis**

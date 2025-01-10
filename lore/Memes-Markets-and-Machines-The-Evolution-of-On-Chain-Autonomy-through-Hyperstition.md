@@ -37,7 +37,6 @@ Received & Published: October 29, 2024 ([1]Parallel Polis [2]OpenAI)
 - [8 Conclusion](#8-conclusion)
   - [8.1 What’s Next](#81-whats-next)
 
-
 ## 1 Introduction
 
 **The Convergence of AI, Meme Culture, and Financial Markets**

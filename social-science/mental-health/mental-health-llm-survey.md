@@ -29,7 +29,6 @@ https://arxiv.org/pdf/2409.15687
 - [4 Additional Investigations](#4-additional-investigations)
 - [5 Challenges, Conclusions and Future Directions](#5-challenges-conclusions-and-future-directions)
 
-
 ## Abstract
 **Study Findings on Large Language Models (LLMs) in Mental Health Tasks**
 

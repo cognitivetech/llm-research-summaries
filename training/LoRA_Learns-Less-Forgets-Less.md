@@ -47,7 +47,6 @@
   - [H.2 Training on Multiple GPUs with Fully Sharded Data Parallelism](#h2-training-on-multiple-gpus-with-fully-sharded-data-parallelism)
 - [Appendix I LoRA Throughput and Memory Measurements](#appendix-i-lora-throughput-and-memory-measurements)
 
-
 ## Abstract
 
 **Low-Rank Adaptation (LoRA)**:

@@ -568,7 +568,6 @@
 - **Access:**
   - Cost: It does not seem to come with any cost once you sign up and log in.
 
-
 ### [ChatCSV](https://www.chatcsv.co/)
 > ChatCSV allows users to upload CSV files and ask questions about their data. You can create visualizations with this tool that can be shared openly.
 

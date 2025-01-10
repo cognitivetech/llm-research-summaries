@@ -678,7 +678,6 @@ Ambiguous questions can be interpreted in multiple ways, making it challenging f
 - Few-Shot CoT performed the best, with unexplained performance drops from certain techniques needing further research
 - Prompting technique selection is akin to hyperparameter search and is very difficult.
 
-
 ### 6.2 Prompt Engineering Case Study
 
 #### 6.2.1 Problem

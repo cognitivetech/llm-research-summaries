@@ -45,7 +45,6 @@ https://storage.googleapis.com/fh-public/paperqa/Language_Agents_Science.pdf
 - PaperQA2 exceeds PhD student/postdoc performance in retrieval and summarization tasks.
 - Applies PaperQA2 to contradiction detection task, identifying inconsistencies at scale.
 
-
 ## 2 Answering scientific questions
 
 **LitQA2: Evaluating AI Systems for Retrieval from Scientific Literature**
@@ -80,7 +79,6 @@ https://storage.googleapis.com/fh-public/paperqa/Language_Agents_Science.pdf
 - Outperforms other RAG systems on the LitQA2 benchmark in both precision and accuracy
 - All RAG systems tested, with exception of Elicit, outperform non-RAG frontier models in both precision and accuracy
 - Accuracy on new set of 101 questions did not differ significantly from original set of 147 questions, indicating optimizations generalized well to new questions.
-
 
 ## 3 Performance analysis of PaperQA2
 
@@ -130,7 +128,6 @@ https://storage.googleapis.com/fh-public/paperqa/Language_Agents_Science.pdf
 - This is likely specific to being a retrieval task, as there is often only a single passage needed from a paper's body
 - Anecdotally, better parsings were crucial for extracting data from tables in WikiCrow
 
-
 ## 4 Summarizing scientific topics
 
 **WikiCrow System for Generating Wikipedia-Style Articles on Protein Coding Genes**
@@ -152,7 +149,6 @@ https://storage.googleapis.com/fh-public/paperqa/Language_Agents_Science.pdf
 - Regulates keratinization in epithelial cells for skin formation and integrity
 - Linked to autosomal dominant hypocalcified amelogenesis imperfecta (ADHCAI), a genetic disorder affecting enamel development
 - Interacts with various proteins, essential for cellular processes like recruiting CK-Ia to keratin filaments.
-
 
 ## 5 Detecting contradictions in the literature
 
@@ -178,7 +174,6 @@ https://storage.googleapis.com/fh-public/paperqa/Language_Agents_Science.pdf
 - Annotators might exhibit bias towards agreeing with the model or being influenced by its reasoning
 - Further evaluated ContraCrow through "contradiction detection" task, experts agreed with each other more than with ContraCrow (75.5% vs 60.42%)
 - Overconfidence on ContraCrow's part may be a primary driver of lack of agreement with human annotators.
-
 
 ## 6 Conclusions
 

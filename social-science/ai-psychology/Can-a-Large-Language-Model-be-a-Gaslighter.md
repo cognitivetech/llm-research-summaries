@@ -40,7 +40,6 @@ https://arxiv.org/abs/2410.09181
   - [C.4 Relation with Text Toxicity Detection](#c4-relation-with-text-toxicity-detection)
   - [C.5 Radar Chart of Anti-gaslighting LLMs](#c5-radar-chart-of-anti-gaslighting-llms)
 
-
 ## Abstract
 
 **DeepCoG Framework for Investigating LLM Vulnerability to Gaslighting Attacks**

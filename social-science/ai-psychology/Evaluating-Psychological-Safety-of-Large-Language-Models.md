@@ -15,7 +15,6 @@ https://arxiv.org/abs/2212.10529
   - [4.5 Alleviating Dark Personality Patterns of Llama-2-chat](#45-alleviating-dark-personality-patterns-of-llama-2-chat)
 - [Appendix A](#appendix-a)
 
-
 ## Abstract
 - Designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs)
 - Tested five different LLMs using:
