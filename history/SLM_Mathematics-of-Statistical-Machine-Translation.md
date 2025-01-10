@@ -343,7 +343,6 @@
 - Replace **Pr(f|e)** with c' **Pr(f|e)** for some empirically chosen constant c, but this is only a temporary relief
 - Better modeling is the true cure
 
-
 ### 6.2 Viterbi Training
 - Evaluating expectations becomes increasingly difficult as models progress from 1 to 5
 - Converges when reestimating parameters to make current Viterbi alignments as probable as possible

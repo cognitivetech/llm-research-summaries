@@ -23,7 +23,6 @@ https://arxiv.org/abs/2410.09631
   - [A.4 Language Clarifier](#a4-language-clarifier)
   - [A.5 Redundancy Checker](#a5-redundancy-checker)
 
-
 ## Abstract
 
 **Medical Text Simplification**:

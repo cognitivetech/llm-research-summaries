@@ -28,7 +28,6 @@ Email addresses: junianyen@cs.ucla.edu, sisidaisy@google.com, mengzhao@google.co
   - [A.5 Proof of Theorem 3](#a5-proof-of-theorem3)
   - [A.6 Gemma2 Experiment Result](#a6-gemma2-experiment-result)
 
-
 ## Abstract
 
 **LoRA-RITE: A Novel Adaptive Matrix Preconditioning Method for LoRA Optimization**
