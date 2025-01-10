@@ -169,3 +169,8 @@ Tracking ideas of interest, along with some background research to remember our 
 - 1999: [An empirical study of smoothing techniques for language modeling](history/SLM_empirical-study-of-smoothing-techniques-for-language-modeling.md) (Chen & Goodman) [Improved-Language-Models]    
 - 2002: [Latent Dirichlet Allocation (LDA)](history/SLM_Latent-Dirichlet-Allocation.md) (Blei et al.) [Document-Clustering]    
 - 2006: [Hierarchical Pitman-Yor language model](history/SLM_A-Hierarchical-Bayesian-Language-Model-based-on-Pitman-Yor-Processes.md) (Teh) [Text-Generation]
+
+## Resources 
+- [arXiv](https://arxiv.org/) - arXiv is a free distribution service and an open-access archive for nearly 2.4 million scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. 
+- [CatalyzeX](https://www.catalyzex.com/) - Get code for papers directly on Google, Arxiv, Scholar, Twitter, and more
+- [Papers With Code](https://paperswithcode.com/) -  The mission of Papers with Code is to create a free and open resource with Machine Learning papers, code, datasets, methods and evaluation tables. 
