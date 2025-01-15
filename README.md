@@ -60,6 +60,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](document-processing/summary-of-a-haystack.md) [Long Context]
 - [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](document-processing/Attention-Seeker_Unsupervised-Keyphrase-Extraction.md) [Keywords]
 - [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](document-processing/detect-order-construct.md) [Ingestion]
+- [Learning Transferable Visual Models From Natural Language Supervision](document-processing/Learning-Transferable-Visual-Models-From-Natural-Language-Supervision_2103.00020.md)
 
 ## Training
 - [Analyzing Fine-tuning Representation Shift for Multimodal LLMs Steering](training/Analyzing-Fine-tuning-Representation-Shift-for-Multimodal-LLMs-Steering.md)
@@ -204,4 +205,4 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Agents for Computer Use](https://github.com/francedot/acu):  A curated list of resources about AI agents for Computer Use, including research papers, projects, frameworks, and tools. 
 - [arXiv](https://arxiv.org/) - arXiv is a free distribution service and an open-access archive for nearly 2.4 million scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. 
 - [CatalyzeX](https://www.catalyzex.com/) - Get code for papers directly on Google, Arxiv, Scholar, Twitter, and more
-- [Papers With Code](https://paperswithcode.com/) -  The mission of Papers with Code is to create a free and open resource with Machine Learning papers, code, datasets, methods and evaluation tables. 
+- [Papers With Code](https://paperswithcode.com/) - The mission of Papers with Code is to create a free and open resource with Machine Learning papers, code, datasets, methods and evaluation tables. 
