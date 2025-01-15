@@ -1,6 +1,7 @@
 # LongKey: Keyphrase Extraction for Long Documents
 
-Jeovane Honorio Alves and Cinthia Obladen de Almendra Freitas (PPGD Law, Pontifícia Universidade Católica do Paraná)
+
+Jeovane Honorio Alves and Cinthia Obladen de Almendra Freitas (PPGD Law, Pontifícia Universidade Católica do Paraná) [2411.17863](https://arxiv.org/abs/2411.17863)
 
 Contact: cinthia.freitas@pucpr.br
 

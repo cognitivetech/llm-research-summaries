@@ -46,21 +46,22 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](prompting/prompt-based-learning.md) [Prompt-Methods]
 
 ## Document Processing
-- [AltGen AI-Driven Alt Text Generation for Enhancing EPUB Accessibility](document-processing/AltGen-AI-Driven-Alt-Text-Generation-for-Enhancing-EPUB-Accessibility.md)
+- [Fully automatic extraction of morphological traits from the Web: utopia or reality?](document-processing/automated-data-extract-2409.17179.md) (2024-09)
+- [AltGen AI-Driven Alt Text Generation for Enhancing EPUB Accessibility](document-processing/AltGen-AI-Driven-Alt-Text-Generation-for-Enhancing-EPUB-Accessibility_2501.00113v1.md) (2025-01)
 - [Le deep learning est-il le futur du text mining](document-processing/Le-deep-learning-est-il-le-futur-du-text-mining.md)
-- [LongKey: Keyphrase Extraction for Long Documents](document-processing/LongKey-Keyphrase-Extraction-for-Long-Documents.md)
-- [DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception](document-processing/DocLayout-YOLO-Enhancing-Document-Layout-Analysis-through-Diverse-Synthetic-Data-and-Global-to-Local-Adaptive-Perception.md)
-- [VERITAS-NLI: Validation and Extraction of Reliable Information Through Automated Scraping and Natural Language Inference](document-processing/VERITAS-NLI-Reliable-Information-Through-Automated-Scraping-and-Natural-Language-Inference.md)
-- [ActiveRAG: Revealing the Treasures of Knowledge via Active Learning](document-processing/ActiveRAG-Revealing-the-Treasures-of-Knowledge-via-Active-Learning.md)
-- [Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits](document-processing/Mitigating-Idiosyncrasies_Improving-Human-AI-Alignment-in-Writing-through-Edits.md) [Editing]
-- [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](document-processing/Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain.md) [Medical Summary]
-- [Towards Efficient Methods in Medical Question Answering using Knowledge Graph Embeddings](document-processing/efficient-medical-qa.md) [Q/A]
-- [Leveraging Long-Context Large Language Models for Multi-Document Understanding and Summarization in Enterprise Applications](document-processing/Multi-Document-Understanding-and-Summarization-Enterprise-Applications.md) [Multi-Document]
-- [Model-based Preference Optimization in Abstractive Summarization without Human Feedback](document-processing/Model-based-Preference-Optimization-in-Abstractive-Summarization-without-Human-Feedback.md) [Preference Optimization]
-- [Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](document-processing/summary-of-a-haystack.md) [Long Context]
-- [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](document-processing/Attention-Seeker_Unsupervised-Keyphrase-Extraction.md) [Keywords]
-- [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](document-processing/detect-order-construct.md) [Ingestion]
-- [Learning Transferable Visual Models From Natural Language Supervision](document-processing/Learning-Transferable-Visual-Models-From-Natural-Language-Supervision_2103.00020.md)
+- [LongKey: Keyphrase Extraction for Long Documents](document-processing/LongKey-Keyphrase-Extraction-for-Long-Documents_2411.17863.md) (2024-11)
+- [DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception](document-processing/DocLayout-YOLO-Enhancing-Document-Layout-Analysis-through-Diverse-Synthetic-Data-and-Global-to-Local-Adaptive-Perception_2410.12628v1.md) (2024-10)
+- [VERITAS-NLI: Validation and Extraction of Reliable Information Through Automated Scraping and Natural Language Inference](document-processing/VERITAS-NLI-Reliable-Information-Through-Automated-Scraping-and-Natural-Language-Inference-2410.09455.md) (2024-10)
+- [ActiveRAG: Revealing the Treasures of Knowledge via Active Learning](document-processing/ActiveRAG-Revealing-the-Treasures-of-Knowledge-via-Active-Learning_2402.13547v1.md) (2024-02)
+- [Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits](document-processing/Mitigating-Idiosyncrasies_Improving-Human-AI-Alignment-in-Writing-through-Edits-2409.14509.md) [Editing] (2024-09)
+- [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](document-processing/Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain-2409.18170.md) [Medical Summary] (2024-09)
+- [Towards Efficient Methods in Medical Question Answering using Knowledge Graph Embeddings](document-processing/efficient-medical-qa-2401.07977.md) [Q/A] (2024-01)
+- [Leveraging Long-Context Large Language Models for Multi-Document Understanding and Summarization in Enterprise Applications](document-processing/Multi-Document-Understanding-and-Summarization-Enterprise-Applications-2409.17698.md) [Multi-Document]
+- [Model-based Preference Optimization in Abstractive Summarization without Human Feedback](document-processing/Model-based-Preference-Optimization-in-Abstractive-Summarization-without-Human-Feedback-2409.18618.md) [Preference Optimization] (2024-09)
+- [Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](document-processing/summary-of-a-haystack_2407.01370v1.md) [Long Context]
+- [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](document-processing/Attention-Seeker_Unsupervised-Keyphrase-Extraction-2409.10907.md) [Keywords] (2024-09)
+- [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](document-processing/detect-order-construct_2401.11874v2.md) [Ingestion]
+- [Learning Transferable Visual Models From Natural Language Supervision](document-processing/Learning-Transferable-Visual-Models-From-Natural-Language-Supervision_2103.00020.md) (2021-03)
 
 ## Training
 - [Analyzing Fine-tuning Representation Shift for Multimodal LLMs Steering](training/Analyzing-Fine-tuning-Representation-Shift-for-Multimodal-LLMs-Steering.md)
