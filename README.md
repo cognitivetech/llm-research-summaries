@@ -42,26 +42,26 @@ Tracking ideas of interest, along with some background research to remember our 
 - [The Grammar of Thought Does Fine-Tuning Make a Difference?](prompting/The-Grammar-of-Thought-Does-Fine-Tuning-Make-a-Difference?.md)
 - [Thinking Before Speaking: A Role-playing Model with Mindset](prompting/Thinking-Before-Speaking-A-Role-playing-Model-with-Mindset.md) [Roleplay]
 - [ComfyGen: Prompt-Adaptive Workflows for Text-to-Image Generation](prompting/ComfyGen-Prompt-Adaptive-Workflows-Text-to-Image.md) [ImageGen]
-- [The Prompt Report: A Systematic Survey of Prompting Techniques](prompting/prompt-techniques_survey.md) [Prompt-Methods][Survey]
+- [The Prompt Report: A Systematic Survey of Prompting Techniques](prompting/prompt-techniques_survey.md) [Prompt-Methods] [Survey]
 - [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](prompting/prompt-based-learning.md) [Prompt-Methods]
 
 ## Document Processing
-- [Fully automatic extraction of morphological traits from the Web: utopia or reality?](document-processing/automated-data-extract-2409.17179.md) (2024-09)
-- [AltGen AI-Driven Alt Text Generation for Enhancing EPUB Accessibility](document-processing/AltGen-AI-Driven-Alt-Text-Generation-for-Enhancing-EPUB-Accessibility_2501.00113v1.md) (2025-01)
+- (2024-09) [Fully automatic extraction of morphological traits from the Web: utopia or reality?](document-processing/automated-data-extract-2409.17179.md)
+- (2025-01) [AltGen AI-Driven Alt Text Generation for Enhancing EPUB Accessibility](document-processing/AltGen-AI-Driven-Alt-Text-Generation-for-Enhancing-EPUB-Accessibility_2501.00113v1.md)
 - [Le deep learning est-il le futur du text mining](document-processing/Le-deep-learning-est-il-le-futur-du-text-mining.md)
-- [LongKey: Keyphrase Extraction for Long Documents](document-processing/LongKey-Keyphrase-Extraction-for-Long-Documents_2411.17863.md) (2024-11)
-- [DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception](document-processing/DocLayout-YOLO-Enhancing-Document-Layout-Analysis-through-Diverse-Synthetic-Data-and-Global-to-Local-Adaptive-Perception_2410.12628v1.md) (2024-10)
-- [VERITAS-NLI: Validation and Extraction of Reliable Information Through Automated Scraping and Natural Language Inference](document-processing/VERITAS-NLI-Reliable-Information-Through-Automated-Scraping-and-Natural-Language-Inference-2410.09455.md) (2024-10)
-- [ActiveRAG: Revealing the Treasures of Knowledge via Active Learning](document-processing/ActiveRAG-Revealing-the-Treasures-of-Knowledge-via-Active-Learning_2402.13547v1.md) (2024-02)
-- [Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits](document-processing/Mitigating-Idiosyncrasies_Improving-Human-AI-Alignment-in-Writing-through-Edits-2409.14509.md) [Editing] (2024-09)
-- [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](document-processing/Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain-2409.18170.md) [Medical Summary] (2024-09)
-- [Towards Efficient Methods in Medical Question Answering using Knowledge Graph Embeddings](document-processing/efficient-medical-qa-2401.07977.md) [Q/A] (2024-01)
-- [Leveraging Long-Context Large Language Models for Multi-Document Understanding and Summarization in Enterprise Applications](document-processing/Multi-Document-Understanding-and-Summarization-Enterprise-Applications-2409.17698.md) [Multi-Document]
-- [Model-based Preference Optimization in Abstractive Summarization without Human Feedback](document-processing/Model-based-Preference-Optimization-in-Abstractive-Summarization-without-Human-Feedback-2409.18618.md) [Preference Optimization] (2024-09)
-- [Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](document-processing/summary-of-a-haystack_2407.01370v1.md) [Long Context]
-- [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](document-processing/Attention-Seeker_Unsupervised-Keyphrase-Extraction-2409.10907.md) [Keywords] (2024-09)
-- [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](document-processing/detect-order-construct_2401.11874v2.md) [Ingestion]
-- [Learning Transferable Visual Models From Natural Language Supervision](document-processing/Learning-Transferable-Visual-Models-From-Natural-Language-Supervision_2103.00020.md) (2021-03)
+- (2024-11) [LongKey: Keyphrase Extraction for Long Documents](document-processing/LongKey-Keyphrase-Extraction-for-Long-Documents_2411.17863.md)
+- (2024-10) [DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception](document-processing/DocLayout-YOLO-Enhancing-Document-Layout-Analysis-through-Diverse-Synthetic-Data-and-Global-to-Local-Adaptive-Perception_2410.12628v1.md)
+- (2024-10) [VERITAS-NLI: Validation and Extraction of Reliable Information Through Automated Scraping and Natural Language Inference](document-processing/VERITAS-NLI-Reliable-Information-Through-Automated-Scraping-and-Natural-Language-Inference-2410.09455.md)
+- (2024-02) [ActiveRAG: Revealing the Treasures of Knowledge via Active Learning](document-processing/ActiveRAG-Revealing-the-Treasures-of-Knowledge-via-Active-Learning_2402.13547v1.md)
+- (2024-09) [Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits](document-processing/Mitigating-Idiosyncrasies_Improving-Human-AI-Alignment-in-Writing-through-Edits-2409.14509.md) [Editing]
+- (2024-09) [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](document-processing/Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain-2409.18170.md) [Medical Summary]
+- (2024-01) [Towards Efficient Methods in Medical Question Answering using Knowledge Graph Embeddings](document-processing/efficient-medical-qa-2401.07977.md) [Q/A]
+- (2024-09) [Leveraging Long-Context Large Language Models for Multi-Document Understanding and Summarization in Enterprise Applications](document-processing/Multi-Document-Understanding-and-Summarization-Enterprise-Applications-2409.17698.md) [Multi-Document]
+- (2024-09) [Model-based Preference Optimization in Abstractive Summarization without Human Feedback](document-processing/Model-based-Preference-Optimization-in-Abstractive-Summarization-without-Human-Feedback-2409.18618.md) [Preference Optimization]
+- (2024-07) [Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](document-processing/summary-of-a-haystack_2407.01370v1.md) [Long Context]
+- (2024-09) [Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction](document-processing/Attention-Seeker_Unsupervised-Keyphrase-Extraction-2409.10907.md) [Keywords]
+- (2024-01) [Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure](document-processing/detect-order-construct_2401.11874v2.md) [Ingestion]
+- (2021-03) [Learning Transferable Visual Models From Natural Language Supervision](document-processing/Learning-Transferable-Visual-Models-From-Natural-Language-Supervision_2103.00020.md)
 
 ## Training
 - [Analyzing Fine-tuning Representation Shift for Multimodal LLMs Steering](training/Analyzing-Fine-tuning-Representation-Shift-for-Multimodal-LLMs-Steering.md)
@@ -121,17 +121,17 @@ Tracking ideas of interest, along with some background research to remember our 
 - [A Survey on Complex Tasks for Goal-Directed Interactive Agents](interactive-agents/Survey-on-Complex-Tasks-for-Goal-Directed-Interactive-Agents.md) [Agents]
 
 ## Computer Use
-- [From Commands to Prompts: LLM-based Semantic File System for AIOS](computer-use/From-Commands-to-Prompts-LLM-based-Semantic-File-System-for-AIOS.md)
-- [Agent S: An Open Agentic Framework that Uses Computers Like a Human](computer-use/Agent-S_Uses-Computers-Like-a-Human.md) [Agent]
-- [WEBLINX: Real-World Website Navigation with Multi-Turn Dialogue](computer-use/WEBLINX_Website-Navigation-Multi-Turn-Dialogue.md) [Web-Naviation]
+- (2024-10) [From Commands to Prompts: LLM-based Semantic File System for AIOS](computer-use/From-Commands-to-Prompts-LLM-based-Semantic-File-System-for-AIOS_2410.11843v1.md)
+- (2024-10) [Agent S: An Open Agentic Framework that Uses Computers Like a Human](computer-use/Agent-S_Uses-Computers-Like-a-Human_2410.08164v1.md) [Agent]
+- (2024-02) [WEBLINX: Real-World Website Navigation with Multi-Turn Dialogue](computer-use/WEBLINX_Website-Navigation-Multi-Turn-Dialogue_2402.05930.md) [Web-Naviation]
 
 ## Education
-- [Students Rather Than Experts: A New AI For Education Pipeline To Model More Human-Like And Personalised Early Adolescences](education/AI-FOR-EDUCATION-PIPELINE-TO-MODEL-MORE-HUMAN-LIKE-AND-PERSONALISED-EARLY-ADOLESCENCES-2410.15701.md) (2024-10)
-- [The Future of Learning in the Age of Generative AI: Automated Question Generation and Assessment](education/Automated-Question-Generation-and-Assessment_2410.09576.md) (2024-10)
-- [Hey AI Can You Grade My Essay?: Automatic Essay Grading](education/Automatic-Essay-Grading_2410.09319.md) [Grading] (2024-10)
-- [The application of GPT-4 in grading design university students' assignment and providing feedback: An exploratory study](education/grading-design-university-assignment_feedback-2409.17698.md) [Grading] (2024-09)
-- [Exploring the Use of ChatGPT for a Systematic Literature Review: a Design-Based Research](education/Exploring-the-Use-of-ChatGPT-for-a-Systematic-Literature-Review-2409.17426.md) [Review] [Science] (2024-09)
-- [LLMs in Education: Novel Perspectives, Challenges, and Opportunities](education/LLMs-in-Education_Review_2409.11917v1.md) [Review] [Learning] (2024-09)
+- (2024-10) [Students Rather Than Experts: A New AI For Education Pipeline To Model More Human-Like And Personalised Early Adolescences](education/AI-FOR-EDUCATION-PIPELINE-TO-MODEL-MORE-HUMAN-LIKE-AND-PERSONALISED-EARLY-ADOLESCENCES-2410.15701.md)
+- (2024-10) [The Future of Learning in the Age of Generative AI: Automated Question Generation and Assessment](education/Automated-Question-Generation-and-Assessment_2410.09576.md)
+- (2024-10) [Hey AI Can You Grade My Essay?: Automatic Essay Grading](education/Automatic-Essay-Grading_2410.09319.md) [Grading]
+- (2024-09) [The application of GPT-4 in grading design university students' assignment and providing feedback: An exploratory study](education/grading-design-university-assignment_feedback-2409.17698.md) [Grading]
+- (2024-09) [Exploring the Use of ChatGPT for a Systematic Literature Review: a Design-Based Research](education/Exploring-the-Use-of-ChatGPT-for-a-Systematic-Literature-Review-2409.17426.md) [Review] [Science]
+- (2024-09) [LLMs in Education: Novel Perspectives, Challenges, and Opportunities](education/LLMs-in-Education_Review_2409.11917v1.md) [Review] [Learning]
 
 ## Scientific Research
 - [Assessment of nasal and sinus nitric oxide output using single-breath humming exhalations](scientific-research/Assessment-of-nasal-and-sinus-nitric-oxide-output-using-single-breath-humming-exhalations.md)
@@ -194,13 +194,13 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Artificial Intelligence in Creative Industries Advances Prior to 2025](history/Artificial-Intelligence-in-Creative-Industries-Advances-Prior-to-2025.md)
 
 ### Statistical Language Models (SLMs) Era: 1990-2010
-- 1990: [Hidden Markov Models for speech recognition](history/SLM_Hidden-Markov-Models-for-Speech-Recognition.md) (Rabiner) [Voice-Command-Systems]    
-- 1993: [IBM Model 1 for statistical machine translation](history/SLM_Mathematics-of-Statistical-Machine-Translation.md) (Brown et al.) [Early-Online-Translation]
-- 1995: [Improved backing-off for M-gram language modeling](history/SLM_IMPROVED-BACKING-OFF-FOR-M-GRAM-LANGUAGE-MODELING.md) (Kneser & Ney) [Spell-Checkers]    
-- 1996: [Maximum Entropy Models](history/SLM_Maximum-Entropy-Approach-NLP.md) (Berger et al.) [Text-Classification]    
-- 1999: [An empirical study of smoothing techniques for language modeling](history/SLM_empirical-study-of-smoothing-techniques-for-language-modeling.md) (Chen & Goodman) [Improved-Language-Models]    
-- 2002: [Latent Dirichlet Allocation (LDA)](history/SLM_Latent-Dirichlet-Allocation.md) (Blei et al.) [Document-Clustering]    
-- 2006: [Hierarchical Pitman-Yor language model](history/SLM_A-Hierarchical-Bayesian-Language-Model-based-on-Pitman-Yor-Processes.md) (Teh) [Text-Generation]
+- (1990) [Hidden Markov Models for speech recognition](history/SLM_Hidden-Markov-Models-for-Speech-Recognition.md) (Rabiner) [Voice-Command-Systems]    
+- (1993) [IBM Model 1 for statistical machine translation](history/SLM_Mathematics-of-Statistical-Machine-Translation.md) (Brown et al.) [Early-Online-Translation]
+- (1995): [Improved backing-off for M-gram language modeling](history/SLM_IMPROVED-BACKING-OFF-FOR-M-GRAM-LANGUAGE-MODELING.md) (Kneser & Ney) [Spell-Checkers]    
+- (1996): [Maximum Entropy Models](history/SLM_Maximum-Entropy-Approach-NLP.md) (Berger et al.) [Text-Classification]    
+- (1999): [An empirical study of smoothing techniques for language modeling](history/SLM_empirical-study-of-smoothing-techniques-for-language-modeling.md) (Chen & Goodman) [Improved-Language-Models]    
+- (2002): [Latent Dirichlet Allocation (LDA)](history/SLM_Latent-Dirichlet-Allocation.md) (Blei et al.) [Document-Clustering]    
+- (2006): [Hierarchical Pitman-Yor language model](history/SLM_A-Hierarchical-Bayesian-Language-Model-based-on-Pitman-Yor-Processes.md) (Teh) [Text-Generation]
 
 ## Resources
 - [Agents for Computer Use](https://github.com/francedot/acu):  A curated list of resources about AI agents for Computer Use, including research papers, projects, frameworks, and tools. 
