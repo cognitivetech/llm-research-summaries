@@ -48,7 +48,6 @@ Tracking ideas of interest, along with some background research to remember our 
 ## Document Processing
 - (2024-09) [Fully automatic extraction of morphological traits from the Web: utopia or reality?](document-processing/automated-data-extract-2409.17179.md)
 - (2025-01) [AltGen AI-Driven Alt Text Generation for Enhancing EPUB Accessibility](document-processing/AltGen-AI-Driven-Alt-Text-Generation-for-Enhancing-EPUB-Accessibility_2501.00113v1.md)
-- [Le deep learning est-il le futur du text mining](document-processing/Le-deep-learning-est-il-le-futur-du-text-mining.md)
 - (2024-11) [LongKey: Keyphrase Extraction for Long Documents](document-processing/LongKey-Keyphrase-Extraction-for-Long-Documents_2411.17863.md)
 - (2024-10) [DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception](document-processing/DocLayout-YOLO-Enhancing-Document-Layout-Analysis-through-Diverse-Synthetic-Data-and-Global-to-Local-Adaptive-Perception_2410.12628v1.md)
 - (2024-10) [VERITAS-NLI: Validation and Extraction of Reliable Information Through Automated Scraping and Natural Language Inference](document-processing/VERITAS-NLI-Reliable-Information-Through-Automated-Scraping-and-Natural-Language-Inference-2410.09455.md)
@@ -190,8 +189,9 @@ Tracking ideas of interest, along with some background research to remember our 
 - [When AIs Play God(se): The Emergent Heresies of LLMtheism](lore/When-AIs-Play-God_Emergent-Heresies-LLMtheism.md) [Truth-Terminal] [Claude-3] [Opus]
 
 ## Historical
-- [Hermes Lecture #3 Why Do Cognitive Scientists Hate LLMs](history/Hermes-Lecture-#3-Why-Do-Cognitive-Scientists-Hate-LLMs.md)
-- [Artificial Intelligence in Creative Industries Advances Prior to 2025](history/Artificial-Intelligence-in-Creative-Industries-Advances-Prior-to-2025.md)
+- (2025-01) [Artificial Intelligence in Creative Industries Advances Prior to 2025](history/Artificial-Intelligence-in-Creative-Industries-Advances-Prior-to-2025_2501.02725v1.md)
+- (2023-10) [Hermes Lecture #3 Why Do Cognitive Scientists Hate LLMs](history/Hermes-Lecture-#3-Why-Do-Cognitive-Scientists-Hate-LLMs.md)
+- (2016-09) [Le deep learning est-il le futur du text mining](document-processing/Le-deep-learning-est-il-le-futur-du-text-mining.md)
 
 ### Statistical Language Models (SLMs) Era: 1990-2010
 - (1990) [Hidden Markov Models for speech recognition](history/SLM_Hidden-Markov-Models-for-Speech-Recognition.md) (Rabiner) [Voice-Command-Systems]    
