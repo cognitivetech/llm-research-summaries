@@ -1,5 +1,6 @@
 # Retrieval Instead of Fine-tuning: A Retrieval-based Parameter Ensemble for Zero-shot Learning
 
+[2410.09908](https://arxiv.org/abs/2410.09908)
 **Authors**: Pengfei Jin (First author: pjin1@mgh.harvard.edu) and Peng Shu (Co-first author: peng.shu@uga.edu)
 
 ## Contents

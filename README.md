@@ -47,11 +47,10 @@ Tracking ideas of interest, along with some background research to remember our 
 
 ## Document Processing
 - (2024-09) [Fully automatic extraction of morphological traits from the Web: utopia or reality?](document-processing/automated-data-extract-2409.17179.md)
-- (2025-01) [AltGen AI-Driven Alt Text Generation for Enhancing EPUB Accessibility](document-processing/AltGen-AI-Driven-Alt-Text-Generation-for-Enhancing-EPUB-Accessibility_2501.00113v1.md)
-- (2024-11) [LongKey: Keyphrase Extraction for Long Documents](document-processing/LongKey-Keyphrase-Extraction-for-Long-Documents_2411.17863.md)
-- (2024-10) [DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception](document-processing/DocLayout-YOLO-Enhancing-Document-Layout-Analysis-through-Diverse-Synthetic-Data-and-Global-to-Local-Adaptive-Perception_2410.12628v1.md)
-- (2024-10) [VERITAS-NLI: Validation and Extraction of Reliable Information Through Automated Scraping and Natural Language Inference](document-processing/VERITAS-NLI-Reliable-Information-Through-Automated-Scraping-and-Natural-Language-Inference-2410.09455.md)
-- (2024-02) [ActiveRAG: Revealing the Treasures of Knowledge via Active Learning](document-processing/ActiveRAG-Revealing-the-Treasures-of-Knowledge-via-Active-Learning_2402.13547v1.md)
+- (2025-01) [AltGen AI-Driven Alt Text Generation for Enhancing EPUB Accessibility](document-processing/AltGen-AI-Driven-Alt-Text-Generation-for-Enhancing-EPUB-Accessibility_2501.00113v1.md) [Accessibility]
+- (2024-11) [LongKey: Keyphrase Extraction for Long Documents](document-processing/LongKey-Keyphrase-Extraction-for-Long-Documents_2411.17863.md) [Extraction]
+- (2024-10) [DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception](document-processing/DocLayout-YOLO-Enhancing-Document-Layout-Analysis-through-Diverse-Synthetic-Data-and-Global-to-Local-Adaptive-Perception_2410.12628v1.md) [Layout]
+- (2024-10) [VERITAS-NLI: Validation and Extraction of Reliable Information Through Automated Scraping and Natural Language Inference](document-processing/VERITAS-NLI-Reliable-Information-Through-Automated-Scraping-and-Natural-Language-Inference-2410.09455.md) [Extraction]
 - (2024-09) [Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits](document-processing/Mitigating-Idiosyncrasies_Improving-Human-AI-Alignment-in-Writing-through-Edits-2409.14509.md) [Editing]
 - (2024-09) [Evaluation of Large Language Models for Summarization Tasks in the Medical Domain: A Narrative Review](document-processing/Evaluation-LLM-Summarization-Tasks-in-the-Medical-Domain-2409.18170.md) [Medical Summary]
 - (2024-01) [Towards Efficient Methods in Medical Question Answering using Knowledge Graph Embeddings](document-processing/efficient-medical-qa-2401.07977.md) [Q/A]
@@ -84,11 +83,12 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Extracting Unlearned Information from LLMs with Activation Steering](steering/Extracting-Unlearned-Information-from-LLMs-with-Activation-Steering.md)
 
 ## Retrieval Augmented Generation
-- [CypherBench Towards Precise Retrieval over Full-scale Modern Knowledge Graphs in the LLM Era](retrieval-augmented-rag/CypherBench-Towards-Precise-Retrieval-over-Full-scale-Modern-Knowledge-Graphs-in-the-LLM-Era.md)
-- [Harnessing multiple LLMs for Information Retrieval A case study on Deep Learning methodologies in Biodiversity publications](retrieval-augmented-rag/Harnessing-multiple-LLMs-for-Information-Retrieval-A-case-study-on-Deep-Learning-methodologies-in-Biodiversity-publications.md)
-- [Agentic Information Retrieval](retrieval-augmented-rag/Agentic-Information-Retrieval.md)
-- [Self-Improving Retrieval-Augmented Generation for Adapting Large Language Models to Specialized Domains](retrieval-augmented-rag/Self-Improving-Retrieval-Augmented-Generation-for-Adapting-Large-Language-Models-to-Specialized-Domains.md)
-- [Retrieval Instead of Fine-tuning: A Retrieval-based Parameter Ensemble for Zero-shot Learning](retrieval-augmented-rag/Retrieval-Instead_Fine-tuning.md) 
+- (2024-12) [CypherBench Towards Precise Retrieval over Full-scale Modern Knowledge Graphs in the LLM Era](retrieval-augmented-rag/CypherBench-Towards-Precise-Retrieval-over-Full-scale-Modern-Knowledge-Graphs-in-the-LLM-Era_2412.18702v1.md) 
+- (2024-11) [Harnessing multiple LLMs for Information Retrieval A case study on Deep Learning methodologies in Biodiversity publications](retrieval-augmented-rag/Harnessing-multiple-LLMs-for-Information-Retrieval-A-case-study-on-Deep-Learning-methodologies-in-Biodiversity-publications_2411.09269v1.md)
+- (2024-10) [Agentic Information Retrieval](retrieval-augmented-rag/Agentic-Information-Retrieval_2410.09713.md) 
+- (2024-10) [Self-Improving Retrieval-Augmented Generation for Adapting Large Language Models to Specialized Domains](retrieval-augmented-rag/Self-Improving-Retrieval-Augmented-Generation-for-Adapting-Large-Language-Models-to-Specialized-Domains_2410.17952v1.md)
+- (2024-10) [Retrieval Instead of Fine-tuning: A Retrieval-based Parameter Ensemble for Zero-shot Learning](retrieval-augmented-rag/Retrieval-Instead_Fine-tuning_2410.09908.md) 
+- (2024-02) [ActiveRAG: Revealing the Treasures of Knowledge via Active Learning](document-processing/ActiveRAG-Revealing-the-Treasures-of-Knowledge-via-Active-Learning_2402.13547v1.md) RAG
 
 ## Data Science
 - [I want to break some laws too](data-science/I-want-to-break-some-laws-too.md)
@@ -196,11 +196,11 @@ Tracking ideas of interest, along with some background research to remember our 
 ### Statistical Language Models (SLMs) Era: 1990-2010
 - (1990) [Hidden Markov Models for speech recognition](history/SLM_Hidden-Markov-Models-for-Speech-Recognition.md) (Rabiner) [Voice-Command-Systems]    
 - (1993) [IBM Model 1 for statistical machine translation](history/SLM_Mathematics-of-Statistical-Machine-Translation.md) (Brown et al.) [Early-Online-Translation]
-- (1995): [Improved backing-off for M-gram language modeling](history/SLM_IMPROVED-BACKING-OFF-FOR-M-GRAM-LANGUAGE-MODELING.md) (Kneser & Ney) [Spell-Checkers]    
-- (1996): [Maximum Entropy Models](history/SLM_Maximum-Entropy-Approach-NLP.md) (Berger et al.) [Text-Classification]    
-- (1999): [An empirical study of smoothing techniques for language modeling](history/SLM_empirical-study-of-smoothing-techniques-for-language-modeling.md) (Chen & Goodman) [Improved-Language-Models]    
-- (2002): [Latent Dirichlet Allocation (LDA)](history/SLM_Latent-Dirichlet-Allocation.md) (Blei et al.) [Document-Clustering]    
-- (2006): [Hierarchical Pitman-Yor language model](history/SLM_A-Hierarchical-Bayesian-Language-Model-based-on-Pitman-Yor-Processes.md) (Teh) [Text-Generation]
+- (1995) [Improved backing-off for M-gram language modeling](history/SLM_IMPROVED-BACKING-OFF-FOR-M-GRAM-LANGUAGE-MODELING.md) (Kneser & Ney) [Spell-Checkers]    
+- (1996) [Maximum Entropy Models](history/SLM_Maximum-Entropy-Approach-NLP.md) (Berger et al.) [Text-Classification]    
+- (1999) [An empirical study of smoothing techniques for language modeling](history/SLM_empirical-study-of-smoothing-techniques-for-language-modeling.md) (Chen & Goodman) [Improved-Language-Models]    
+- (2002) [Latent Dirichlet Allocation (LDA)](history/SLM_Latent-Dirichlet-Allocation.md) (Blei et al.) [Document-Clustering]    
+- (2006) [Hierarchical Pitman-Yor language model](history/SLM_A-Hierarchical-Bayesian-Language-Model-based-on-Pitman-Yor-Processes.md) (Teh) [Text-Generation]
 
 ## Resources
 - [Agents for Computer Use](https://github.com/francedot/acu):  A curated list of resources about AI agents for Computer Use, including research papers, projects, frameworks, and tools. 
