@@ -90,6 +90,7 @@ Tracking ideas of interest, along with some background research to remember our 
 - (2024-10) [Self-Improving Retrieval-Augmented Generation for Adapting Large Language Models to Specialized Domains](retrieval-augmented-rag/Self-Improving-Retrieval-Augmented-Generation-for-Adapting-Large-Language-Models-to-Specialized-Domains_2410.17952v1.md)
 - (2024-10) [Retrieval Instead of Fine-tuning: A Retrieval-based Parameter Ensemble for Zero-shot Learning](retrieval-augmented-rag/Retrieval-Instead_Fine-tuning_2410.09908.md) 
 - (2024-02) [ActiveRAG: Revealing the Treasures of Knowledge via Active Learning](document-processing/ActiveRAG-Revealing-the-Treasures-of-Knowledge-via-Active-Learning_2402.13547v1.md) RAG
+- (2024-10) [Retrieval-based Parameter Ensemble for Zero-shot Learning](retrieval-augmented-rag/Retrieval-based-Parameter-Ensemble-for-Zero-shot-Learning_2410.09908.md_) [medical]
 
 ## Data Science
 - (2024-10) [I want to break some laws too](data-science/I-want-to-break-some-laws-too.md)
@@ -134,15 +135,14 @@ Tracking ideas of interest, along with some background research to remember our 
 - (2024-09) [LLMs in Education: Novel Perspectives, Challenges, and Opportunities](education/LLMs-in-Education_Review_2409.11917v1.md) [Review] [Learning]
 
 ## Scientific Research
-- [LLMs4Life Large Language Models for Ontology Learning in Life Sciences](scientific-research/LLMs4Life-Large-Language-Models-for-Ontology-Learning-in-Life-Sciences.md)
-- [Navigating the landscape of multimodal AI in medicine a scoping review on technical challenges and clinical applications](scientific-research/Navigating-the-landscape-of-multimodal-AI-in-medicine-a-scoping-review-on-technical-challenges-and-clinical-applications.md)
-- [Ontology-grounded Automatic Knowledge Graph Construction by LLM under Wikidata schema](scientific-research/Ontology-grounded-Automatic-Knowledge-Graph-Construction-by-LLM-under-Wikidata-schema.md)
-- [Retrieval-based Parameter Ensemble for Zero-shot Learning](scientific-research/Retrieval-based-Parameter-Ensemble-for-Zero-shot-Learning.md) [medical]
-- [HLM-Cite: Hybrid Language Model Workflow for Text-based Scientific Citation](scientific-research/HLM-Cite_Hybrid-Language-Model-Workflow-for-Text-based-Scientific-Citation.md)
-- [Society of Medical Simplifiers](scientific-research/Society-Medical-Simplifiers.md)
-- [Two Heads Are Better Than One: A Multi-Agent System Has the Potential to Improve Scientific Idea Generation](scientific-research/Multi-Agent-System-to-Improve-Scientific-Idea-Generation.md)
-- [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](scientific-research/ScienceAgentBench_Language-Agents-for-Data-Driven-Scientific-Discovery.md)
-- [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](scientific-research/Language_Agents_Science.md) [Science]
+- (2024-12) [LLMs4Life Large Language Models for Ontology Learning in Life Sciences](scientific-research/LLMs4Life-Large-Language-Models-for-Ontology-Learning-in-Life-Sciences_2412.02035v1.md)
+- (2024-12) [Navigating the landscape of multimodal AI in medicine a scoping review on technical challenges and clinical applications](scientific-research/Navigating-the-landscape-of-multimodal-AI-in-medicine-a-scoping-review-on-technical-challenges-and-clinical-applications_2412.20942v1.md)
+- (2024-12) [Ontology-grounded Automatic Knowledge Graph Construction by LLM under Wikidata schema](scientific-research/Ontology-grounded-Automatic-Knowledge-Graph-Construction-by-LLM-under-Wikidata-schema_2412.20942v1.md)
+- (2024-10) [HLM-Cite: Hybrid Language Model Workflow for Text-based Scientific Citation](scientific-research/HLM-Cite_Hybrid-Language-Model-Workflow-for-Text-based-Scientific-Citation_2410.09112.md)
+- (2024-10) [Society of Medical Simplifiers](scientific-research/Society-Medical-Simplifiers-2410.09631.md)
+- (2024-10) [Two Heads Are Better Than One: A Multi-Agent System Has the Potential to Improve Scientific Idea Generation](scientific-research/Multi-Agent-System-to-Improve-Scientific-Idea-Generation-2410.09403.md)
+- (2024-10) [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](scientific-research/ScienceAgentBench_Language-Agents-for-Data-Driven-Scientific-Discovery-2410.05080.md)
+- (2024-09) [LANGUAGE AGENTS ACHIEVE SUPERHUMAN SYNTHESIS OF SCIENTIFIC KNOWLEDGE](scientific-research/Language_Agents_Science.md) [Science]
 
 ## Social Science
 - [Large language models surpass human experts in predicting neuroscience results - Nature Human Behaviour](social-science/LLM-surpass-experts-in-predicting-neuroscience-results_Nature-Human-Behaviour.md) [Scientific-Research]
