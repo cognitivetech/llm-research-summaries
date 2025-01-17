@@ -78,9 +78,9 @@ Tracking ideas of interest, along with some background research to remember our 
 - [Ultimate Guide to Fine-Tuning LLMs: From Basics to Breakthroughs](training/ultimate-guide-fine-tuning-llm_parthasarathy.md)
 
 ## Steering
-- [Considerations Influencing Offense-Defense Dynamics From Artificial Intelligence](steering/Considerations-Influencing-Offense-Defense-Dynamics-From-Artificial-Intelligence.md)
-- [Autonomous Alignment with Human Value on Altruism through Considerate Self-imagination and Theory of Mind](steering/Autonomous-Alignment-with-Human-Value-on-Altruism-through-Considerate-Self-imagination-and-Theory-of-Mind.md)
-- [Extracting Unlearned Information from LLMs with Activation Steering](steering/Extracting-Unlearned-Information-from-LLMs-with-Activation-Steering.md)
+- (2024-10) [Considerations Influencing Offense-Defense Dynamics From Artificial Intelligence](steering/Considerations-Influencing-Offense-Defense-Dynamics-From-Artificial-Intelligence_2412.04029v1.md)
+- (2025-01) [Autonomous Alignment with Human Value on Altruism through Considerate Self-imagination and Theory of Mind](steering/Autonomous-Alignment-with-Human-Value-on-Altruism-through-Considerate-Self-imagination-and-Theory-of-Mind_2501.00320v1.md)
+- (2024-11) [Extracting Unlearned Information from LLMs with Activation Steering](steering/Extracting-Unlearned-Information-from-LLMs-with-Activation-Steering_2411.02631v1.md)
 
 ## Retrieval Augmented Generation
 - (2024-12) [CypherBench Towards Precise Retrieval over Full-scale Modern Knowledge Graphs in the LLM Era](retrieval-augmented-rag/CypherBench-Towards-Precise-Retrieval-over-Full-scale-Modern-Knowledge-Graphs-in-the-LLM-Era_2412.18702v1.md) 
