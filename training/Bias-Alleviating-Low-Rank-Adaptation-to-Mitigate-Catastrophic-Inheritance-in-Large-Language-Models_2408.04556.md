@@ -1,5 +1,6 @@
 # BA-LoRA: Bias-Alleviating Low-Rank Adaptation to Mitigate Catastrophic Inheritance in Large Language Models
 
+[2408.04556](https://arxiv.org/abs/2408.04556)
 **Authors**: Yupeng Chang (1), Yi Chang (1,2,3), Yuan Wu (1,2) (School of Artificial Intelligence, Jilin University), Key Laboratory of Symbolic Computation and Knowledge Engineering, Jilin University, International Center of Future Science, Jilin University
 
 ## Contents
