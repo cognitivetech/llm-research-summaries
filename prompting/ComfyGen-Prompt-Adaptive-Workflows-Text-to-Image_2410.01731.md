@@ -1,7 +1,7 @@
 # ComfyGen: Prompt-Adaptive Workflows for Text-to-Image Generation
 
 Rinon Gal, Adi Haviv, Yuval Alaluf, Amit H. Bermano, Daniel Cohen-Or, Gal Chechik
-https://comfygen-paper.github.io/
+[2410.01731](https://arxiv.org/abs/2410.01731) [website](https://comfygen-paper.github.io/)
 
 ## Contents
 - [Abstract](#abstract)

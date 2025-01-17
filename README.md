@@ -38,12 +38,12 @@ Tracking ideas of interest, along with some background research to remember our 
 - [What is the Role of Small Models in the LLM Era: A Survey](models-review/small-models_survey.md) [small-llm]
 
 ## Prompting
-- [CALM Curiosity-Driven Auditing for Large Language Models](prompting/CALM-Curiosity-Driven-Auditing-for-Large-Language-Models.md)
-- [The Grammar of Thought Does Fine-Tuning Make a Difference?](prompting/The-Grammar-of-Thought-Does-Fine-Tuning-Make-a-Difference?.md)
-- [Thinking Before Speaking: A Role-playing Model with Mindset](prompting/Thinking-Before-Speaking-A-Role-playing-Model-with-Mindset.md) [Roleplay]
-- [ComfyGen: Prompt-Adaptive Workflows for Text-to-Image Generation](prompting/ComfyGen-Prompt-Adaptive-Workflows-Text-to-Image.md) [ImageGen]
-- [The Prompt Report: A Systematic Survey of Prompting Techniques](prompting/prompt-techniques_survey.md) [Prompt-Methods] [Survey]
-- [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](prompting/prompt-based-learning.md) [Prompt-Methods]
+- (2025-01) [CALM Curiosity-Driven Auditing for Large Language Models](prompting/CALM-Curiosity-Driven-Auditing-for-Large-Language-Models_2501.02997v1.md)
+- (2024-11) [The Grammar of Thought Does Fine-Tuning Make a Difference?](prompting/The-Grammar-of-Thought-Does-Fine-Tuning-Make-a-Difference?.md)
+- (2024-09) [Thinking Before Speaking: A Role-playing Model with Mindset](pprompting/Thinking-Before-Speaking-A-Role-playing-Model-with-Mindset_2409.13752v1.md) [Roleplay]
+- (2024-10) [ComfyGen: Prompt-Adaptive Workflows for Text-to-Image Generation](prompting/ComfyGen-Prompt-Adaptive-Workflows-Text-to-Image_2410.01731.md) [ImageGen]
+- (2024-06) [The Prompt Report: A Systematic Survey of Prompting Techniques](pprompting/prompt-techniques_survey-2406.06608.md) [Prompt-Methods] [Survey]
+- (2023-01) [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](prompting/prompt-based-learning.md) [Prompt-Methods]
 
 ## Document Processing
 - (2024-09) [Fully automatic extraction of morphological traits from the Web: utopia or reality?](document-processing/automated-data-extract-2409.17179.md)
@@ -133,7 +133,6 @@ Tracking ideas of interest, along with some background research to remember our 
 - (2024-09) [LLMs in Education: Novel Perspectives, Challenges, and Opportunities](education/LLMs-in-Education_Review_2409.11917v1.md) [Review] [Learning]
 
 ## Scientific Research
-- [Assessment of nasal and sinus nitric oxide output using single-breath humming exhalations](scientific-research/Assessment-of-nasal-and-sinus-nitric-oxide-output-using-single-breath-humming-exhalations.md)
 - [LLMs4Life Large Language Models for Ontology Learning in Life Sciences](scientific-research/LLMs4Life-Large-Language-Models-for-Ontology-Learning-in-Life-Sciences.md)
 - [Navigating the landscape of multimodal AI in medicine a scoping review on technical challenges and clinical applications](scientific-research/Navigating-the-landscape-of-multimodal-AI-in-medicine-a-scoping-review-on-technical-challenges-and-clinical-applications.md)
 - [Ontology-grounded Automatic Knowledge Graph Construction by LLM under Wikidata schema](scientific-research/Ontology-grounded-Automatic-Knowledge-Graph-Construction-by-LLM-under-Wikidata-schema.md)
