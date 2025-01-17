@@ -1,7 +1,7 @@
 # Do great minds think alike? Investigating Human-AI Complementarity in Question Answering with caimira 
 
 by Maharshi Gor, Hal Daumé III, Tianyi Zhou, Jordan Boyd-Graber
-https://arxiv.org/html/2410.06524v1#S2
+https://arxiv.org/html/2410.06524v1
 
 ## Contents
 - [Abstract](#abstract)

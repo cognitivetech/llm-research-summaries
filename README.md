@@ -108,16 +108,16 @@ Tracking ideas of interest, along with some background research to remember our 
 - [LLM With Tools: A Survey](code-tools/llm-with-tools.md) [Tools]
 
 ## Interactive Agents
-- [Navigating the Risks A Survey of Security, Privacy, and Ethics Threats in LLM-Based Agents](interactive-agents/Navigating-the-Risks-A-Survey-of-Security,-Privacy,-and-Ethics-Threats-in-LLM-Based-Agents.md)
-- [OASIS Open Agent Social Interaction Simulations with One Million Agents](interactive-agents/OASIS-Open-Agent-Social-Interaction-Simulations-with-One-Million-Agents.md)
-- [SocialMind A Proactive Social Assistive System for Live Social Interactions Integrating Large Language Models and AR Glasses](interactive-agents/SocialMind-A-Proactive-Social-Assistive-System-for-Live-Social-Interactions-Integrating-Large-Language-Models-and-AR-Glasses.md)
-- [Spontaneous Emergence of Agent Individuality through Social Interactions in LLM-Based Communities](interactive-agents/Spontaneous-Emergence-of-Agent-Individuality-through-Social-Interactions-in-LLM-Based-Communities.md) [Emergence]
-- [AFLOW : AUTOMATING AGENTIC WORKFLOW GENERATION](interactive-agents/AUTOMATING-AGENTIC-WORKFLOW-GENERATION.md)
-- [Conversational Swarms Of Humans And Ai Agents Enable Hybrid Collaborative Decision-Making](interactive-agents/Conversational-Swarms-Of-Humans-And-Ai-Agents-Enable-Hybrid-Collaborative-Decision-Making.md)
-- [Do great minds think alike? Investigating Human-AI Complementarity in Question Answering with caimira](interactive-agents/Investigating-Human-AI-Complementarity-in-Question-Answering-with-caimira.md) [Review-vs-Human]
-- [TRAINING LANGUAGE MODELS TO WIN DEBATES WITH SELF-PLAY IMPROVES JUDGE ACCURACY](interactive-agents/TRAINING-LANGUAGE-MODELS-TO-WINDEBATES-WITHSELF-PLAY.md) [Self-Play]
-- [Do LLMs suffer from Multi-Party Hangover?](interactive-agents/Do-LLMs-suffer-from-Multi-Party-Hangover.md) [Multiparty]
-- [A Survey on Complex Tasks for Goal-Directed Interactive Agents](interactive-agents/Survey-on-Complex-Tasks-for-Goal-Directed-Interactive-Agents.md) [Agents]
+- (2024-11) [Navigating the Risks A Survey of Security, Privacy, and Ethics Threats in LLM-Based Agents](interactive-agents/Navigating-the-Risks-A-Survey-of-Security,-Privacy,-and-Ethics-Threats-in-LLM-Based-Agents_2411.09523v1.md) 
+- (2024-11) [OASIS Open Agent Social Interaction Simulations with One Million Agents](interactive-agents/OASIS-Open-Agent-Social-Interaction-Simulations-with-One-Million-Agents_2411.11581v4.md) 
+- (2024-12) [SocialMind A Proactive Social Assistive System for Live Social Interactions Integrating Large Language Models and AR Glasses](interactive-agents/SocialMind-A-Proactive-Social-Assistive-System-for-Live-Social-Interactions-Integrating-Large-Language-Models-and-AR-Glasses_2412.04036v1.md) 
+- (2024-11) [Spontaneous Emergence of Agent Individuality through Social Interactions in LLM-Based Communities](interactive-agents/Spontaneous-Emergence-of-Agent-Individuality-through-Social-Interactions-in-LLM-Based-Communities_2411.03252.md) [Emergence]
+- (2024-10) [AFLOW : AUTOMATING AGENTIC WORKFLOW GENERATION](interactive-agents/AUTOMATING-AGENTIC-WORKFLOW-GENERATION-2410.10762.md) (2024-10)
+- (2024-10) [Conversational Swarms Of Humans And Ai Agents Enable Hybrid Collaborative Decision-Making](interactive-agents/Conversational-Swarms-Of-Humans-And-Ai-Agents-Enable-Hybrid-Collaborative-Decision-Making-2410.03690.md) 
+- (2024-10) [Do great minds think alike? Investigating Human-AI Complementarity in Question Answering with caimira](interactive-agents/Investigating-Human-AI-Complementarity-in-Question-Answering-with-caimira_2410.06524v1.md) [Review-vs-Human]
+- (2024-09) [TRAINING LANGUAGE MODELS TO WIN DEBATES WITH SELF-PLAY IMPROVES JUDGE ACCURACY](interactive-agents/TRAINING-LANGUAGE-MODELS-TO-WINDEBATES-WITHSELF-PLAY-2409.16636.md) [Self-Play]
+- (2024-09) [Do LLMs suffer from Multi-Party Hangover?](interactive-agents/Do-LLMs-suffer-from-Multi-Party-Hangover-2409.18602.md) [Multiparty]
+- (2024-09) [A Survey on Complex Tasks for Goal-Directed Interactive Agents](interactive-agents/Survey-on-Complex-Tasks-for-Goal-Directed-Interactive-Agents-2409.18538.md) [Agents]
 
 ## Computer Use
 - (2024-10) [From Commands to Prompts: LLM-based Semantic File System for AIOS](computer-use/From-Commands-to-Prompts-LLM-based-Semantic-File-System-for-AIOS_2410.11843v1.md)

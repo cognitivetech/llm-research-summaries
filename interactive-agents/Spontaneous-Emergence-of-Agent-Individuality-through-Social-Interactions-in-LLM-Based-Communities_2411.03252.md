@@ -1,5 +1,6 @@
 # Spontaneous Emergence of Agent Individuality through Social Interactions in LLM-Based Communities
 
+[2411.03252](https://arxiv.org/abs/2411.03252)
 **Ryosuke Takata**, Atsushi Masumori, and **Takashi Ikegami** are researchers at The University of Tokyo's Graduate School of Arts and Sciences in Tokyo, Japan. Their email addresses can be found below:
 - Ryosuke Takata: takata@sacral.c.u-tokyo.ac.jp
 
