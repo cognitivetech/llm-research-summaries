@@ -1,7 +1,7 @@
 # I want to break some laws too
 
 source: https://snats.xyz/pages/articles/breaking_some_laws.html
-by Snats
+by Santiago Pedroza
 
 ### TLDR:
 

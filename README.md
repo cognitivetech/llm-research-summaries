@@ -91,12 +91,12 @@ Tracking ideas of interest, along with some background research to remember our 
 - (2024-02) [ActiveRAG: Revealing the Treasures of Knowledge via Active Learning](document-processing/ActiveRAG-Revealing-the-Treasures-of-Knowledge-via-Active-Learning_2402.13547v1.md) RAG
 
 ## Data Science
-- [I want to break some laws too](data-science/I-want-to-break-some-laws-too.md)
-- [DATA-CENTRIC AI: The Underdog Game Changer in AI's Evolution](data-science/DATA-CENTRIC.md)
-- [Data Analysis in the Era of Generative AI](data-science/Data-Analysis-in-the-Era-of-Generative-AI.md) [Data-Analysis]
-- [Data-Prep-Kit: getting your data ready for LLM application development](data-science/data-prep-kit.md) [Application] 
-- [Unified Framework to Classify Business Activities into International Standard Industrial Classification through Large Language Models for Circular Economy](data-science/Classify-Business-Activities-into-International-Standard-Industrial-Classification-for-Circular-Economy.md) [Classification]
-- [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](data-science/Spider2-V_Automating-Data-Science-and-Engineering-Workflows.md) [Data-Engineering]
+- (2024-10) [I want to break some laws too](data-science/I-want-to-break-some-laws-too.md)
+- (2023-07) [DATA-CENTRIC AI: The Underdog Game Changer in AI's Evolution](data-science/DATA-CENTRIC.md) [Kaggle]
+- (2024-09) [Data Analysis in the Era of Generative AI](data-science/Data-Analysis-in-the-Era-of-Generative-AI-2409.18475.md) [Data-Analysis]
+- (2024-09) [Data-Prep-Kit: getting your data ready for LLM application development](data-science/data-prep-kit-2409.18164.md) [Application] 
+- (2024-09) [Unified Framework to Classify Business Activities into International Standard Industrial Classification through Large Language Models for Circular Economy](data-science/Classify-Business-Activities-into-International-Standard-Industrial-Classification-for-Circular-Economy-2409.18988.md) [Classification]
+- (2024-07) [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](data-science/Spider2-V_Automating-Data-Science-and-Engineering-Workflows-2407.10956.md) [Data-Engineering]
 
 ## Code and Tools
 - [A Comprehensive Survey of AI-Driven Advancements and Techniques in Automated Program Repair and Code Generation](code-tools/A-Comprehensive-Survey-of-AI-Driven-Advancements-and-Techniques-in-Automated-Program-Repair-and-Code-Generation.md)
